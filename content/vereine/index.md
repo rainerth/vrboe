@@ -30,5 +30,5 @@ Beim Dorffest helfen alle zusammen! Über Vereins- und Altersgrenzen hinweg pack
 
 ---
 
-Der **Drachenfliegeverein Bösingen e.V.** unterstützt mit der Gestaltung dieser Webseite und über das Dorffest Rundflüge an.
+Der **Drachenfliegeverein Bösingen e.V.** unterstützt mit der Gestaltung dieser Webseite und bietet über das Dorffest Rundflüge an.
 
