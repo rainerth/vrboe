@@ -1,0 +1,75 @@
+baseURL = 'https://www.boesinger-vereine.de'
+languageCode = 'de'
+title = 'Vereinsring Bösingen e.V.'
+theme = 'hugo-theme-cleanwhite'
+copyright = 'YYY Vereinsring Bösingen e.V.'
+email = 'info@boesinger-vereine.de'
+
+#frontpage pagination
+paginate = 5
+
+enableRobotsTXT = true
+
+[outputs]
+home = ["HTML", "RSS"]
+
+[params]
+	header_image = "img/boesingen-hero.jpg"
+	SEOTitle = "Vereinsring Bösingen e.V.: Dorffest 2024"
+	SEODescription = "Vereinsring Bösingen e.V.: Vereine in 78662 Bösingen"
+	SEOKeywords = "78662 Bösingen bei Rottweil, Vereinsring Bösingen, Dorffest Bösingen 2024, Vereine in 78662 Bösingen"
+	description = "X Vereinsring Bösingen e.V."
+	author =	"XX Vereinsring Bösingen e.V."
+	keywords = "XXX Vereinsring Bösingen e.V."
+	# upstreamAttribution = true
+	slogan = "Tschakkah! Bösingen feiert!"
+
+	logo = "/images/logo.png"
+	favicon = "/images/favicon.png"
+
+
+	image_404 = "img/404-bg.jpg"
+ 	omit_categories = false
+
+	# Sidebar settings
+	sidebar_about_description = "Die Bösingen Vereine und das Bösinger Dorffest"
+	sidebar_about_image = "/img/df-logo.png"
+
+	sidebar_avatar = "img/df-logo.png"
+
+	featured_tags = false
+	featured_condition_size = 1
+
+	friends = true
+	bookmarks = false
+	about_me = true
+
+
+	[[params.friend_link]]
+	title = "Gemeinde Bösingen"
+	href =  "https://www.boesingen.de"
+
+	[[params.friend_link]]
+	title = "VfB Bösingen"
+	href =  "https://www.vfb-boesingen.de"
+
+	[[params.friend_link]]
+	title = "Musikverein Bösingen"
+	href =  "https://www.mvhb.de/"
+
+	[[params.addtional_menus]]
+	title =  "Impressum"
+	href =  "/kontakt/"
+
+	[[params.addtional_menus]]
+	title =  "Vereine"
+	href =  "/vereine/"
+
+	[[params.addtional_menus]]
+
+	[params.social]
+	rss            = true
+	email          = "info@boesinger-vereine.de"
+	facebook      = "full profile url in facebook"
+	#twitter       = "full profile url in twitter"
+	instagram     = "full profile url in instagram"
