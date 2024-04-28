@@ -1,6 +1,6 @@
 baseURL = 'https://www.boesinger-vereine.de'
 languageCode = 'de'
-title = 'Vereinsring Bösingen e.V.'
+title = 'Bösingen feiert'
 theme = 'hugo-theme-cleanwhite'
 copyright = 'YYY Vereinsring Bösingen e.V.'
 email = 'info@boesinger-vereine.de'
@@ -22,7 +22,7 @@ home = ["HTML", "RSS"]
 	author =	"XX Vereinsring Bösingen e.V."
 	keywords = "XXX Vereinsring Bösingen e.V."
 	# upstreamAttribution = true
-	slogan = "Tschakkah! Bösingen feiert!"
+	slogan = "Vereinsring Bösingen e.V."
 
 	logo = "/images/logo.png"
 	favicon = "/images/favicon.png"
