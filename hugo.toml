@@ -1,9 +1,10 @@
 baseURL = 'https://www.boesinger-vereine.de'
 languageCode = 'de'
-title = 'Bösingen feiert'
+title = 'Bösingen feiert Dorffest'
 theme = 'hugo-theme-cleanwhite'
-copyright = 'YYY Vereinsring Bösingen e.V.'
-email = 'info@boesinger-vereine.de'
+copyright = 'Vereinsring Bösingen e.V.'
+
+email = 'info@b....-.....de'
 
 #frontpage pagination
 paginate = 5
@@ -15,14 +16,14 @@ home = ["HTML", "RSS"]
 
 [params]
 	header_image = "img/boesingen-hero.jpg"
+	slogan = "21.-23.Juni 2024"
 	SEOTitle = "Vereinsring Bösingen e.V.: Dorffest 2024"
 	SEODescription = "Vereinsring Bösingen e.V.: Vereine in 78662 Bösingen"
 	SEOKeywords = "78662 Bösingen bei Rottweil, Vereinsring Bösingen, Dorffest Bösingen 2024, Vereine in 78662 Bösingen"
-	description = "X Vereinsring Bösingen e.V."
-	author =	"XX Vereinsring Bösingen e.V."
-	keywords = "XXX Vereinsring Bösingen e.V."
+	description = "Vereinsring Bösingen e.V."
+	author =	"Vereinsring Bösingen e.V."
+	keywords = "Vereinsring Bösingen e.V."
 	# upstreamAttribution = true
-	slogan = "Vereinsring Bösingen e.V."
 
 	logo = "/images/logo.png"
 	favicon = "/images/favicon.png"
@@ -47,29 +48,98 @@ home = ["HTML", "RSS"]
 
 	[[params.friend_link]]
 	title = "Gemeinde Bösingen"
-	href =  "https://www.boesingen.de"
+	href = "https://www.boesingen.de/"
 
 	[[params.friend_link]]
-	title = "VfB Bösingen"
-	href =  "https://www.vfb-boesingen.de"
+	title = "Anglerverein"
+	href = "http://www.angelverein-boesingen.de/"
 
 	[[params.friend_link]]
-	title = "Musikverein Bösingen"
-	href =  "https://www.mvhb.de/"
+	title = "Drachenfliegerverein"
+	href = "https://www.dfvb.de/"
+
+	[[params.friend_link]]
+	title = "Freiwillige Feuerwehr"
+	href = ""
+
+	[[params.friend_link]]
+	title = "Gesangverein Frohsinn"
+	href = "https://www.frohsinn-boesingen.de/"
+
+	[[params.friend_link]]
+	title = "Jugendhaus"
+	href = "https://www.facebook.com/people/Jugendhaus-B%C3%B6singen/100064362444322/"
+
+	[[params.friend_link]]
+	title = "Kindergarten"
+	href = ""
+
+	[[params.friend_link]]
+	title = "Musikverein Harmonie"
+	href = "https://www.mvhb.de/"
+
+	[[params.friend_link]]
+	title = "Obst- und Gartenbauverein"
+	href = "https://www.ogv-boesingen.de/"
+
+	[[params.friend_link]]
+	title = "Schwäbischer Albverein"
+	href = "https://boesingen.albverein.eu/"
+
+	[[params.friend_link]]
+	title = "Speckmockelzunft"
+	href = "https://smzb.de/"
+
+	[[params.friend_link]]
+	title = "Sportschützenverein"
+	href = "https://www.ssv-boesingen.de/"
+
+	[[params.friend_link]]
+	title = "TSG Bösingen 1999"
+	href = "https://www.tsg-bösingen.de/"
+
+	[[params.friend_link]]
+	title = "VfB Bösingen 1920"
+	href = "https://www.vfb-boesingen.de/"
+
+	[[params.friend_link]]
+	title = "Förderkreis Marienkapelle"
+	href = ""
+
+	[[params.friend_link]]
+	title = "Förderverein Schule"
+	href = "http://www.schule-boesingen.de/"
+
+	[[params.friend_link]]
+	title = "Heimatpflegeverein"
+	href = ""
+
+	[[params.friend_link]]
+	title = "Red-White-Fighters"
+	href = ""
+
+	[[params.friend_link]]
+	title = "Sozialgemeinschaft"
+	href = "https://se-eschach-neckar.drs.de/kirchengemeinden-der-seelsorgeeinheit/boesingen/sozialgemeinschaft.html"
+
+
+	[[params.addtional_menus]]
+	title =  "Home"
+	href =  "/"
 
 	[[params.addtional_menus]]
 	title =  "Impressum"
-	href =  "/kontakt/"
+	href =  "/kontakt"
 
 	[[params.addtional_menus]]
 	title =  "Vereine"
-	href =  "/vereine/"
+	href =  "/vereine"
 
-	[[params.addtional_menus]]
+
 
 	[params.social]
 	rss            = true
-	email          = "info@boesinger-vereine.de"
+	email          = "info@b.....-v......de"
 	facebook      = "full profile url in facebook"
 	#twitter       = "full profile url in twitter"
 	instagram     = "full profile url in instagram"

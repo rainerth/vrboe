@@ -11,7 +11,7 @@ multilingual: false
 
 **1. Vorsitzender**: Stefan Bantle
 
-**stellvertretender Vorsitzender**: Hans-Peter Lapatki
+**Stellvertretender Vorsitzender**: Hans-Peter Lapatki
 
 
 

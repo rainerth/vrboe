@@ -40,10 +40,10 @@ Beim Dorffest helfen alle zusammen! Über Vereins- und Altersgrenzen hinweg pack
 
 ### Heimatpflegeverein Bösingen e.V.
 
-## Red-White-Fighters Bösingen e.V.
+### Red-White-Fighters Bösingen e.V.
 
 ### [Sozialgemeinschaft Bösingen](https://se-eschach-neckar.drs.de/kirchengemeinden-der-seelsorgeeinheit/boesingen/sozialgemeinschaft.html)
 
-### [Drachenfliegeverein Bösingen e.V.](https://www.dfvb.de/)
-Der **[Drachenfliegeverein Bösingen e.V.](https://www.dfvb.de/)** unterstützt mit der Gestaltung dieser Webseite und bietet über das Dorffest Rundflüge an.
+### [Drachenfliegerverein Bösingen e.V.](https://www.dfvb.de/)
+Der **[Drachenfliegerverein Bösingen e.V.](https://www.dfvb.de/)** unterstützt mit der Gestaltung dieser Webseite.
 
