@@ -1,5 +1,5 @@
 baseURL = 'https://www.boesinger-vereine.de'
-languageCode = 'de'
+languageCode = 'de_DE'
 title = 'Bösingen feiert Dorffest'
 theme = 'hugo-theme-cleanwhite'
 copyright = 'Vereinsring Bösingen e.V.'
