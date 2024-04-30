@@ -33,7 +33,7 @@ home = ["HTML", "RSS"]
  	omit_categories = false
 
 	# Sidebar settings
-	sidebar_about_description = "Die Bösingen Vereine und das Bösinger Dorffest"
+	sidebar_about_description = "Das Bösinger Dorffest vom 21.6. bis 23.6.2024"
 	sidebar_about_image = "/img/df-logo.png"
 
 	sidebar_avatar = "img/df-logo.png"
