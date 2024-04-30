@@ -2,7 +2,7 @@
 layout:     post
 title:      "Vereine in Bösingen"
 subtitle:   "Vereinsring Bösingen e.V."
-date:       2024-04-28
+date:       2024-04-30
 author:     "Sarah Müller"
 image:      img/404-bg.jpg
 ---
