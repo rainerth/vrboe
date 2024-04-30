@@ -40,13 +40,13 @@
                                     {{ .Site.Title }}
                             {{ end }}
                             am
-                            {{ .Date.Format "Monday, 2. January 2006" }}
+                            {{ .Date.Format "Monday, January 2, 2006" }}
                             {{ if .Site.Params.page_view_conter }}
                                 {{ partial "page_view_counter.html" . }}
                             {{ end }}
                             <!-- Don't show "Last Modified on" if update happened on the same day. -->
                             {{ if (and (not .Lastmod.IsZero) (not (eq (dateFormat "2006-01-02" .Lastmod) (dateFormat "2006-01-02" .Date)))) }}
-                            <br>Zuletzt geändert am {{ dateFormat "Monday, 2. January 2006" .Params.LastMod }}
+                            <br>Zuletzt geändert am {{ dateFormat "Monday, January 2, 2006" .Params.LastMod }}
                             {{ end }}
                         {{ end }}
                     </span>
