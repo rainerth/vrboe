@@ -10,15 +10,15 @@
                 col-md-10 col-md-offset-1
                 post-container">
 
-                <!--
+                <!-- -->
                 {{ if not (eq (.Param "showtoc") false) }}
                 <header>
-                    <h2>TOC</h2>
+                    <h2>Inhalt</h2>
                 </header>
                 {{.TableOfContents}}
                 {{ end }}
-                -->
-                {{ .Content }}
+                <!-- -->
+                {{ .Contentl }}
 
                 {{ if .Site.Params.reward }}
                 {{ partial "reward.html" . }}
@@ -30,13 +30,12 @@
                     {{ if .PrevInSection }}
                     <li class="previous">
                         <a href="{{ .PrevInSection.RelPermalink }}" data-toggle="tooltip" data-placement="top" title="{{ .PrevInSection.Title}}">&larr;
-                            Previous Post</a>
+                            vorheriger Beitrag</a>
                     </li>
                     {{ end }}
                     {{ if .NextInSection }}
                     <li class="next">
-                        <a href="{{ .NextInSection.RelPermalink }}" data-toggle="tooltip" data-placement="top" title="{{ .NextInSection.Title}}">Next
-                            Post &rarr;</a>
+                        <a href="{{ .NextInSection.RelPermalink }}" data-toggle="tooltip" data-placement="top" title="{{ .NextInSection.Title}}">nächster Beitrag &rarr;</a>
                     </li>
                     {{ end }}
                 </ul>
@@ -55,7 +54,7 @@
                 <div class="side-catalog">
                     <hr class="hidden-sm hidden-xs">
                     <h5>
-                        <a class="catalog-toggle" href="#">CATALOG</a>
+                        <a class="catalog-toggle" href="#">Beiträge</a>
                     </h5>
                     <ul class="catalog-body"></ul>
                 </div>

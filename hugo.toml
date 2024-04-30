@@ -14,6 +14,8 @@ enableRobotsTXT = true
 [outputs]
 home = ["HTML", "RSS"]
 
+
+
 [params]
 	header_image = "img/boesingen-hero.jpg"
 	slogan = "21.-23.Juni 2024"
@@ -30,7 +32,7 @@ home = ["HTML", "RSS"]
 
 
 	image_404 = "img/404-bg.jpg"
- 	omit_categories = false
+ 	omit_categories = true
 
 	# Sidebar settings
 	sidebar_about_description = "Das Bösinger Dorffest vom 21.6. bis 23.6.2024"
@@ -122,19 +124,27 @@ home = ["HTML", "RSS"]
 	title = "Sozialgemeinschaft"
 	href = "https://se-eschach-neckar.drs.de/kirchengemeinden-der-seelsorgeeinheit/boesingen/sozialgemeinschaft.html"
 
+	[[params.addtional_menus]]
+	title =  "Vereine"
+	href =  "/vereine"
 
 	[[params.addtional_menus]]
-	title =  "Home"
-	href =  "/"
+	title =  "Anreise"
+	href =  "/anreise"
+
+	[[params.addtional_menus]]
+	title =  "Kulinarisches"
+	href =  "/kulinarisches"
+
 
 	[[params.addtional_menus]]
 	title =  "Impressum"
 	href =  "/kontakt"
 
-	[[params.addtional_menus]]
-	title =  "Vereine"
-	href =  "/vereine"
 
+	[[params.bookmark.link]]
+	title = "Hugo"
+	href = "https://gohugo.io/"
 
 
 	[params.social]

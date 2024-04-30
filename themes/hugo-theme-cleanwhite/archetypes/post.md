@@ -1,10 +1,8 @@
 ---
-title:       "An Example Post"
-subtitle:    ""
-description: ""
-date:        2018-06-04
-author:      ""
-image:       ""
-tags:        ["tag1", "tag2"]
-categories:  ["Tech" ]
+title:       "Titel des Beitrags"
+subtitle:    "Untertitel des Beitrags"
+date:        2024-05-01
+author:      ""
+image:       "/img/001.jpg"
 ---
+

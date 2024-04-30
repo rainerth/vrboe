@@ -45,3 +45,5 @@ https://www.wbs.legal/it-und-internet-recht/datenschutzrecht/datenschutzerklaeru
 
 
 # Snippets
+
+hugo new content post/010.md

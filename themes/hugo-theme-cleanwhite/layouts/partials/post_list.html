@@ -29,10 +29,10 @@
             {{ end }}
         {{ end }}
     {{ else }}
-        Von {{ with .Params.author }}{{ . }}{{ else }}{{ .Site.Title }}{{ end }} am {{ .Date | time.Format ":date_full" }}
+        Von {{ with .Params.author }}{{ . }}{{ else }}{{ .Site.Title }}{{ end }} am {{ .Date.Format "02.01.2006" }}
         <!-- Don't show "Last Modified on" if update happened on the same day. -->
         {{ if (and (not .Lastmod.IsZero) (not (eq (dateFormat "2006-01-02" .Lastmod) (dateFormat "2006-01-02" .Date)))) }}
-            <br>Zuletzt geändert am {{ dateFormat "Monday, January 2, 2006" .Params.LastMod }}
+            <br>Zuletzt geändert am {{ dateFormat "02.01.2006" .Params.LastMod }}
         {{ end }}
     {{ end }}
     </p>
