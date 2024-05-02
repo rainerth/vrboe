@@ -1,5 +1,5 @@
 ---
-title:       "Vereinsringsitzung"
+title:       "Vereinsringsitzung am 2.5. um 19:30"
 subtitle:    "Speisen und Getränke"
 date:        2024-05-02
 author:      "Rainer Thieringer"
