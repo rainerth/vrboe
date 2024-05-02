@@ -32,18 +32,7 @@ Beim Dorffest helfen alle zusammen! Über Vereins- und Altersgrenzen hinweg pack
 ### [VfB Bösingen 1920 e.V.](https://www.vfb-boesingen.de/)
 
 
----
+## Weitere Vereine und Organisationen
 
-### Förderkreis Marienkapelle
-
-### [Förderverein Schule Bösingen e.V.](http://www.schule-boesingen.de/)
-
-### Heimatpflegeverein Bösingen e.V.
-
-### Red-White-Fighters Bösingen e.V.
-
-### [Sozialgemeinschaft Bösingen](https://se-eschach-neckar.drs.de/kirchengemeinden-der-seelsorgeeinheit/boesingen/sozialgemeinschaft.html)
-
-### [Drachenfliegerverein Bösingen e.V.](https://www.dfvb.de/)
-Der **[Drachenfliegerverein Bösingen e.V.](https://www.dfvb.de/)** unterstützt mit der Gestaltung dieser Webseite.
+Förderkreis Marienkapelle, [Förderverein Schule Bösingen e.V.](http://www.schule-boesingen.de/), Heimatpflegeverein Bösingen e.V., Red-White-Fighters Bösingen e.V., [Sozialgemeinschaft Bösingen](https://se-eschach-neckar.drs.de/kirchengemeinden-der-seelsorgeeinheit/boesingen/sozialgemeinschaft.html), [Drachenfliegerverein Bösingen e.V.](https://www.dfvb.de/) - der **[Drachenfliegerverein Bösingen e.V.](https://www.dfvb.de/)** unterstützt den Vereinsring und das Dorffest mit der Gestaltung dieser Webseite.
 
