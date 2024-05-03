@@ -129,13 +129,12 @@ home = ["HTML", "RSS"]
 	href =  "/vereine"
 
 	[[params.addtional_menus]]
-	title =  "Anreise"
-	href =  "/anreise"
+	title =  "Dorffest"
+	href =  "/dorffest"
 
 	[[params.addtional_menus]]
-	title =  "Kulinarisches"
-	href =  "/kulinarisches"
-
+	title =  "Anreise"
+	href =  "/anreise"
 
 	[[params.addtional_menus]]
 	title =  "Impressum"

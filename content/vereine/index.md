@@ -2,12 +2,14 @@
 layout: page
 ---
 
-# Kurzportrait der Bösinger Vereine
+# Die Bösinger Vereine
+
+Die Bösinger Vereine helfen zusammen! Über Vereins- und Altersgrenzen hinweg packen wir an und heißen zu vielen Veranstaltungen Gäste willkommen. Wir sind im **Vereinsring Bösingen e.V.** gemeinnützig organisiert und die meisten Vereine sind seit vielen Jahren aktiv beim Dorffest dabei.
 
 ## [Angelverein Bösingen e.V.](http://www.angelverein-boesingen.de/)
 ![Angelverein Bösingen e.V.](/img/logo/logo-angelverein.jpg)
 
-Der Angelverein Bösingen wurde am 14.12.2002 gegründet. Nachdem im Mai 2004 die Baugenehmigung erteilt wurde, enstand das Angelgewässer "Grabenwaldsee". Der Verein dient dem Schutz der Natur, der Umwelt und Landschaft, sowie der Arterhaltung der in regionalen Gewässern lebenden Pflanzen und Tiere.
+Der Angelverein Bösingen wurde am 14.12.2002 gegründet. Nachdem im Mai 2004 die Baugenehmigung erteilt wurde, entstand das Angelgewässer "Grabenwaldsee". Der Verein dient dem Schutz der Natur, der Umwelt und Landschaft, sowie der Arterhaltung der in regionalen Gewässern lebenden Pflanzen und Tiere.
 
 ### regelmäßige Termine
 * Kartenverkauf von Anfang April bis Anfang Oktober: immer Sonntags ab 7:00 Uhr
