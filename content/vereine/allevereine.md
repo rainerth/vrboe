@@ -6,8 +6,13 @@ layout: page
 
 Beim Dorffest helfen alle zusammen! Über Vereins- und Altersgrenzen hinweg packen alle Bösinger an und heißen Sie herzlich in ihrem Ort willkommen. Getragen wird das Dorffest von den Vereinen im Ortsteil Bösingen, die sich über den **Vereinsring Bösingen e.V.** gemeinnützig organisiert haben.
 
+## regelmäßige Termine
+
+* Kartenverkauf von Anfang April bis Anfang Oktober: immer Sonntags ab 7:00 Uhr
+* Fischverkauf im Angelheim zu Ostern und zu Weihnachten.
 
 ### [Anglerverein Bösingen e.V.](http://www.angelverein-boesingen.de/)
+Der Angelverein Bösingen wurde am 14.12.2002 gegründet. Nachdem im Mai 2004 die Baugenehmigung erteilt wurde, enstand das Angelgewässer "Grabenwaldsee". Der Verein dient dem Schutz der Natur, der Umwelt und Landschaft, sowie der Arterhaltung der in regionalen Gewässern lebenden Pflanzen und Tiere.
 
 ### Freiwillige Feuerwehr Bösingen
 
