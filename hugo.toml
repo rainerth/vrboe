@@ -53,7 +53,7 @@ home = ["HTML", "RSS"]
 	href = "https://www.boesingen.de/"
 
 	[[params.friend_link]]
-	title = "Anglerverein"
+	title = "Angelverein"
 	href = "http://www.angelverein-boesingen.de/"
 
 	[[params.friend_link]]
