@@ -2,10 +2,21 @@
 layout: page
 ---
 
-# Anreise, Parken und Übernachtung
+# Parken und Übernachtung
 
-Veniam esse officia nisi occaecat exercitation aliqua labore. Consequat eiusmod esse culpa mollit ipsum aliquip Lorem eu eu dolor adipisicing. Consectetur aliquip pariatur laboris Lorem dolore consequat laboris sit. Minim do labore elit veniam elit incididunt. Nisi consectetur ea ut amet. In eiusmod qui laborum laborum proident veniam officia in cillum reprehenderit.
+Feste in unserem Dorf sind immer ein lohnendes Ziel - auch für weit Angereiste. Hier finden Sie ein paar Tipps um euch den Aufenthalt so angenehm, wie möglich zu machen.
 
-Officia fugiat magna cupidatat fugiat commodo irure. Labore pariatur sint incididunt incididunt aliquip consequat. Reprehenderit adipisicing eu consectetur mollit proident mollit nisi nulla et magna in. Consequat velit nisi nulla commodo elit irure exercitation officia. Minim nostrud esse ut exercitation commodo ex Lorem culpa mollit dolore.
+## Parken während des Dorffests
 
-Nisi eiusmod elit sunt ut sunt duis mollit ad laboris dolore amet adipisicing deserunt Lorem. Nisi ex minim pariatur velit aliquip velit et proident amet adipisicing sint magna eu velit. Et exercitation ut enim cillum elit exercitation excepteur anim veniam.
+
+## Übernachtungsmöglichkeiten
+
+Bösingen: **Gasthof Zum Wilden Mann**
+Günter Müller
+Herrenzimmerner Str. 4
+78662 Bösingen
+Tel: +49 (0) 7404 404
+E-Mail: wilmaboes@t-online.de
+
+
+... und viele weitere Pensionen und Gasthäuser in der Umgebung, die wir gerne hier mit aufnehmen. Eine Mail an uns genügt.
