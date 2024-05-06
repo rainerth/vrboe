@@ -4,7 +4,7 @@ layout: page
 
 # Parken und Übernachtung
 
-Feste in unserem Dorf sind immer ein lohnendes Ziel - auch für weit Angereiste. Hier finden Sie ein paar Tipps um euch den Aufenthalt so angenehm, wie möglich zu machen.
+Feste in unserem Dorf sind immer ein lohnendes Ziel - auch für weit Angereiste. Hier finde ihr Tipps um euch den Aufenthalt so angenehm, wie möglich zu machen.
 
 ## Parken während des Dorffests
 
