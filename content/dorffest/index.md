@@ -43,7 +43,12 @@ Sonntag: zusätzlich Spanferkel mit Kartoffelsalat oder gemischtem Salat und Bro
 
 **Getränke**:  An allen Tagen an unserem Weinbrunnen: erlesene Weine, Aperol und Hugo
 
+### FC Bayern Fanclub
 
+**Essen:** Bratwurstburger
+
+**Getränke:** Schnaps- Likörstand von Wössner 
 ... und vieles mehr.
+
 
 **Alle teilnehmenden Vereine bieten unterschiedliche alkoholfreie Getränke an.**
