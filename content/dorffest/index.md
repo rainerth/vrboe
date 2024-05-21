@@ -47,7 +47,9 @@ Sonntag: zusätzlich Spanferkel mit Kartoffelsalat oder gemischtem Salat und Bro
 
 **Essen:** Bratwurstburger
 
-**Getränke:** Schnaps- Likörstand von Wössner 
+**Getränke:** Schnaps- Likörstand von Wössner
+
+
 ... und vieles mehr.
 
 
