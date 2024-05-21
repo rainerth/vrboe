@@ -8,7 +8,7 @@ multilingual: false
 **Vereinsring Bösingen e.V.**  
 Stefan Bantle  
 DE-78662 Bösingen  
-info ät vereinsring-boesingen.de
+info ät boesinger-vereine.de
 
 Amtsgericht Stuttgart **VR 726462**, OH-Nummer C-26726249
 
