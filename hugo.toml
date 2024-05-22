@@ -4,7 +4,7 @@ title = 'Bösingen feiert Dorffest'
 theme = 'hugo-theme-cleanwhite'
 copyright = 'Vereinsring Bösingen e.V.'
 
-email = 'info@b....-.....de'
+email = 'info ät boesinger-vereine.de'
 
 #frontpage pagination
 paginate = 5
@@ -148,7 +148,7 @@ home = ["HTML", "RSS"]
 
 	[params.social]
 	rss            = true
-	email          = "info@b.....-v......de"
+	email          = "info ät boesinger-vereine.de"
 	facebook      = "full profile url in facebook"
 	#twitter       = "full profile url in twitter"
 	instagram     = "full profile url in instagram"
