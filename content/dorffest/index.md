@@ -7,7 +7,10 @@ layout: page
 Freuen Sie sich auf diese Leckereien:
 
 ### Feuerwehr
-**Essen:** Chicken Nuggets, Grillschinken im Wecken, Grillschinken mit Kartoffelsalat und Wecken (Nur Sonntag)
+  
+**Essen:** Chicken Nuggets, Grillschinken im Wecken
+
+Nur Sonntag: Grillschinken mit Kartoffelsalat und Wecken
 
 **Getränke:** Weizen- und Pilsstand
 
@@ -49,8 +52,24 @@ Sonntag: zusätzlich Spanferkel mit Kartoffelsalat oder gemischtem Salat und Bro
 
 **Getränke:** Schnaps- Likörstand von Wössner
 
+### Gesangverein
 
-... und vieles mehr.
+**Essen:** Gyros, Rote Wurst, Pommes
+
+Nur Sonntag: Schnitzel mit Kartoffelsalat oder Pommes, Schnitzelwecken
+
+**Getränke:** Bierstand mit Phillips Bier, Keller Bier, Pale Ale
+
+### Speckmockelzunft Bösingen
+
+**Essen:** Rostbratwurst im Wecken, Raclette Wecken
+
+Nur Sonntag: Rostbratwurst mit Salat
+
+**Getränke:** Bierstand
+
 
 
 **Alle teilnehmenden Vereine bieten unterschiedliche alkoholfreie Getränke an.**
+
+... und vieles mehr.
