@@ -99,3 +99,20 @@ Nur Sonntag: Rostbratwurst mit Salat
 **Alle teilnehmenden Vereine bieten unterschiedliche alkoholfreie Getränke an.**
 
 ... und vieles mehr.
+
+
+## Attraktionen für unsere Jüngsten 
+
+Schießbude beim Schützenverein 
+
+Programm des Kindergarten und der Kinderkrippe (siehe oben)
+
+Bungeetrampolin auf dem Parkplatz 
+
+Kinderkarussell auf dem Parkplatz 
+
+Softeisstand
+
+Süßigkeitenstand 
+
+
