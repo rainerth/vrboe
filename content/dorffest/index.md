@@ -15,6 +15,19 @@ layout: page
 **21.30 Uhr:** Unterhaltung auf der Tribüne mit der Brass-Band "Perblechs" 
 
 
+### Samstag 22.06.2024
+
+**15.00 Uhr:** Beginn Bewirtung 
+
+**16.00 Uhr:** Kinderschminken, Zöpfle flechten mit Verkaufsstand von selbstgemachtem Schmuck, Lichtfängern und Badebomben sowie Kinderbowle durch den Kindergarten und der Kinderkirppe Bösingen 
+
+**16.15 Uhr:** Kasperletheater auf der Tribüne
+
+**17.30 Uhr:** Unterhaltung auf der Tribüne mit der Jugendmusikkapelle BöHe und dem Musikverein Harmonie Bösingen
+
+**21.00 Uhr:** Auftritt der Polka-Perlen auf der Tibüne
+
+
 ## Speisen und Getränke
 
 Freuen Sie sich auf diese Leckereien:
