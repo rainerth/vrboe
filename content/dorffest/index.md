@@ -2,6 +2,16 @@
 layout: page
 ---
 
+## Programm 
+
+### Freitag 21.06.2024
+
+**17.00 Uhr:** Beginn Bewirtung und Handwerkervesper 
+**18.30 Uhr:** Fassanstich durch Bürgermeister Peter Schuster 
+**19.00 Uhr:** Unterhaltung auf der Tribüne mit dem Musikverein Harmonie Bösingen 
+**21.30 Uhr:** Unterhaltung auf der Tribüne mit der Brass-Band "Perblechs" 
+
+
 ## Speisen und Getränke
 
 Freuen Sie sich auf diese Leckereien:
