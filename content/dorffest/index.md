@@ -113,5 +113,5 @@ Kinderkarussell auf dem Parkplatz
 
 Süßigkeitenstand 
 
-Softeisstand 
+Softeis
 
