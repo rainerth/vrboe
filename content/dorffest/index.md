@@ -62,7 +62,7 @@ Nur Sonntag:  Steak mit Kartoffelsalat u. Wecken
 
 Nur Sonntag: Wildragout mit Spätzle, Schnitzel mit Spätzle
 
-**Getränke:** Cocktailbar, Frozen Daiquiri, Bargetränke, Aperol (und normales Getränkesortiment)
+**Getränke:** Cocktailbar, Frozen Daiquiri, Bargetränke, Aperol
 
 ### Obst- und Gartenbauverein
 
