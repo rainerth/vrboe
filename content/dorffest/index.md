@@ -25,7 +25,7 @@ layout: page
 
 **17.30 Uhr:** Unterhaltung auf der Tribüne mit der Jugendmusikkapelle BöHe und dem Musikverein Harmonie Bösingen
 
-**21.00 Uhr:** Auftritt der Polka-Perlen auf der Tibüne
+**21.00 Uhr:** Auftritt der Polkaperlen auf der Tibüne
 
 
 ## Speisen und Getränke
