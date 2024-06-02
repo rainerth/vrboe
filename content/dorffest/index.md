@@ -111,8 +111,7 @@ Bungeetrampolin auf dem Parkplatz
 
 Kinderkarussell auf dem Parkplatz 
 
-Softeisstand
-
 Süßigkeitenstand 
 
+Softeisstand 
 
