@@ -110,11 +110,11 @@ Nur Sonntag: Schnitzel mit Kartoffelsalat oder Pommes, Schnitzelwecken
 
 ### Speckmockelzunft Bösingen
 
-**Essen:** Rostbratwurst im Wecken, Raclette Wecken
+**Essen:** Rostbratwurst im Wecken, Raclettewecken (auch vegetarisch) 
 
-Nur Sonntag: Rostbratwurst mit Salat
+Nur Sonntag: Weißwurst mit Brezel, Rostbratwurst mit Salat
 
-**Getränke:** Bierstand
+**Getränke:** Bierstand, Bowlebar
 
 
 
