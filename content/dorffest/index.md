@@ -70,7 +70,7 @@ Nur Sonntag: Grillschinken mit Kartoffelsalat und Wecken
 
 ### VfB
 
-**Essen:** Pommes mit Ketchup, Currywurst / Grillwurst / Rote Wurst, Steakwecken, Steak mit Pommes, Schaschlik-Pfanne mit Wecken, Schaschlik-Pfanne mit Pommes, Halbe Flammkuchen, Currywurst mit Pommes
+**Essen:** Pommes mit Ketchup, Currywurst, Grillwurst, Steakwecken, Steak mit Pommes, Schaschlik-Pfanne mit Wecken, Schaschlik-Pfanne mit Pommes, Halbe Flammkuchen, Currywurst mit Pommes
 
 Nur Samstag & Sonntag: Schaschlik-Pfanne vegan mit Pommes, Schaschlik-Pfanne vegan mit Wecken
 
