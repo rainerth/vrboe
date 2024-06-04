@@ -19,13 +19,35 @@ layout: page
 
 **15.00 Uhr:** Beginn Bewirtung 
 
-**16.00 Uhr:** Kinderschminken, Zöpfle flechten mit Verkaufsstand von selbstgemachtem Schmuck, Lichtfängern und Badebomben sowie Kinderbowle durch den Kindergarten und der Kinderkirppe Bösingen 
+**16.00 Uhr:** Kinderschminken mit Verkaufsstand von selbstgemachtem Schmuck und Saatenbomben sowie Kinderbowle durch den Kindergarten und der Kinderkirppe Bösingen (Ende: 20 Uhr) 
 
 **16.15 Uhr:** Kasperletheater auf der Tribüne
 
 **17.30 Uhr:** Unterhaltung auf der Tribüne mit der Jugendmusikkapelle BöHe und dem Musikverein Harmonie Bösingen
 
 **21.00 Uhr:** Auftritt der Polkaperlen auf der Tibüne
+
+
+### Sonntag 23.06.2024
+
+**10.30 Uhr:** Beginn Bewirtung 
+
+**11.30 Uhr:** Frühschoppen mit dem Musikverein Harmonie Bösingen auf der Tribüne
+
+**13.00 Uhr:** Kinderschminken mit Verkaufsstand von selbstgemachtem Schmuck und Saatenbomben sowie Kinderbowle durch den Kindergarten und der Kinderkirppe Bösingen (Ende: 18.00 Uhr)
+
+**13.30 Uhr:** Unterhaltung mit dem Akkordeonorchester Locherhof auf der Tribüne
+
+**14.00 Uhr:** Bauernmuseum zur Besichtigung geöffnet (Ende: 17.00 Uhr)
+
+**15.00 Uhr:** Unterhaltung mit dem Kindergarten Bösingen auf der Tribüne 
+
+**16.30 Uhr:** Unterhaltung mit den Schlossbühlmusikanten auf der Tribüne
+
+**19.00 Uhr:** Verlosung auf der Tribüne 
+
+**19.30 Uhr:** Fortsetzung der Unterhaltung mit den Schlossbühlmusikanten auf der Tribüne 
+
 
 
 ## Speisen und Getränke
