@@ -34,13 +34,15 @@ layout: page
 
 **11.30 Uhr:** Frühschoppen mit dem Musikverein Harmonie Bösingen auf der Tribüne
 
+**12.30 Uhr:** Kindertattoostand neben der Tribüne
+
 **13.00 Uhr:** Kinderschminken mit Verkaufsstand von selbstgemachtem Schmuck und Saatenbomben sowie Kinderbowle durch den Kindergarten und der Kinderkirppe Bösingen (Ende: 18.00 Uhr)
 
 **13.30 Uhr:** Unterhaltung mit dem Akkordeonorchester Locherhof auf der Tribüne
 
 **14.00 Uhr:** Bauernmuseum zur Besichtigung geöffnet (Ende: 17.00 Uhr)
 
-**15.00 Uhr:** Unterhaltung mit dem Kindergarten Bösingen auf der Tribüne 
+**15.00 Uhr:** Unterhaltung mit dem Kindergarten und der Kindergarde Bösingen auf der Tribüne 
 
 **16.30 Uhr:** Unterhaltung mit den Schlossbühlmusikanten auf der Tribüne
 
@@ -106,7 +108,7 @@ Sonntag: zusätzlich Spanferkel mit Kartoffelsalat oder gemischtem Salat und Bro
 
 Nur Sonntag: Schnitzel mit Kartoffelsalat oder Pommes, Schnitzelwecken
 
-**Getränke:** Bierstand mit Phillips Bier, Keller Bier, Pale Ale
+**Philipps Spezialbar:** Keller Bier, Pale Ale, Gin Tonic
 
 ### Speckmockelzunft Bösingen
 
