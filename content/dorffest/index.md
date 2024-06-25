@@ -2,53 +2,53 @@
 layout: page
 ---
 
-## Programm 
+## Programm
 
 ### Freitag 21.06.2024
 
-**17.00 Uhr:** Beginn Bewirtung und Handwerkervesper 
+**17.00 Uhr:** Beginn Bewirtung und Handwerkervesper
 
-**18.30 Uhr:** Fassanstich durch Bürgermeister Peter Schuster 
+**18.30 Uhr:** Fassanstich durch Bürgermeister Peter Schuster
 
 **19.00 Uhr:** Unterhaltung auf der Tribüne mit dem Musikverein Harmonie Bösingen
 
-**21.30 Uhr:** Unterhaltung auf der Tribüne mit der Brass-Band "Perblechs" 
+**21.30 Uhr:** Unterhaltung auf der Tribüne mit der Brass-Band "Perblechs"
 
 
 ### Samstag 22.06.2024
 
-**15.00 Uhr:** Beginn Bewirtung 
+**15.00 Uhr:** Beginn Bewirtung
 
-**16.00 Uhr:** Kinderschminken mit Verkaufsstand von selbstgemachtem Schmuck und Saatenbomben sowie Kinderbowle durch den Kindergarten und der Kinderkirppe Bösingen (Ende: 20 Uhr) 
+**16.00 Uhr:** Kinderschminken mit Verkaufsstand von selbstgemachtem Schmuck und Saatenbomben sowie Kinderbowle durch den Kindergarten und der Kinderkrippe Bösingen (Ende: 20 Uhr)
 
 **16.15 Uhr:** Kasperletheater auf der Tribüne
 
 **17.30 Uhr:** Unterhaltung auf der Tribüne mit der Jugendmusikkapelle BöHe und dem Musikverein Harmonie Bösingen
 
-**21.00 Uhr:** Auftritt der Polkaperlen auf der Tibüne
+**21.00 Uhr:** Auftritt der Polkaperlen auf der Tribüne
 
 
 ### Sonntag 23.06.2024
 
-**10.30 Uhr:** Beginn Bewirtung 
+**10.30 Uhr:** Beginn Bewirtung
 
 **11.30 Uhr:** Frühschoppen mit dem Musikverein Harmonie Bösingen auf der Tribüne
 
 **12.30 Uhr:** Kindertattoostand neben der Tribüne
 
-**13.00 Uhr:** Kinderschminken mit Verkaufsstand von selbstgemachtem Schmuck und Saatenbomben sowie Kinderbowle durch den Kindergarten und der Kinderkirppe Bösingen (Ende: 18.00 Uhr)
+**13.00 Uhr:** Kinderschminken mit Verkaufsstand von selbstgemachtem Schmuck und Saatenbomben sowie Kinderbowle durch den Kindergarten und der Kinderkrippe Bösingen (Ende: 18.00 Uhr)
 
 **13.30 Uhr:** Unterhaltung mit dem Akkordeonorchester Locherhof auf der Tribüne
 
 **14.00 Uhr:** Bauernmuseum zur Besichtigung geöffnet (Ende: 17.00 Uhr)
 
-**15.00 Uhr:** Unterhaltung mit dem Kindergarten und der Kindergarde Bösingen auf der Tribüne 
+**15.00 Uhr:** Unterhaltung mit dem Kindergarten und der Kindergarde Bösingen auf der Tribüne
 
 **16.30 Uhr:** Unterhaltung mit den Schlossbühlmusikanten auf der Tribüne
 
-**19.00 Uhr:** Verlosung auf der Tribüne 
+**19.00 Uhr:** Verlosung auf der Tribüne
 
-**19.30 Uhr:** Fortsetzung der Unterhaltung mit den Schlossbühlmusikanten auf der Tribüne 
+**19.30 Uhr:** Fortsetzung der Unterhaltung mit den Schlossbühlmusikanten auf der Tribüne
 
 
 
@@ -57,7 +57,7 @@ layout: page
 Freuen Sie sich auf diese Leckereien:
 
 ### Feuerwehr
-  
+
 **Essen:** Chicken Nuggets, Grillschinken im Wecken
 
 Nur Sonntag: Grillschinken mit Kartoffelsalat und Wecken
@@ -112,7 +112,7 @@ Nur Sonntag: Schnitzel mit Kartoffelsalat oder Pommes, Schnitzelwecken
 
 ### Speckmockelzunft Bösingen
 
-**Essen:** Rostbratwurst im Wecken, Raclettewecken (auch vegetarisch) 
+**Essen:** Rostbratwurst im Wecken, Raclettewecken (auch vegetarisch)
 
 Nur Sonntag: Weißwurst mit Brezel, Rostbratwurst mit Salat
 
@@ -125,17 +125,17 @@ Nur Sonntag: Weißwurst mit Brezel, Rostbratwurst mit Salat
 ... und vieles mehr.
 
 
-## Attraktionen für unsere Jüngsten 
+## Attraktionen für unsere Jüngsten
 
-Schießbude beim Schützenverein 
+Schießbude beim Schützenverein
 
 Programm des Kindergarten und der Kinderkrippe (siehe oben)
 
-Bungeetrampolin auf dem Parkplatz 
+Bungeetrampolin auf dem Parkplatz
 
-Kinderkarussell auf dem Parkplatz 
+Kinderkarussell auf dem Parkplatz
 
-Süßigkeitenstand 
+Süßigkeitenstand
 
 Softeis
 

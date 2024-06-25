@@ -47,3 +47,9 @@ https://www.wbs.legal/it-und-internet-recht/datenschutzrecht/datenschutzerklaeru
 # Snippets
 
 hugo new content post/010.md
+
+hugo server
+
+[Thumbnail Images on your Hugo Blog Posts](https://makewithhugo.com/thumbnail-images-on-your-hugo-blog-posts/)
+
+

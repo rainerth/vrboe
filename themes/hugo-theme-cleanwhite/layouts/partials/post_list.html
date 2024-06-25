@@ -15,7 +15,10 @@
 	{{ with .Description }}
             {{ . }}
         {{ else }}
-            {{ .Summary}}
+            {{- $image := resources.Get .Params.featured_image -}}
+            <div>
+            {{ .Summary}} ...
+            </div>
        {{ end }}
         </div>
     </a>
@@ -29,7 +32,7 @@
             {{ end }}
         {{ end }}
     {{ else }}
-        Von {{ with .Params.author }}{{ . }}{{ else }}{{ .Site.Title }}{{ end }} am {{ .Date.Format "02.01.2006" }}
+        {{ with .Params.author }}{{ . }}{{ else }}{{ .Site.Title }}{{ end }}, {{ .Date.Format "02.01.2006" }}
         <!-- Don't show "Last Modified on" if update happened on the same day. -->
         {{ if (and (not .Lastmod.IsZero) (not (eq (dateFormat "2006-01-02" .Lastmod) (dateFormat "2006-01-02" .Date)))) }}
             <br>Zuletzt geändert am {{ dateFormat "02.01.2006" .Params.LastMod }}
