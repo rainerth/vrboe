@@ -1,6 +1,6 @@
 baseURL = 'https://www.boesinger-vereine.de'
 languageCode = 'de_DE'
-title = 'Bösingen feiert Dorffest'
+title = 'Bösinger Vereine feiern'
 theme = 'hugo-theme-cleanwhite'
 copyright = 'Vereinsring Bösingen e.V.'
 
@@ -18,8 +18,8 @@ home = ["HTML", "RSS"]
 
 [params]
 	header_image = "img/boesingen-hero.jpg"
-	slogan = "21.-23.Juni 2024"
-	SEOTitle = "Vereinsring Bösingen e.V.: Dorffest 2024"
+	slogan = "Veranstaltungen 2024"
+	SEOTitle = "Vereinsring Bösingen e.V.: Veranstaltungen 2024"
 	SEODescription = "Vereinsring Bösingen e.V.: Vereine in 78662 Bösingen"
 	SEOKeywords = "78662 Bösingen bei Rottweil, Vereinsring Bösingen, Dorffest Bösingen 2024, Vereine in 78662 Bösingen"
 	description = "Vereinsring Bösingen e.V."
@@ -35,10 +35,10 @@ home = ["HTML", "RSS"]
  	omit_categories = true
 
 	# Sidebar settings
-	sidebar_about_description = "Das Bösinger Dorffest vom 21.6. bis 23.6.2024"
-	sidebar_about_image = "/img/df-logo.jpg"
+	#sidebar_about_description = "Das Bösinger Dorffest vom 21.6. bis 23.6.2024"
+	#sidebar_about_image = "/img/df-logo.jpg"
 
-	sidebar_avatar = "img/df-logo.jpg"
+	#sidebar_avatar = "img/df-logo.jpg"
 
 	featured_tags = false
 	featured_condition_size = 1
