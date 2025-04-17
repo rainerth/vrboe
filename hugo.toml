@@ -1,6 +1,6 @@
 baseURL = 'https://www.boesinger-vereine.de'
 languageCode = 'de_DE'
-title = 'Bösinger Vereine feiern'
+title = 'Bösinger Vereine und Veranstaltungen'
 theme = 'hugo-theme-cleanwhite'
 copyright = 'Vereinsring Bösingen e.V.'
 
@@ -123,6 +123,15 @@ home = ["HTML", "RSS"]
 	[[params.friend_link]]
 	title = "Sozialgemeinschaft"
 	href = "https://se-eschach-neckar.drs.de/kirchengemeinden-der-seelsorgeeinheit/boesingen/sozialgemeinschaft.html"
+
+	[[params.friend_link]]
+	title = "Bürgerenergiegenossenschaft Bösingen e.G."
+	href = "/vereine/buergerenergiegenossenschaft-boesingen/"
+	draft = true
+
+	[[params.friend_link]]
+
+
 
 	[[params.addtional_menus]]
 	title =  "Vereine"
