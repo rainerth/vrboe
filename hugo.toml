@@ -126,7 +126,7 @@ home = ["HTML", "RSS"]
 
 	[[params.friend_link]]
 	title = "Bürgerenergiegenossenschaft Bösingen e.G."
-	href = "/vereine/buergerenergiegenossenschaft-boesingen/"
+	href = "/buergerenergie/"
 	draft = true
 
 	[[params.friend_link]]
