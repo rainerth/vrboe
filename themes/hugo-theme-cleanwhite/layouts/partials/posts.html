@@ -1,17 +1,26 @@
 <div data-pagefind-ignore="all" class="container">
-    <div class="row">
-        <!-- USE SIDEBAR -->
-        <!-- Post Container -->
-   	    <div class="
-            col-lg-8 col-lg-offset-1
-            col-md-8 col-md-offset-1
-            col-sm-12
-            col-xs-12
-            post-container
-        ">
-            {{ partial "post_list.html" . }}
-            {{ partial "pagination.html" . }}
-       	</div>
-        {{ partial "sidebar.html" . }}
+	<div class="row">
+	  <!-- USE SIDEBAR -->
+	  <!-- Post Container -->
+	  <div class="
+		col-lg-8 col-lg-offset-1
+		col-md-8 col-md-offset-1
+		col-sm-12
+		col-xs-12
+		post-container">
+		{{ partial "post_list.html" . }}
+		{{/* partial "pagination.html" . */}}
+	  </div>
+
+	  {{ partial "sidebar.html" . }}
 	</div>
-</div>
+  </div>
+
+  <!-- Archive‑Link -->
+  <div class="container">
+	<div class="row">
+	  <div class="col-lg-8 col-lg-offset-1 col-md-8 col-md-offset-1 col-sm-12 col-xs-12 text-center">
+		<a class="btn btn-default" href="{{ "/archiv" | relURL }}">Termine der vergangenen Jahre im Archiv</a>
+	  </div>
+	</div>
+  </div>
