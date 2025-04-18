@@ -3,6 +3,7 @@ layout:			post
 title:			"Grillen & Chillen"
 subtitle:		"Samstag 6.7. an der Hofboschhütte"
 date:			2024-06-25
+event_date:     2024-06-07
 author:			"Albverein Bösingen e.V."
 image:			"/img/boesingen-hero.jpg"
 featured_image:	"/img/boesingen-hero.jpg"

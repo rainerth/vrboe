@@ -1,6 +1,18 @@
+
+{{/* 1 · Grenzdatum berechnen -5 Tage zurück ab Build‑Zeit */}}
+{{ $cutoff := now.AddDate 0 0 -50 }}         {{/* AddDate (Y,M,D) */}}
+{{ warnf "cutoff = %v" $cutoff }}
+
+{{/* cutoff als String im gleichen Format wie event_date */}}
+{{ $cutoffStr := dateFormat "2006-01-02" $cutoff }}
+
+{{ $events := where .Site.RegularPages "Params.event_date" "ge" $cutoffStr }}
+
 <!-- post list -->
 <div data-pagefind-ignore="all">
-{{ range $index, $element := $.Paginator.Pages }}
+{{ range sort $events "Params.event_date" }}
+
+<!-- DEBUG: {{ .Date }} / {{ .Title }} -->
 <div class="post-preview">
     <a href="{{ .Permalink }}">
         <h2 class="post-title">
@@ -45,3 +57,7 @@
 <hr>
 {{ end }}
 </div>
+
+
+{{/* Navigations‑Links zwischen den Pagern (optional) */}}
+{{/* template "_internal/pagination.html" . */}}

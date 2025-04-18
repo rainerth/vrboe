@@ -2,6 +2,7 @@
 title:       "Full Moon Party Vol. 7"
 subtitle:    "18.5.2024 Festhalle Bösingen"
 date:        2024-05-01
+event_date:	 2024-05-18
 author:      ""
 image:       "/img/fullmoon-hero.jpg"
 ---

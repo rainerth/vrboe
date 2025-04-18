@@ -1,45 +1,51 @@
 {{ define "main" }}
-{{ $pages := (where (where .Site.Pages "Type" "post") "IsPage" true) }}
+
+{{/* 1 · Alle Posts vom Typ "post" laden und nach event_date sortieren (asc) */}}
+{{ $pages := where .Site.RegularPages "Type" "post" }}
+{{ $pages = sort $pages "Params.event_date" "asc" }}
 
 <div data-pagefind-ignore="all" class="container">
-    <div class="row">
-   	    <div class="
-            col-lg-8 col-lg-offset-1
-            col-md-8 col-md-offset-1
-            col-sm-12
-            col-xs-12
-            post-container
-        ">
-            <div class="archive-list">
-                {{ range ($pages.GroupByDate "2006") }}
-                {{ if gt .Key 1 }}
-                    {{ $.Scratch.Set "count" 1 }}
-                    {{ range .Pages  }}
-                        {{ if (eq ($.Scratch.Get "count") 1) }}
-                            {{ $.Scratch.Set "count" 0 }}
-                            <h1 class="title is-4 has-text-weight-normal">{{ .Date.Format "2006" }}</h1>
-                        {{ end }}
-                    {{ end }}
+	<div class="row">
+		<div class="
+	  col-lg-8 col-lg-offset-1
+	  col-md-8 col-md-offset-1
+	  col-sm-12
+	  col-xs-12
+	  post-container">
+			<div class="archive-list">
+				{{/* 2 · Laufvariable für das aktuelle Jahr */}}
+				{{ $currentYear := "" }}
 
-                    <ul>
-                    {{ range .Pages }}
-                        <li>
-                            <span>{{ .Date.Format "01/02" }}</span> — 
-                            <a href="{{ .RelPermalink }}">
-                                {{ .Title }}
-                            </a>
-                        </li>
-                    {{ end }}
-                    </ul>
+				{{ range $pages }}
+				{{ $clean := replaceRE "[^0-9T:+-]" "" .Params.event_date }} {{/* alle Fremdzeichen raus */}}
+				{{ $ev := time $clean }}
 
-                {{ end }}
-                {{ end }}
-            </div>
-       	</div>
-        {{ partial "sidebar.html" . }}
+				{{ $year := $ev.Format "2006" }}
+
+				{{/* 3 · Neues Jahr? → Überschrift + <ul> starten */}}
+					{{ if ne $year $currentYear }}
+					{{ if ne $currentYear "" }}</ul>{{ end }} {{/* Vorherige Liste schließen */}}
+				<h1 class="title is-4 has-text-weight-normal">{{ $year }}</h1>
+				<ul>
+					{{ $currentYear = $year }}
+					{{ end }}
+
+					<li>
+						<span>{{ $ev.Format "02.01." }}</span> —
+						<a href="{{ .RelPermalink }}">{{ .Title }}</a>
+					</li>
+					{{ end }}
+
+					{{/* 4 · Letzte Liste schließen, falls es mindestens ein Jahr gab */}}
+					{{ if ne $currentYear "" }}
+				</ul>{{ end }}
+
+			</div>
+		</div>
+
+		{{ partial "sidebar.html" . }}
 	</div>
 </div>
-
 
 <hr />
 {{ end }}

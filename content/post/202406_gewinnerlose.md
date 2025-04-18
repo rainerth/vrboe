@@ -3,6 +3,7 @@ layout:			post
 title:			"Gewinnerlose Dorffest 2024"
 subtitle:		"Die Gewinne können abgeholt werden."
 date:			2024-06-24
+event_date:     2024-06-28
 author:			"Vereinsring Bösingen"
 image:			/img/001.jpg
 featured_image: /img/2024_gewinnerlose.png

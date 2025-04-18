@@ -1,8 +1,9 @@
 ---
 layout:			post
 title:			"Mittwochstreff an der Hofboschhütte"
-subtitle:		"jeden 2. Mittwoch im Monat"
-date:			2024-09-01
+subtitle:		"7. August"
+date:			2025-08-01
+event_date:  	2025-08-07
 author:			""
 image:			"/img/boesingen-hero.jpg"
 featured_image:	"/img/boesingen-hero.jpg"

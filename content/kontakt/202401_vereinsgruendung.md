@@ -3,7 +3,6 @@ layout:     post
 title:      "Neuer Verein in Bösingen"
 subtitle:   "Gemeinwohl jederzeit im Blick"
 date:       2024-01-12
-event_date: 2024-01-12
 author:     "Heinrich Hölsch"
 image:      img/vorstand-vereinsring-boesingen.jpg
 ---
