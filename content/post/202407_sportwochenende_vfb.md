@@ -2,8 +2,8 @@
 layout:			post
 title:			"VfB Sportwochenende"
 subtitle:		"Freitag 5. Juli - Sonntag 7. Juli Sportplatz Bösingen"
-date:			2024-06-25
-event_date:     2024-05-07
+PublishDate:	2024-06-25
+date:     		2024-05-07
 author:			"VfB Bösingen e.V."
 image:			"/img/boesingen-hero.jpg"
 featured_image:	"/img/2024_sportwochenende_vfb_2.jpg"

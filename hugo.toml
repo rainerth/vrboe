@@ -7,14 +7,14 @@ copyright = 'Vereinsring Bösingen e.V.'
 email = 'info ät boesinger-vereine.de'
 
 #frontpage pagination
-paginate = 10
+paginate = 15
 
 enableRobotsTXT = true
 
 [outputs]
 home = ["HTML", "RSS"]
 
-buildFuture = true
+# buildFuture = true
 
 
 [params]
@@ -30,6 +30,8 @@ buildFuture = true
 
 	logo = "/images/logo.png"
 	favicon = "/images/favicon.png"
+
+	custom_css = ["css/custom.css"]      # Pfad relativ zu /static
 
 
 	image_404 = "img/404-bg.jpg"

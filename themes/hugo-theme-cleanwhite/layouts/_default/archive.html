@@ -1,69 +1,45 @@
 {{ define "main" }}
+{{ $pages := (where (where .Site.Pages "Type" "post") "IsPage" true) }}
 
-{{/* 1 · alle Posts vom Typ »post« */}}
-{{ $allPosts := where .Site.RegularPages "Type" "post" }}
+<div data-pagefind-ignore="all" class="container">
+    <div class="row">
+   	    <div class="
+            col-lg-8 col-lg-offset-1
+            col-md-8 col-md-offset-1
+            col-sm-12
+            col-xs-12
+            post-container
+        ">
+            <div class="archive-list">
+                {{ range ($pages.GroupByDate "2006") }}
+                {{ if gt .Key 1 }}
+                    {{ $.Scratch.Set "count" 1 }}
+                    {{ range .Pages  }}
+                        {{ if (eq ($.Scratch.Get "count") 1) }}
+                            {{ $.Scratch.Set "count" 0 }}
+                            <h1 class="title is-4 has-text-weight-normal">{{ .Date.Format "2006" }}</h1>
+                        {{ end }}
+                    {{ end }}
 
-{{/* 2 · MIT event_date */}}
-{{ $eventPosts := where $allPosts ".Params.event_date" "!=" nil }}
-{{ $eventPosts = sort $eventPosts "Params.event_date" }}
+                    <ul>
+                    {{ range .Pages }}
+                        <li>
+                            <span>{{ .Date.Format "02.01." }}</span> —
+                            <a href="{{ .RelPermalink }}">
+                                {{ .Title }}
+                            </a>
+                        </li>
+                    {{ end }}
+                    </ul>
 
-{{/* 3 · OHNE event_date  (fällt auf .Date zurück) */}}
-{{ $datedPosts := where $allPosts ".Params.event_date" "==" nil }}
-{{ $datedPosts = sort $datedPosts "Date" }}
-
-{{/* 4 · zusammenführen */}}
-{{ $pages := append $eventPosts $datedPosts }}
-
-<div class="container" data-pagefind-ignore="all">
-  <div class="row">
-    <div class="
-      col-lg-8 col-lg-offset-1
-      col-md-8 col-md-offset-1
-      col-sm-12
-      col-xs-12
-      post-container">
-      <div class="archive-list">
-
-        {{/* aktuelle Jahresüberschrift */}}
-        {{ $currentYear := "" }}
-
-        {{ range $pages }}
-          {{/* Datum wählen: event_date → Date  */}}
-
-		  {{/* Rohwert holen und HTML/Markdown bereinigen */}}
-		  {{ $raw := .Params.event_date | default (dateFormat "2006-01-02" .Date) | plainify }}
-
-		  {{/* führende/anhängende Leer‑, Tab‑ und Zeilenzeichen entfernen */}}
-		  {{ $raw = trim $raw " \t\r\n" }}
-
-          {{ $clean := replaceRE "[^0-9T:+-]" "" $raw }}
-          {{ $ev    := time $clean | default nil }}
-          {{ if not $ev }}
-            {{ warnf "Skip %s – unparseable date %q" .File.Path $raw }}
-            {{ continue }}
-          {{ end }}
-
-          {{ $year := $ev.Format "2006" }}
-          {{ if ne $year $currentYear }}
-            {{ if ne $currentYear "" }}</ul>{{ end }}
-            <h1 class="title is-4 has-text-weight-normal">{{ $year }}</h1>
-            <ul>
-            {{ $currentYear = $year }}
-          {{ end }}
-
-          <li>
-            <span>{{ $ev.Format "02.01." }}</span> —
-            <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-          </li>
-        {{ end }}
-
-        {{ if ne $currentYear "" }}</ul>{{ end }}
-      </div>
-    </div>
-
-    {{ partial "sidebar.html" . }}
-  </div>
+                {{ end }}
+                {{ end }}
+            </div>
+       	</div>
+        {{ partial "sidebar.html" . }}
+	</div>
 </div>
 
-<hr/>
+
+<hr />
 {{ end }}

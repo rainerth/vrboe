@@ -1,12 +1,17 @@
 ---
-layout:     post
-title:      "Neuer Verein in Bösingen"
-subtitle:   "Gemeinwohl jederzeit im Blick"
-date:       2024-01-12
-event_date: 2024-01-12
-author:     "Heinrich Hölsch"
-image:      img/vorstand-vereinsring-boesingen.jpg
+layout:     	post
+title:      	"Neuer Verein in Bösingen"
+subtitle:   	"Gemeinwohl jederzeit im Blick"
+PublishDate:	2024-01-10
+date: 			2024-01-10
+author:     	"Heinrich Hölsch"
+image:      	img/vorstand-vereinsring-boesingen.jpg
 ---
+
+Der Vereinsring Bösingen e.V. wurde bei seiner Gründungsversammlung am Mittwoch, 10. Januar 2024 im Sportheim des VfB Bösingen ins Leben gerufen.
+
+Die formale Eintragung in das Vereinsregister erfolgte anschließend beim Amtsgericht Stuttgart unter der Nummer VR 726462.
+
 
 Zur Vereinsgründungsversammlung des Vereinsrings Bösingen kamen 29 Personen aus den zwölf Bösinger Vereinen im neuen Sportheim des VfB Bösingen zusammen. Gemeinnützigkeit lautet das Ziel des neuen Vereins.
 

@@ -4,7 +4,7 @@ layout: page
 
 # Die Bösinger Vereine
 
-Die Bösinger Vereine helfen zusammen! Über Vereins- und Altersgrenzen hinweg packen wir an und heißen zu vielen Veranstaltungen Gäste willkommen. Wir sind im **Vereinsring Bösingen e.V.** gemeinnützig organisiert und die meisten Vereine sind seit vielen Jahren aktiv beim Dorffest dabei.
+Die Bösinger Vereine helfen zusammen! Über Vereins- und Altersgrenzen hinweg packen wir in beiden Ortsteilen an und heißen zu vielen Veranstaltungen Gäste willkommen. Die Vereine im Ortsteil Bösingen sind im **Vereinsring Bösingen e.V.** gemeinnützig organisiert und die meisten Vereine sind seit vielen Jahren aktiv beim Dorffest dabei.
 
 ## [Angelverein Bösingen e.V.](http://www.angelverein-boesingen.de/)
 ![Angelverein Bösingen e.V.](/img/logo/logo-angelverein.jpg)

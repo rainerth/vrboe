@@ -1,0 +1,69 @@
+{{ define "main" }}
+
+{{/* 1 · alle Posts vom Typ »post« */}}
+{{ $allPosts := where .Site.RegularPages "Type" "post" }}
+
+{{/* 2 · MIT PublishDate */}}
+{{ $eventPosts := where $allPosts ".Params.PublishDate" "!=" nil }}
+{{ $eventPosts = sort $eventPosts "Params.PublishDate" }}
+
+{{/* 3 · OHNE PublishDate  (fällt auf .Date zurück) */}}
+{{ $datedPosts := where $allPosts ".Params.PublishDate" "==" nil }}
+{{ $datedPosts = sort $datedPosts "Date" }}
+
+{{/* 4 · zusammenführen */}}
+{{ $pages := append $eventPosts $datedPosts }}
+
+<div class="container" data-pagefind-ignore="all">
+  <div class="row">
+    <div class="
+      col-lg-8 col-lg-offset-1
+      col-md-8 col-md-offset-1
+      col-sm-12
+      col-xs-12
+      post-container">
+      <div class="archive-list">
+
+        {{/* aktuelle Jahresüberschrift */}}
+        {{ $currentYear := "" }}
+
+        {{ range $pages }}
+          {{/* Datum wählen: PublishDate → Date  */}}
+
+		  {{/* Rohwert holen und HTML/Markdown bereinigen */}}
+		  {{ $raw := .Params.PublishDate | default (dateFormat "2006-01-02" .Date) | plainify }}
+
+		  {{/* führende/anhängende Leer‑, Tab‑ und Zeilenzeichen entfernen */}}
+		  {{ $raw = trim $raw " \t\r\n" }}
+
+          {{ $clean := replaceRE "[^0-9T:+-]" "" $raw }}
+          {{ $ev    := time $clean | default nil }}
+          {{ if not $ev }}
+            {{ warnf "Skip %s – unparseable date %q" .File.Path $raw }}
+            {{ continue }}
+          {{ end }}
+
+          {{ $year := $ev.Format "2006" }}
+          {{ if ne $year $currentYear }}
+            {{ if ne $currentYear "" }}</ul>{{ end }}
+            <h1 class="title is-4 has-text-weight-normal">{{ $year }}</h1>
+            <ul>
+            {{ $currentYear = $year }}
+          {{ end }}
+
+          <li>
+            <span>{{ $ev.Format "02.01." }}</span> —
+            <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+          </li>
+        {{ end }}
+
+        {{ if ne $currentYear "" }}</ul>{{ end }}
+      </div>
+    </div>
+
+    {{ partial "sidebar.html" . }}
+  </div>
+</div>
+
+<hr/>
+{{ end }}

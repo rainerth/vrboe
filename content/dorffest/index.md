@@ -1,7 +1,7 @@
 ---
 title: Dorffest Bösingen 2026
 layout: page
-draft: true
+draft: false
 ---
 
 ## Programm

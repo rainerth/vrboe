@@ -1,63 +1,94 @@
-
-{{/* 1 · Grenzdatum berechnen -5 Tage zurück ab Build‑Zeit */}}
-{{ $cutoff := now.AddDate 0 0 -50 }}         {{/* AddDate (Y,M,D) */}}
+{{/* 1·Grenzdatum berechnen -5 Tage zurück ab Build-Zeit */}}
+{{ $cutoff := now.AddDate 0 0 -5 }} {{/* AddDate (Y,M,D) */}}
 {{ warnf "cutoff = %v" $cutoff }}
 
-{{/* cutoff als String im gleichen Format wie event_date */}}
-{{ $cutoffStr := dateFormat "2006-01-02" $cutoff }}
+{{/* 2·Alle regulären Seiten auf >= cutoff filtern */}}
+{{ $recent := where .Site.RegularPages "Date" "ge" $cutoff }}
 
-{{ $events := where .Site.RegularPages "Params.event_date" "ge" $cutoffStr }}
+{{/* 3 · sortieren - z.B. älteste zuerst */}}
+{{ $recent = sort $recent "Date" "asc" }}
+{{ warnf "Nach Filter (>= cutoff) : %d" (len $recent) }}
 
 <!-- post list -->
 <div data-pagefind-ignore="all">
-{{ range sort $events "Params.event_date" }}
+	{{ range sort (where .Site.RegularPages "Date" "ge" $cutoff) "Date" "asc" }}
 
-<!-- DEBUG: {{ .Date }} / {{ .Title }} -->
-<div class="post-preview">
-    <a href="{{ .Permalink }}">
-        <h2 class="post-title">
-            {{ .Title }}
-        </h2>
-	{{with .Params.subtitle }}
-        <h3 class="post-subtitle">
-            {{ . }}
-        </h3>
+	<!-- DEBUG: {{ .Date }} – {{ .Title }} -->
+	<div class="post-preview">
+		<a href="{{ .Permalink }}">
+			<h2 class="post-title">
+				{{ .Title }}
+			</h2>
+			{{with .Params.subtitle }}
+			<h3 class="post-subtitle">
+				{{ . }}
+			</h3>
+			{{ end }}
+
+			<div class="post-content-preview flex-preview">
+				{{/* Bild, falls vorhanden */}}
+				{{ with .Params.featured_image }}
+					{{ $img := resources.Get . }}
+					{{ if $img }}
+						{{/* Prüfen, ob es ein SVG ist */}}
+						{{ if eq $img.MediaType.SubType "svg" }}
+							<!-- SVG unverändert einbinden -->
+							<img class="featured-thumb" src="{{ $img.RelPermalink }}" alt="" loading="lazy">
+						{{ else }}
+							{{ $x100 := $img.Resize "100x" }}
+							{{ $x150 := $img.Resize "150x" }}
+							{{ $x200 := $img.Resize "200x" }}
+							<img class="featured-thumb"
+								src="{{ $x150.RelPermalink }}"
+								srcset="{{ $x100.RelPermalink }} 100w,
+										{{ $x150.RelPermalink }} 150w,
+										{{ $x200.RelPermalink }} 200w"
+								sizes="(max-width: 576px) 40vw,
+										(max-width: 768px) 30vw,
+										200px"
+								alt=""
+								loading="lazy">
+						{{ end }}
+					{{ else }}
+						<img class="featured-thumb" src="{{ . | relURL }}" alt="" loading="lazy">
+					{{ end }}
+				{{ end }}
+
+				{{/* Text daneben */}}
+				<div class="preview-text">
+					{{ with .Description }}
+						{{ . }}
+						{{ else }}
+						{{ .Summary }} …
+					{{ end }}
+				</div>
+			</div><!-- /.post-content-preview -->
+
+		</a>
+		<p class="post-meta">
+			{{ if .Params.metadata }}
+			{{ range $index, $element := .Params.metadata }}
+			{{ if .link }}
+			<a href="{{ .link }}">{{ .text }}</a>
+			{{ else }}
+			{{ .text }}
+			{{ end }}
+			{{ end }}
+			{{ else }}
+			{{ with .Params.author }}{{ . }}{{ else }}{{ .Site.Title }}{{ end }}
+			<!--, {{ .Date.Format "02.01.2006" }} -->
+			<!-- Don't show "Last Modified on" if update happened on the same day. -->
+			{{ if (and (not .Lastmod.IsZero) (not (eq (dateFormat "2006-01-02" .Lastmod) (dateFormat "2006-01-02"
+			.Date)))) }}
+			<br>Zuletzt geändert am {{ dateFormat "02.01.2006" .Params.LastMod }}
+			{{ end }}
+			{{ end }}
+		</p>
+
+	</div>
+	<hr>
 	{{ end }}
-        <div class="post-content-preview">
-	{{ with .Description }}
-            {{ . }}
-        {{ else }}
-            {{- $image := resources.Get .Params.featured_image -}}
-            <div>
-            {{ .Summary}} ...
-            </div>
-       {{ end }}
-        </div>
-    </a>
-    <p class="post-meta">
-    {{ if .Params.metadata }}
-        {{ range $index, $element := .Params.metadata }}
-            {{ if .link }}
-                <a href="{{ .link }}">{{ .text }}</a>
-            {{ else }}
-                {{ .text }}
-            {{ end }}
-        {{ end }}
-    {{ else }}
-        {{ with .Params.author }}{{ . }}{{ else }}{{ .Site.Title }}{{ end }}
-		<!--, {{ .Date.Format "02.01.2006" }} -->
-        <!-- Don't show "Last Modified on" if update happened on the same day. -->
-        {{ if (and (not .Lastmod.IsZero) (not (eq (dateFormat "2006-01-02" .Lastmod) (dateFormat "2006-01-02" .Date)))) }}
-            <br>Zuletzt geändert am {{ dateFormat "02.01.2006" .Params.LastMod }}
-        {{ end }}
-    {{ end }}
-    </p>
-
 </div>
-<hr>
-{{ end }}
-</div>
-
 
 {{/* Navigations‑Links zwischen den Pagern (optional) */}}
-{{/* template "_internal/pagination.html" . */}}
+{{ template "_internal/pagination.html" . }}

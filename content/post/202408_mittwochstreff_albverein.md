@@ -2,8 +2,8 @@
 layout:			post
 title:			"Mittwochstreff an der Hofboschhütte"
 subtitle:		"7. August"
-date:			2025-08-01
-event_date:  	2025-08-07
+PublishDate:	2025-08-01
+date:  			2025-08-07
 author:			""
 image:			"/img/boesingen-hero.jpg"
 featured_image:	"/img/boesingen-hero.jpg"

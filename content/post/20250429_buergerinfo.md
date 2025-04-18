@@ -2,11 +2,11 @@
 layout:         post
 title:          'Bürgerinformationsveranstaltung'
 subtitle:       "29.4.2025 Festhalle Bösingen"
-date:           2025-04-01
-event_date:     2025-04-29
+PublishDate: 	2025-04-01
+date:     		2025-04-29
 author:         "Gemeinde Bösingen"
 image:          "/img/boesingen-hero.jpg"
-featured_image: "/img/boesingen-hero.jpg"
+featured_image: "/img/logo/logo-boesingen.png"
 ---
 
 ## Herzliche Einladung zur Bürgerinformationsveranstaltung
@@ -31,4 +31,5 @@ Verfügung.
 Wir freuen über Ihre Teilnahme und einen interessanten Austausch.
 
 Peter Schuster
+
 Bürgermeister
