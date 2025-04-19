@@ -10,4 +10,4 @@ featured_image: "/img/logo/logo-dfvb.png"
 draft:			false
 ---
 
-Der Flugplatz in Bösingen ist die Location für eine wunderschöne Partynacht im Sommer. Nach vielen wunderschönen internen Partys will der Verein nun alle teilnehmen lassen.
+Der Flugplatz in Bösingen ist die optimale Location für eine Partynacht im Sommer. Nach vielen wunderschönen internen Partys will der Verein nun alle teilnehmen lassen. Das Konzept steht noch nicht ganz, aber der
