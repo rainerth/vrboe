@@ -91,10 +91,14 @@
                     <hr>
                     <h5>Vereine</h5>
                     <ul class="list-inline">
-                        {{ range .Site.Params.friend_link }}
-                        <li><a target="_blank" href="{{.href}}">{{.title}}</a></li>
-                        {{ end }}
-                    </ul>
+						{{ range .Site.Params.friend_link }}
+							{{ if not .draft}}
+								<li>
+									<a target="_blank" href="{{.href}}">{{.title}}</a>
+								</li>
+							{{ end }}
+						{{ end }}
+					</ul>
                 </section>
                 {{ end }}
             </div>
