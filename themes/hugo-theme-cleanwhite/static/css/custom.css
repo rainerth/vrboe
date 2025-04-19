@@ -3225,32 +3225,22 @@ li.pingback:first-child {
 }
 
 /* Optimierungen ------------------------------------------ */
-
-/* 1 · Basisgrößen anheben */
-html { font-size: 18px; } /* Root */
+/*
+/* 1 · Basisgrößen anheben * /
+html { font-size: 18px; } / * Root * /
 body { font-size: 1rem; line-height: 1.6; }
-
-/* 2 · Fluid Typography */·
-root { --step-0: clamp(1rem, 0.85rem + 0.6vw, 1.125rem); /* body */
---step-1: clamp(1.25rem, 1rem + 1vw, 1.75rem); /* h3 */
---step-2: clamp(1.5rem, 1.2rem + 1.4vw, 2.25rem); /* h2 */
---step-3: clamp(2rem, 1.6rem + 2vw, 3rem); /* h1 */
-}
-body { font-size: var(--step-0); }
-h3{ font-size: var(--step-1);}
-h2{font-size:var(--step-2);}
-h1{font-size:var(--step-3);}
-
+*/
 
 /* 3 · Meta‑Angaben & Menü, Lesbare 14‑ bis 15 px unterhalb von 1024 px. */
 .excerpt-meta, .entry-meta, .menu-primary a {
 font-size: 0.875rem; /* 14px bei 16px Root */
 }
 
-/* 4 · Zeilenlänge begrenzen, verhindert sehr lange Zeilen auf großen Monitoren. */
+/* 4 · Zeilenlänge begrenzen, verhindert sehr lange Zeilen auf großen Monitoren. * /
 .post-container { max-width: 70ch; margin: auto; }
+*/
 
-/* 5 · Großbuchstaben & Spationierung reduzieren, Versalien mit breitem Letter‑Spacing erschweren schnelles Lesen. */
+/* 5 · Großbuchstaben & Spationierung reduzieren, Versalien mit breitem Letter‑Spacing erschweren schnelles Lesen. * /
 .excerpt-title, .entry-title { text-transform:none; letter-spacing:0; }
 
 /* 7 · Dark‑Mode anbieten */
@@ -3259,10 +3249,68 @@ font-size: 0.875rem; /* 14px bei 16px Root */
 /* 8 · Scrollverhalten verbessern, Fließender Seitenwechsel, v.a. für Sprunglinks im Archiv. */
 html{ scroll-behavior:smooth; }
 
-/* 9. CSS‑Variablen für Abstände, Konsistente Rhythmik, schnellere Theme‑Pflege. */
+/* 9. CSS‑Variablen für Abstände, Konsistente Rhythmik, schnellere Theme‑Pflege. * /
 root{ --space-s:0.75rem; --space-m:1.5rem; --space-l:3rem; }
 .excerpt{ margin-bottom:var(--space-m); }
+*/
 
 /* 10 · Alt‑Text & Link‑Fokus sichtbar, Tastatur‑Navigation deutlich erkennbar; WCAG 2.2 AA. */
 /* a:focus{ outline:3px solid #ffaf00; outline-offset:2px; } */
 
+
+
+.address-block {
+	font-style: normal;        /* Standard‑Schrift, kein italic */
+	line-height: 1.5;          /* etwas großzügiger Zeilenabstand */
+	padding: 1rem;             /* Raum um den Block herum */
+	border-left: 3px solid #333; /* optischer Hingucker */
+	margin: 1rem 0;            /* Abstand nach oben/unten */
+}
+
+@media (max-width: 576px) {
+	.address-block {
+		padding: 0.5rem;
+		font-size: 0.9rem;
+	}
+}
+
+.admonition {
+	border-radius: .25rem;
+	margin: 1rem 0;
+	padding: 1rem;
+  }
+
+  .admonition-header {
+	font-weight: bold;
+	margin-bottom: .5rem;
+  }
+
+  .admonition-content {
+	line-height: 1.4;
+  }
+
+  /* Typ-spezifisch */
+  .admonition-note {
+	border-left: 4px solid #2196F3;
+	background: #e3f2fd;
+  }
+
+  .admonition-warning {
+	border-left: 4px solid #ff9800;
+	background: #fff3e0;
+  }
+
+  .admonition-tip {
+	border-left: 4px solid #4CAF50;
+	background: #e8f5e9;
+  }
+
+  .admonition-important {
+	border-left: 4px solid #f44336;
+	background: #ffebee;
+  }
+
+  .admonition-danger {
+	border-left: 4px solid #b71c1c;
+	background: #ffebee;
+  }

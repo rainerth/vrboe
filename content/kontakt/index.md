@@ -7,16 +7,31 @@ multilingual: false
 
 # Kontakt und Impressum
 
+{{< address >}}
 **Vereinsring Bösingen e.V.**
+
 Stefan Bantle
+
 DE-78662 Bösingen
+
 info ät boesinger-vereine.de
+
+{{< /address >}}
 
 Amtsgericht Stuttgart **VR 726462**, OH-Nummer C-26726249
 
 Erster Vorsitzender: **Stefan Bantle**
-stellvertretender Vorsitzender: **Hans-Peter Lapatki**
 
+Stellvertretender Vorsitzender: **Hans-Peter Lapatki**
+
+
+# Kontaktformular
+
+{{< tally
+    src="https://tally.so/embed/nG7Mgz?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1"
+    height="400"
+    title="Kontaktformular"
+>}}
 
 
 # Haftungsausschluss (Disclaimer)
