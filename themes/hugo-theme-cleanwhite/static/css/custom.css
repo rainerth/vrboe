@@ -3186,7 +3186,7 @@ li.pingback:first-child {
 .featured-thumb {
 	flex: 0 0 200px;           /* nimmt maximal 200 px Breite ein */
 	max-width: 200px;
-	width: 40%;                /* auf sehr kleinen Screens schrumpfen */
+	width: 20%;                /* auf sehr kleinen Screens schrumpfen */
 	height: auto;
 }
 
@@ -3198,6 +3198,71 @@ li.pingback:first-child {
 /* Feinjustierung für Smartphones --------------------------- */
 @media (max-width: 576px) {
 	.featured-thumb {
-	  width: 45%;          /* etwas breiter, aber max‑width bleibt 200px */
+		flex: 0 0 100px;           /* nimmt maximal 100 px Breite ein */
+		max-width: 200px;
+		width: 25%;          /* etwas breiter, aber max‑width bleibt 200px */
 	}
 }
+
+
+/* Feinjustierung für Tablets ------------------------------ */
+@media (min-width: 576px) and (max-width: 768px) {
+	.featured-thumb {
+	  width: 20%;          /* etwas breiter, aber max‑width bleibt 200px */
+	}
+}
+/* Feinjustierung für Laptops ----------------------------- */
+@media (min-width: 768px) and (max-width: 992px) {
+	.featured-thumb {
+	  width: 20%;          /* etwas breiter, aber max‑width bleibt 200px */
+	}
+}
+/* Feinjustierung für Desktop-Rechner --------------------- */
+@media (min-width: 992px) and (max-width: 1200px) {
+	.featured-thumb {
+	  width: 20%;          /* etwas breiter, aber max‑width bleibt 200px */
+	}
+}
+
+/* Optimierungen ------------------------------------------ */
+
+/* 1 · Basisgrößen anheben */
+html { font-size: 18px; } /* Root */
+body { font-size: 1rem; line-height: 1.6; }
+
+/* 2 · Fluid Typography */·
+root { --step-0: clamp(1rem, 0.85rem + 0.6vw, 1.125rem); /* body */
+--step-1: clamp(1.25rem, 1rem + 1vw, 1.75rem); /* h3 */
+--step-2: clamp(1.5rem, 1.2rem + 1.4vw, 2.25rem); /* h2 */
+--step-3: clamp(2rem, 1.6rem + 2vw, 3rem); /* h1 */
+}
+body { font-size: var(--step-0); }
+h3{ font-size: var(--step-1);}
+h2{font-size:var(--step-2);}
+h1{font-size:var(--step-3);}
+
+
+/* 3 · Meta‑Angaben & Menü, Lesbare 14‑ bis 15 px unterhalb von 1024 px. */
+.excerpt-meta, .entry-meta, .menu-primary a {
+font-size: 0.875rem; /* 14px bei 16px Root */
+}
+
+/* 4 · Zeilenlänge begrenzen, verhindert sehr lange Zeilen auf großen Monitoren. */
+.post-container { max-width: 70ch; margin: auto; }
+
+/* 5 · Großbuchstaben & Spationierung reduzieren, Versalien mit breitem Letter‑Spacing erschweren schnelles Lesen. */
+.excerpt-title, .entry-title { text-transform:none; letter-spacing:0; }
+
+/* 7 · Dark‑Mode anbieten */
+@media (prefers-color-scheme: dark) { body{ background:#111; color:#eee; } a{ color:#79b8ff; } }
+
+/* 8 · Scrollverhalten verbessern, Fließender Seitenwechsel, v.a. für Sprunglinks im Archiv. */
+html{ scroll-behavior:smooth; }
+
+/* 9. CSS‑Variablen für Abstände, Konsistente Rhythmik, schnellere Theme‑Pflege. */
+root{ --space-s:0.75rem; --space-m:1.5rem; --space-l:3rem; }
+.excerpt{ margin-bottom:var(--space-m); }
+
+/* 10 · Alt‑Text & Link‑Fokus sichtbar, Tastatur‑Navigation deutlich erkennbar; WCAG 2.2 AA. */
+/* a:focus{ outline:3px solid #ffaf00; outline-offset:2px; } */
+
