@@ -6,7 +6,7 @@ title: Bürgerenergie-Genossenschaft Bösingen ??
 subtitle:    "Sind Sie dabei?"
 description: Bürgerenergiegenossenschaft Bösingen ??
 draft: false
-header_image: "/img/buergerenergie-hero.png"
+header_image: "/img/buergerenergie-hero.webp"
 ---
 
 [Direkt zum Kontaktformular](#kontaktformular)
