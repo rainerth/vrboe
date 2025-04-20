@@ -1,90 +1,88 @@
 {{/* 1·Grenzdatum berechnen -5 Tage zurück ab Build-Zeit */}}
-{{ $cutoff := now.AddDate 0 0 -5 }} {{/* AddDate (Y,M,D) */}}
+{{ $cutoff := now.AddDate 0 0 -5 }}
 {{ warnf "cutoff = %v" $cutoff }}
 
 {{/* 2·Alle regulären Seiten auf >= cutoff filtern */}}
-{{ $recent := where .Site.RegularPages "Date" "ge" $cutoff }}
+{{ $events := where .Site.RegularPages "Date" "ge" $cutoff }}
 
 {{/* 3 · sortieren - z.B. älteste zuerst */}}
-{{ $recent = sort $recent "Date" "asc" }}
-{{ warnf "Nach Filter (>= cutoff) : %d" (len $recent) }}
+{{ $events = sort $events "Date" "asc" }}
+{{/* warnf "Nach Filter (>= cutoff) : %d" (len $events) */}}
 
 <!-- post list -->
 <div data-pagefind-ignore="all">
-	{{ range sort (where .Site.RegularPages "Date" "ge" $cutoff) "Date" "asc" }}
+	{{/* range sort (where .Site.RegularPages "Date" "ge" $cutoff) "Date" "asc" */}}
+	{{ range $events}}
+	<div class="post-preview" itemscope itemtype="http://schema.org/Event">
+		{{/* Event-Status (geplant) */}}
+		<meta itemprop="eventStatus" content="https://schema.org/EventScheduled" />
 
-	<!-- DEBUG: {{ .Date }} – {{ .Title }} -->
-	<div class="post-preview">
-		<a href="{{ .Permalink }}">
-			<h2 class="post-title">
-				{{ .Title }}
-			</h2>
-			{{with .Params.subtitle }}
-			<h3 class="post-subtitle">
-				{{ . }}
-			</h3>
-			{{ end }}
-
-			<div class="post-content-preview flex-preview">
-				{{/* Bild, falls vorhanden */}}
-				{{ with .Params.featured_image }}
-					{{ $img := resources.Get . }}
-					{{ if $img }}
-						{{/* Prüfen, ob es ein SVG ist */}}
-						{{ if eq $img.MediaType.SubType "svg" }}
-							<!-- SVG unverändert einbinden -->
-							<img class="featured-thumb" src="{{ $img.RelPermalink }}" alt="" loading="lazy">
-						{{ else }}
-							{{ $x100 := $img.Resize "100x" }}
-							{{ $x150 := $img.Resize "150x" }}
-							{{ $x200 := $img.Resize "200x" }}
-							<img class="featured-thumb"
-								src="{{ $x150.RelPermalink }}"
-								srcset="{{ $x100.RelPermalink }} 100w,
-										{{ $x150.RelPermalink }} 150w,
-										{{ $x200.RelPermalink }} 200w"
-								sizes="(max-width: 576px) 40vw,
-										(max-width: 768px) 30vw,
-										100px"
-								alt=""
-								loading="lazy">
-						{{ end }}
-					{{ else }}
-						<img class="featured-thumb" src="{{ . | relURL }}" alt="" loading="lazy">
-					{{ end }}
-				{{ end }}
-
-				{{/* Text daneben */}}
-				<div class="preview-text">
-					{{ with .Description }}
-						{{ . }}
-						{{ else }}
-						{{ .Summary }} …
-					{{ end }}
-				</div>
-			</div><!-- /.post-content-preview -->
-
+		{{/* Link zum Event */}}
+		<a href="{{ .Permalink }}" itemprop="url">
+			<h2 class="post-title" itemprop="name">{{ .Title }}</h2>
 		</a>
-		<p class="post-meta">
-			{{ if .Params.metadata }}
-			{{ range $index, $element := .Params.metadata }}
-			{{ if .link }}
-			<a href="{{ .link }}">{{ .text }}</a>
-			{{ else }}
-			{{ .text }}
-			{{ end }}
-			{{ end }}
-			{{ else }}
-			{{ with .Params.author }}{{ . }}{{ else }}{{ .Site.Title }}{{ end }}
-			<!--, {{ .Date.Format "02.01.2006" }} -->
-			<!-- Don't show "Last Modified on" if update happened on the same day. -->
-			{{ if (and (not .Lastmod.IsZero) (not (eq (dateFormat "2006-01-02" .Lastmod) (dateFormat "2006-01-02"
-			.Date)))) }}
-			<br>Zuletzt geändert am {{ dateFormat "02.01.2006" .Params.LastMod }}
-			{{ end }}
-			{{ end }}
-		</p>
 
+		{{/* … innerhalb Deines post_list.html … */}}
+		<time itemprop="startDate"
+			  datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">
+			{{/* 1 · Wochentag auf Englisch holen */}}
+			{{ $wdEN := .Date.Format "Monday" }}
+			{{/* 2 · Mapping englisch → deutsch */}}
+			{{ $wdDE := dict
+				"Monday"    "Montag"
+				"Tuesday"   "Dienstag"
+				"Wednesday" "Mittwoch"
+				"Thursday"  "Donnerstag"
+				"Friday"    "Freitag"
+				"Saturday"  "Samstag"
+				"Sunday"    "Sonntag"
+			}}
+			{{ $weekday := index $wdDE $wdEN }}
+
+			{{/* 3 · Datum und Uhrzeit formatieren */}}
+			{{ $date := .Date.Format "02.01.2006" }}
+			{{ $time := .Date.Format "15:04" }}
+
+			{{/* 4 · Sichtbare Ausgabe: immer Wochentag + Datum */}}
+			{{ $output := printf "%s, %s" $weekday $date }}
+
+			{{/* 5 · Nur wenn Time ≠ 00:00, noch „ HH:MM Uhr“ anhängen */}}
+			{{ if ne $time "00:00" }}
+				{{ printf "%s %s Uhr" $output $time }}
+			{{ else }}
+				{{ $output }}
+			{{ end }}
+		</time>
+
+		{{/* Ort, wenn Du ihn in Front‑Matter pflegst */}}
+		{{ with .Params.location }}
+			<div itemprop="location" itemscope itemtype="http://schema.org/Place">
+				<span itemprop="name">{{ . }}</span>
+			</div>
+		{{ end }}
+
+		<div class="post-content-preview flex-preview" itemprop="description">
+			{{/* Bild als Event‑Image, falls vorhanden */}}
+			{{ with .Params.featured_image }}
+			<img itemprop="image" class="featured-thumb" src="{{ . | relURL }}" alt="{{ $.Title }}" loading="lazy">
+			{{ end }}
+
+			{{/* Textbeschreibung */}}
+			<div class="preview-text">
+				{{ with .Description }}
+				{{ . }}
+				{{ else }}
+				{{ .Summary }} …
+				{{ end }}
+			</div>
+		</div>
+		{{/* Veranstalter / Organizer */}}
+		{{ with .Params.organizer }}
+			<div itemprop="organizer" itemscope itemtype="http://schema.org/Organization">
+				<meta itemprop="name" content="{{ . }}" />
+				Veranstalter: {{ . }}
+			</div>
+		{{ end }}
 	</div>
 	<hr>
 	{{ end }}

@@ -1,6 +1,5 @@
 <div data-pagefind-ignore="all" class="container">
 	<div class="row">
-	  <!-- USE SIDEBAR -->
 	  <!-- Post Container -->
 	  <div class="
 		col-lg-8 col-lg-offset-1
@@ -8,19 +7,24 @@
 		col-sm-12
 		col-xs-12
 		post-container">
+		{{/* Hier wird der gesamte Loop aus post_list.html gerendert */}}
 		{{ partial "post_list.html" . }}
+		{{/* Wenn du später doch eine Paginierung möchtest, kannst du sie so aktivieren: */}}
 		{{/* partial "pagination.html" . */}}
 	  </div>
 
+	  <!-- Sidebar -->
 	  {{ partial "sidebar.html" . }}
 	</div>
   </div>
 
-  <!-- Archive‑Link -->
+  <!-- Link ins Archiv vergangener Jahre -->
   <div class="container">
 	<div class="row">
 	  <div class="col-lg-8 col-lg-offset-1 col-md-8 col-md-offset-1 col-sm-12 col-xs-12 text-center">
-		<a class="btn btn-default" href="{{ "/archiv" | relURL }}">Termine der vergangenen Jahre im Archiv</a>
+		<a class="btn btn-default" href="{{ "/archiv" | relURL }}">
+		  Termine der vergangenen Jahre im Archiv
+		</a>
 	  </div>
 	</div>
   </div>

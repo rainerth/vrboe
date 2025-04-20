@@ -4,7 +4,8 @@ title:			"Mittwochstreff an der Hofboschhütte"
 subtitle:		"jeden 2. Mittwoch im Monat"
 PublishDate:	2024-09-01
 date:     		2024-09-15
-author:			""
+location:		"Hofboschhütte Bösingen"
+organizer:		"Albverein Bösingen e.V."
 image:			"/img/boesingen-hero.jpg"
 featured_image:	"/img/boesingen-hero.jpg"
 ---

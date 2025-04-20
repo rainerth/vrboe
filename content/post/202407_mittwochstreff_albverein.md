@@ -1,10 +1,11 @@
 ---
 layout:			post
 title:			"Mittwochstreff an der Hofboschhütte"
-subtitle:		"10. Juli"
-PublishDate::	2024-07-01
+subtitle:		""
+PublishDate:	2024-07-01
 date:     		2024-07-10
-author:			"Albverein Bösingen e.V."
+location:		"Hofboschhütte Bösingen"
+organizer:		"Albverein Bösingen e.V."
 image:			"/img/boesingen-hero.jpg"
 featured_image:	"/img/logo/logo-albverein.svg"
 

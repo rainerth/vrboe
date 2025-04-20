@@ -1,36 +1,61 @@
 <!DOCTYPE html>
 <html lang="{{ .Site.LanguageCode }}">
-{{ partial "head.html" . }}
-{{ partial "nav.html" . }}
-<!-- Page Header -->
-{{ block "header" .}}
-<header class="intro-header" style="background-image: url('{{ with .Params.header_image }}{{ . | relURL }}{{ else }}{{ .Site.Params.header_image | relURL }}{{ end }}')">
-    <div class="container">
+  {{ partial "head.html" . }}
+  {{ partial "nav.html" . }}
+
+  {{ block "header" . }}
+    {{/* Wenn es ein Event ist (event_date existiert), dann Microdata hinzufügen */}}
+    {{ $isEvent := .Params.event_date }}
+    <header class="intro-header"
+            style="background-image: url('{{ with .Params.header_image }}{{ . | relURL }}{{ else }}{{ .Site.Params.header_image | relURL }}{{ end }}');"
+            {{ if $isEvent }}itemscope itemtype="http://schema.org/Event"{{ end }}>
+
+      <div class="container">
         <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 ">
-                <div class="site-heading">
-					{{ with .Params.title }}
-					  <h1>{{ . }}</h1>
-					{{ else }}
-					  <h1>{{ .Site.Title }}</h1>
-					{{ end }}
-					<!-- Falls gesetzt: .Params.subtitle, sonst Fallback auf Site‑Param -->
-					{{ with .Params.subtitle }}
-					  <span class="subheading"><h2>{{ . }}</h2></span>
-					{{ else }}
-					  <span class="subheading">{{ .Site.Params.subtitle }}</span>
-					{{ end }}                    <!--<hr class="small">-->
-		    	<!-- <span class="subheading">{{ .Site.Params.slogan }}</span> -->
-                </div>
+          <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+            <div class="site-heading">
+
+              {{/* Titel */}}
+              {{ with .Params.title }}
+                <h1 itemprop="{{ if $isEvent }}name{{ else }}headline{{ end }}">{{ . }}</h1>
+              {{ else }}
+                <h1>{{ .Site.Title }}</h1>
+              {{ end }}
+
+              {{/* Untertitel oder Datum */}}
+              {{ if $isEvent }}
+                {{/* Event‑Datum ausgeben */}}
+                <time class="subheading"
+                      itemprop="startDate"
+                      datetime="{{ .Params.event_date }}">
+                  {{ .Params.event_date }}
+                </time>
+                <meta itemprop="eventStatus"
+                      content="https://schema.org/EventScheduled" />
+                {{ with .Params.location }}
+                  <div itemprop="location"
+                       itemscope itemtype="http://schema.org/Place">
+                    <meta itemprop="name" content="{{ . }}" />
+                    <span class="subheading">{{ . }}</span>
+                  </div>
+                {{ end }}
+              {{ else }}
+                {{ with .Params.subtitle }}
+                  <span class="subheading">{{ . }}</span>
+                {{ else }}
+                  <span class="subheading">{{ .Site.Params.subtitle }}</span>
+                {{ end }}
+              {{ end }}
+
             </div>
+          </div>
         </div>
-    </div>
-</header>
-{{ end }}
+      </div>
+    </header>
+  {{ end }}
 
-{{ block "main" . }}
-{{ end }}
+  {{ block "main" . }}{{ end }}
 
-{{ partial "footer.html" . }}
+  {{ partial "footer.html" . }}
 </body>
 </html>

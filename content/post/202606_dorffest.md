@@ -4,7 +4,7 @@ title:      	"Dorffest in Bösingen"
 subtitle:   	"im Juni 2026"
 date:       	2026-06-01
 PublishDate: 	2026-01-01
-author:     	"Vereinsring Bösingen"
+organizer:     	"Vereinsring Bösingen"
 image:      	img/002.jpg
 draft:			true
 ---

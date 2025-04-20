@@ -1,12 +1,13 @@
 ---
 layout:         post
 title:          'Bürgerinformationsveranstaltung'
-subtitle:       "29.4.2025 Festhalle Bösingen"
+subtitle:       "29.4.2025 Mehrzweckhalle Bösingen"
+location:		"Mehrzweckhalle Bösingen"
 PublishDate: 	2025-04-01
-date:     		2025-04-29
-author:         "Gemeinde Bösingen"
+date:     		2025-04-29 18:00:00
+organizer: 		"Gemeinde Bösingen"
 image:          "/img/boesingen-hero.jpg"
-featured_image: "/img/logo/logo-boesingen.png"
+featured_image: "/img/20250429_buergerinformationsveranstaltung.jpg"
 ---
 
 ## Herzliche Einladung zur Bürgerinformationsveranstaltung

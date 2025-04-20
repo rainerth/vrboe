@@ -1,12 +1,13 @@
 ---
 layout:         post
 title:          "Ehrungsabend"
-subtitle:       "21.6.2025 Festhalle Bösingen" # Datum Uhrzeit Ort
+subtitle:       ""
 PublishDate:	2025-04-15   	# Zeitpunkt der Veröffentlichung
 date:     		2025-06-21   	# Veranstaltungstermin
-author:         "Gemeinde Bösingen"				# Veranstalter
-image:          "/img/boesingen-hero.jpg"	# Banner
-featured_image: "/img/logo/logo-boesingen.png"	# Bild im Text
+location:		"Mehrzweckhalle Bösingen"
+organizer:      "Gemeinde Bösingen"
+image:          "/img/boesingen-hero.jpg"
+featured_image: "/img/logo/logo-boesingen.png"	
 ---
 
 Ehrungsabend der Gemeinde.

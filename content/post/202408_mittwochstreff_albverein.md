@@ -1,10 +1,11 @@
 ---
 layout:			post
 title:			"Mittwochstreff an der Hofboschhütte"
-subtitle:		"7. August"
+subtitle:		""
 PublishDate:	2025-08-01
 date:  			2025-08-07
-author:			""
+location:		"Hofboschhütte Bösingen"
+organizer:		"Albverein Bösingen e.V."
 image:			"/img/boesingen-hero.jpg"
 featured_image:	"/img/boesingen-hero.jpg"
 ---

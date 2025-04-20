@@ -4,7 +4,9 @@ title:      	"Neuer Verein in Bösingen"
 subtitle:   	"Gemeinwohl jederzeit im Blick"
 PublishDate:	2024-01-10
 date: 			2024-01-10
+location:		"Sportheim Bösingen"
 author:     	"Heinrich Hölsch"
+organizer:		"Vereinsring Bösingen"
 image:      	img/vorstand-vereinsring-boesingen.jpg
 ---
 
