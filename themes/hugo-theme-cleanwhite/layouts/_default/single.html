@@ -1,170 +1,254 @@
 {{ define "header" }}
 <!-- Post Header -->
 <style type="text/css">
-    header.intro-header {
-        background-image: url('{{ if .Params.image }}{{ .Params.image | relURL }}{{ else }}{{ .Site.Params.header_image | relURL}}{{ end }}')
-    }
+	header.intro-header {
+		background-image: url('{{ if .Params.image }}{{ .Params.image | relURL }}{{ else }}{{ .Site.Params.header_image | relURL}}{{ end }}')
+	}
 </style>
 {{ if eq .Params.headerstyle "text" }}
-<header class="intro-header style-text" >
-{{ else }}
-<header class="intro-header" >
-{{ end }}
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                <div class="post-heading">
-                    <div class="tags">
-                        {{ range .Params.tags }}
-                        <a class="tag" href="{{ "/tags/" | relLangURL }}{{ . | urlize }}" title="{{ . }}">
-                            {{ . }}
-                        </a>
-                        {{ end }}
-                    </div>
-                    <h1>{{ .Title }}</h1>
-                    <h2 class="subheading">{{ .Params.subtitle }}</h2>
-                    <span class="meta">
-                        {{ if .Params.metadata }}
-                            {{ range $index, $element := .Params.metadata }}
-                                {{ if .link }}
-                                    <a href="{{ .link }}">{{ .text }}</a>
-                                {{ else }}
-                                    {{ .text }}
-                                {{ end }}
-                            {{ end }}
-                        {{ else }}
+<header class="intro-header style-text">
+	{{ else }}
+	<header class="intro-header">
+		{{ end }}
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+					<div class="post-heading">
+						<div class="tags">
+							{{ range .Params.tags }}
+							<a class="tag" href="{{ " /tags/" | relLangURL }}{{ . | urlize }}" title="{{ . }}">
+								{{ . }}
+							</a>
+							{{ end }}
+						</div>
+						<h1>{{ .Title }}</h1>
+						<h2 class="subheading">{{ .Params.subtitle }}</h2>
+						<span class="meta">
+							{{ if .Params.metadata }}
+							{{ range $index, $element := .Params.metadata }}
+							{{ if .link }}
+							<a href="{{ .link }}">{{ .text }}</a>
+							{{ else }}
+							{{ .text }}
+							{{ end }}
+							{{ end }}
+							{{ else }}
 
-                            {{ if .Params.author }}
-                                {{ .Params.author }}
-                            {{ else }}
-                                    {{ .Site.Title }}
-                            {{ end }}
-                            <!-- am
-                            {{ .Date | dateFormat "02.01.2006" }}
+							{{ .Date | dateFormat "02.01.2006" }}
+							{{ if .Params.organizer }}
+							| Veranstalter: {{ .Params.organizer }}
+							{{ else }}
+							| {{ .Site.Title }}
+							{{ end }}
+							<!-- am
                             {{ if .Site.Params.page_view_conter }}
                                 {{ partial "page_view_counter.html" . }}
                             {{ end }}
 							-->
-                            <!-- Don't show "Last Modified on" if update happened on the same day. -->
-                            {{ if (and (not .Lastmod.IsZero) (not (eq (dateFormat "2006-01-02" .Lastmod) (dateFormat "2006-01-02" .Date)))) }}
-                            <br>Zuletzt geändert am {{ dateFormat "02.01.2006" .Params.LastMod }}
-                            {{ end }}
-                        {{ end }}
-                    </span>
-                </div>
-            </div>
-        </div>
-    </div>
-</header>
-{{ end }}
+							<!-- Don't show "Last Modified on" if update happened on the same day. -->
+							{{ if (and (not .Lastmod.IsZero) (not (eq (dateFormat "2006-01-02" .Lastmod) (dateFormat
+							"2006-01-02" .Date)))) }}
+							<br>Zuletzt geändert am {{ dateFormat "02.01.2006" .Params.LastMod }}
+							{{ end }}
+							{{ end }}
+						</span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	{{ end }}
 
-{{ define "main" }}
-<!-- Post Content -->
-<article>
-    <div class="container">
-        <div class="row">
+	{{ define "main" }}
+	<!-- Post Content -->
+	<article>
+		<div class="container">
+			<div class="row">
 
-            <!-- Post Container -->
-            <div class="
+				<!-- Post Container -->
+				<div class="
                 col-lg-8 col-lg-offset-2
                 col-md-10 col-md-offset-1
                 post-container">
 
-                <!--
-                {{ if not (eq (.Param "showtoc") false) }}
-                <header>
-                    <h2>TOC</h2>
-                </header>
-                {{.TableOfContents}}
-                {{ end }}
-                -->
-                {{ .Content }}
 
-                {{ if .Site.Params.reward }}
-                {{ partial "reward.html" . }}
-                {{ end }}
 
-                {{ if or (.PrevInSection) (.NextInSection) }}
-                <hr>
-                <ul class="pager">
-                    {{ if .PrevInSection }}
-                    <li class="previous">
-                        <a href="{{ .PrevInSection.RelPermalink }}" data-toggle="tooltip" data-placement="top" title="{{ .PrevInSection.Title}}">&larr;
-                            vorheriger Beitrag</a>
-                    </li>
-                    {{ end }}
-                    {{ if .NextInSection }}
-                    <li class="next">
-                        <a href="{{ .NextInSection.RelPermalink }}" data-toggle="tooltip" data-placement="top" title="{{ .NextInSection.Title}}">nächster
-                            Beitrag &rarr;</a>
-                    </li>
-                    {{ end }}
-                </ul>
-                {{ end }}
+				{{ if or (.PrevInSection) (.NextInSection) }}
+				<hr>
+				<ul class="pager">
+					{{ if .PrevInSection }}
+					<li class="previous">
+						<a href="{{ .PrevInSection.RelPermalink }}" data-toggle="tooltip" data-placement="top"
+						title="{{ .PrevInSection.Title}}">&larr;
+						vorheriger Termin</a>
+					</li>
+					{{ end }}
+					{{ if .NextInSection }}
+					<li class="next">
+						<a href="{{ .NextInSection.RelPermalink }}" data-toggle="tooltip" data-placement="top"
+						title="{{ .NextInSection.Title}}">nächster
+						Termin &rarr;</a>
+					</li>
+					{{ end }}
+				</ul>
+				{{ end }}
 
-                {{ partial "comments.html" . }}
-            </div>
 
-            <!-- Side Catalog Container -->
-            {{ if not (eq (.Param "showtoc") false) }}
-            <div class="
+
+					{{/* Event */}}
+					<h2 class="post-title" itemprop="name">{{ .Title }}</h2>
+
+					{{/* … innerhalb Deines post_list.html … */}}
+					<time itemprop="startDate" datetime="{{ .Date.Format " 2006-01-02T15:04:05Z07:00" }}">
+						{{/* 1 · Wochentag auf Englisch holen */}}
+						{{ $wdEN := .Date.Format "Monday" }}
+						{{/* 2 · Mapping englisch → deutsch */}}
+						{{ $wdDE := dict
+						"Monday" "Montag"
+						"Tuesday" "Dienstag"
+						"Wednesday" "Mittwoch"
+						"Thursday" "Donnerstag"
+						"Friday" "Freitag"
+						"Saturday" "Samstag"
+						"Sunday" "Sonntag"
+						}}
+						{{ $weekday := index $wdDE $wdEN }}
+
+						{{/* 3 · Datum und Uhrzeit formatieren */}}
+						{{ $date := .Date.Format "02.01.2006" }}
+						{{ $time := .Date.Format "15:04" }}
+
+						{{/* 4 · Sichtbare Ausgabe: immer Wochentag + Datum */}}
+						{{ $output := printf "%s, %s" $weekday $date }}
+
+						{{/* 5 · Nur wenn Time ≠ 00:00, noch „ HH:MM Uhr“ anhängen */}}
+						{{ if ne $time "00:00" }}
+						{{ printf "%s %s Uhr" $output $time }}
+						{{ else }}
+						{{ $output }}
+						{{ end }}
+					</time>
+
+					{{/* Ort, wenn Du ihn in Front-Matter pflegst */}}
+					{{ with .Params.location }}
+					<div itemprop="location" itemscope itemtype="http://schema.org/Place">
+						<span itemprop="name">{{ . }}</span>
+					</div>
+					{{ end }}
+
+					<div class="post-container flex-preview" itemprop="description">
+						{{/* Bild als Event-Image, falls vorhanden */}}
+						{{ with .Params.featured_image }}
+						<img itemprop="image" class="featured-image" src="{{ . | relURL }}" alt="{{ $.Title }}"
+							loading="lazy">
+						{{ end }}
+
+						{{/* Textbeschreibung */}}
+						<div class="preview-text">
+							{{ with .Description }}
+							{{ . }}
+							{{ else }}
+							{{ .Content }} …
+							{{ end }}
+						</div>
+					</div>
+
+
+
+					{{/* Veranstalter / Organizer */}}
+					{{ with .Params.organizer }}
+					<div itemprop="organizer" itemscope itemtype="http://schema.org/Organization">
+						<meta itemprop="name" content="{{ . }}" />
+						Veranstalter: {{ . }}
+					</div>
+					{{ end }}
+
+
+					{{ if or (.PrevInSection) (.NextInSection) }}
+					<hr>
+					<ul class="pager">
+						{{ if .PrevInSection }}
+						<li class="previous">
+							<a href="{{ .PrevInSection.RelPermalink }}" data-toggle="tooltip" data-placement="top"
+							title="{{ .PrevInSection.Title}}">&larr;
+							vorheriger Termin</a>
+						</li>
+						{{ end }}
+						{{ if .NextInSection }}
+						<li class="next">
+							<a href="{{ .NextInSection.RelPermalink }}" data-toggle="tooltip" data-placement="top"
+							title="{{ .NextInSection.Title}}">nächster
+							Termin &rarr;</a>
+						</li>
+						{{ end }}
+					</ul>
+					{{ end }}
+				</div>
+
+				{{ partial "comments.html" . }}
+			</div>
+
+			<!-- Side Catalog Container -->
+			{{ if not (eq (.Param "showtoc") false) }}
+			<div class="
                 col-lg-2 col-lg-offset-0
                 visible-lg-block
                 sidebar-container
                 catalog-container">
-                <div class="side-catalog">
-                    <hr class="hidden-sm hidden-xs">
-                    <h5>
-                        <a class="catalog-toggle" href="#">Beiträge</a>
-                    </h5>
-                    <ul class="catalog-body"></ul>
-                </div>
-            </div>
-            {{ end }}
+				<div class="side-catalog">
+					<hr class="hidden-sm hidden-xs">
+					<h5>
+						<a class="catalog-toggle" href="#">Gliederung</a>
+					</h5>
+					<ul class="catalog-body"></ul>
+				</div>
+			</div>
 
-            <!-- Sidebar Container -->
-            <div class="
+			{{ end }}
+
+			<!-- Sidebar Container -->
+			<div class="
                 col-lg-8 col-lg-offset-2
                 col-md-10 col-md-offset-1
                 sidebar-container">
 
-                <!-- Featured Tags -->
-                {{ if .Site.Params.featured_tags }}
-                <section>
-                    <hr class="hidden-sm hidden-xs">
-                    <h5><a href="/tags/">THEMEN</a></h5>
-                    <div class="tags">
-                        {{ $featured_condition_size := .Site.Params.featured_condition_size }}
-                        {{ range $name, $taxonomy := .Site.Taxonomies.tags }}
-                        {{ if gt (len $taxonomy.Pages) $featured_condition_size }}
-                        <a href="{{ "/tags/" | relLangURL }}{{ $name | urlize }}" title="{{ $name }}">
-                            {{ $name }}
-                        </a>
-                        {{ end }}
-                        {{ end }}
-                    </div>
-                </section>
-                {{ end }}
+				<!-- Featured Tags -->
+				{{ if .Site.Params.featured_tags }}
+				<section>
+					<hr class="hidden-sm hidden-xs">
+					<h5><a href="/tags/">THEMEN</a></h5>
+					<div class="tags">
+						{{ $featured_condition_size := .Site.Params.featured_condition_size }}
+						{{ range $name, $taxonomy := .Site.Taxonomies.tags }}
+						{{ if gt (len $taxonomy.Pages) $featured_condition_size }}
+						<a href="{{ " /tags/" | relLangURL }}{{ $name | urlize }}" title="{{ $name }}">
+							{{ $name }}
+						</a>
+						{{ end }}
+						{{ end }}
+					</div>
+				</section>
+				{{ end }}
 
-                <!-- Friends Blog -->
-                {{ if .Site.Params.friends }}
-                <section>
-                    <hr>
-                    <h5>Vereine</h5>
-                    <ul class="list-inline">
+				<!-- Friends Blog -->
+				{{ if .Site.Params.friends }}
+				<section>
+					<hr>
+					<h5>Vereine</h5>
+					<ul class="list-inline">
 						{{ range .Site.Params.friend_link }}
 						{{ if not .draft}}
 						<li>
 							<a target="_blank" href="{{.href}}">{{.title}}</a>
 						</li>
 						{{ end }}
-					{{ end }}
-                    </ul>
-                </section>
-                {{ end }}
-            </div>
-        </div>
-    </div>
-</article>
+						{{ end }}
+					</ul>
+				</section>
+				{{ end }}
+			</div>
+		</div>
+		</div>
+	</article>
 
-{{ end }}
+	{{ end }}

@@ -932,7 +932,7 @@ a img {
 .zoom .featured-image-link:focus .featured-image {
 	-webkit-transform: scale(1.05);
 	transform: scale(1.05);
-	-moz-transform: scale(1.05) rotate(0.02deg);
+	-moz-transform: scale(.05) rotate(0.02deg);
 }
 
 .excerpt-meta,
@@ -3179,7 +3179,7 @@ li.pingback:first-child {
 .flex-preview {
 	display: flex;
 	align-items: flex-start;   /* obere Kante bündig */
-	gap: 1rem;                 /* Abstand zwischen Bild & Text */
+	gap: 3rem;                 /* Abstand zwischen Bild & Text */
 }
 
 /* Bild selbst ---------------------------------------------- */
@@ -3314,3 +3314,12 @@ root{ --space-s:0.75rem; --space-m:1.5rem; --space-l:3rem; }
 	border-left: 4px solid #b71c1c;
 	background: #ffebee;
   }
+
+
+
+  .post-container img{
+    display:block;
+    max-width:50% !important;;
+    height:auto;
+    margin:1.5em auto 1.6em auto	
+}

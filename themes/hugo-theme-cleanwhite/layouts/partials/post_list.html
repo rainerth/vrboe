@@ -20,11 +20,10 @@
 		{{/* Link zum Event */}}
 		<a href="{{ .Permalink }}" itemprop="url">
 			<h2 class="post-title" itemprop="name">{{ .Title }}</h2>
-		</a>
 
-		{{/* … innerhalb Deines post_list.html … */}}
-		<time itemprop="startDate"
-			  datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">
+			{{/* … innerhalb Deines post_list.html … */}}
+			<time itemprop="startDate"
+			datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">
 			{{/* 1 · Wochentag auf Englisch holen */}}
 			{{ $wdEN := .Date.Format "Monday" }}
 			{{/* 2 · Mapping englisch → deutsch */}}
@@ -48,21 +47,21 @@
 
 			{{/* 5 · Nur wenn Time ≠ 00:00, noch „ HH:MM Uhr“ anhängen */}}
 			{{ if ne $time "00:00" }}
-				{{ printf "%s %s Uhr" $output $time }}
+			{{ printf "%s %s Uhr" $output $time }}
 			{{ else }}
-				{{ $output }}
+			{{ $output }}
 			{{ end }}
 		</time>
 
 		{{/* Ort, wenn Du ihn in Front‑Matter pflegst */}}
 		{{ with .Params.location }}
-			<div itemprop="location" itemscope itemtype="http://schema.org/Place">
-				<span itemprop="name">{{ . }}</span>
-			</div>
+		<div itemprop="location" itemscope itemtype="http://schema.org/Place">
+			<span itemprop="name">{{ . }}</span>
+		</div>
 		{{ end }}
 
 		<div class="post-content-preview flex-preview" itemprop="description">
-			{{/* Bild als Event‑Image, falls vorhanden */}}
+			{{/* Bild als Event-Image, falls vorhanden */}}
 			{{ with .Params.featured_image }}
 			<img itemprop="image" class="featured-thumb" src="{{ . | relURL }}" alt="{{ $.Title }}" loading="lazy">
 			{{ end }}
@@ -76,6 +75,7 @@
 				{{ end }}
 			</div>
 		</div>
+	</a>
 		{{/* Veranstalter / Organizer */}}
 		{{ with .Params.organizer }}
 			<div itemprop="organizer" itemscope itemtype="http://schema.org/Organization">
