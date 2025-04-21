@@ -3319,9 +3319,9 @@ root{ --space-s:0.75rem; --space-m:1.5rem; --space-l:3rem; }
 
   .post-container img{
     display:block;
-    max-width:50% !important;;
+    max-width:80% !important;;
     height:auto;
-    margin:1.5em auto 1.6em auto
+    margin:1.5em auto 1.6em 0
 }
 
 
@@ -3358,4 +3358,12 @@ flex: 1 1 100%; /* Standardmäßig 100% Breite */
 	.post-container.flex-preview > * {
 		flex: 1 1 48%; /* Ab 768px: Container nebeneinander mit 48% Breite */
 	}
+}
+
+
+.intro-header h1 {
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	max-width: 100%;
 }

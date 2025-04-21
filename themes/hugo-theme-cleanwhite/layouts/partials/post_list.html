@@ -20,6 +20,11 @@
 		{{/* Link zum Event */}}
 		<a href="{{ .Permalink }}" itemprop="url">
 			<h2 class="post-title" itemprop="name">{{ .Title }}</h2>
+			{{with .Params.subtitle }}
+				<h3 class="post-subtitle">
+					{{ . }}
+				</h3>
+			{{ end }}
 
 			{{/* … innerhalb Deines post_list.html … */}}
 			<time itemprop="startDate"
@@ -63,7 +68,7 @@
 		<div class="post-content-preview flex-preview" itemprop="description">
 			{{/* Bild als Event-Image, falls vorhanden */}}
 			{{ with .Params.featured_image }}
-			<img itemprop="image" class="featured-thumb" src="{{ . | relURL }}" alt="{{ $.Title }}" loading="lazy">
+				<img itemprop="image" class="featured-thumb" src="{{ . | relURL }}" alt="{{ $.Title }}" loading="lazy">
 			{{ end }}
 
 			{{/* Textbeschreibung */}}
