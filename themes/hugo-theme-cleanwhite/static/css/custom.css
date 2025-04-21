@@ -3321,5 +3321,41 @@ root{ --space-s:0.75rem; --space-m:1.5rem; --space-l:3rem; }
     display:block;
     max-width:50% !important;;
     height:auto;
-    margin:1.5em auto 1.6em auto	
+    margin:1.5em auto 1.6em auto
+}
+
+
+.post-container.flex-preview {
+	display: flex;
+	flex-wrap: wrap; /* Ermöglicht Umbruch der Elemente */
+	gap: 1rem; /* Abstand zwischen den Containern */
+}
+
+.post-container.flex-preview > * {
+flex: 1 1 100%; /* Standardmäßig 100% Breite */
+}
+
+.post-container .post-text {
+    max-width: 100%; /* Verhindert, dass der Text breiter als der Bildschirm wird */
+    word-wrap: break-word; /* Bricht lange Wörter um */
+    overflow-wrap: break-word; /* Alternative für bessere Browser-Kompatibilität */
+    padding: 0 1rem; /* Fügt etwas Abstand zum Rand hinzu */
+    box-sizing: border-box; /* Berücksichtigt Padding in der Breite */
+}
+
+@media (max-width: 576px) {
+    .post-container .post-text {
+        font-size: 0.9rem; /* Reduziert die Schriftgröße für kleine Bildschirme */
+        line-height: 1.4; /* Passt den Zeilenabstand an */
+    }
+}
+@media (min-width: 576px) {
+	.post-container.flex-preview > * {
+		flex: 1 1 48%; /* Ab 576px: Container nebeneinander mit 48% Breite */
+	}
+}
+@media (min-width: 768px) {
+	.post-container.flex-preview > * {
+		flex: 1 1 48%; /* Ab 768px: Container nebeneinander mit 48% Breite */
+	}
 }

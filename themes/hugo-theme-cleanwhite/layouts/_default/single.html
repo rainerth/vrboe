@@ -137,14 +137,17 @@
 					{{ end }}
 
 					<div class="post-container flex-preview" itemprop="description">
-						{{/* Bild als Event-Image, falls vorhanden */}}
-						{{ with .Params.featured_image }}
-						<img itemprop="image" class="featured-image" src="{{ . | relURL }}" alt="{{ $.Title }}"
-							loading="lazy">
-						{{ end }}
+						{{/* Textbeschreibung */}}
+						<div class="post-image">
+							{{/* Bild als Event-Image, falls vorhanden */}}
+							{{ with .Params.featured_image }}
+							<img itemprop="image" class="featured-image" src="{{ . | relURL }}" alt="{{ $.Title }}"
+								loading="lazy">
+							{{ end }}
+						</div>
 
 						{{/* Textbeschreibung */}}
-						<div class="preview-text">
+						<div class="post-text">
 							{{ with .Description }}
 							{{ . }}
 							{{ else }}
