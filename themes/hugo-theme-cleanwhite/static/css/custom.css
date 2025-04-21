@@ -913,8 +913,8 @@ a img {
 .featured-image {
 	position: relative;
 	height: 0;
-	padding-bottom: 50%;
-	background-position: 50%;
+	padding-bottom: 20%;
+	background-position: 20%;
 	background-size: cover;
 	-webkit-backface-visibility: hidden;
 	backface-visibility: hidden;
@@ -1917,8 +1917,7 @@ li.pingback:first-child {
 .search input {
 	margin: 0.75em 0;
 }
-
-.error404 input[type="search"],
+error404 input[type="search"],
 .search input[type="search"] {
 	margin-right: 0.75em;
 }
@@ -3345,7 +3344,7 @@ flex: 1 1 100%; /* Standardmäßig 100% Breite */
 
 @media (max-width: 576px) {
     .post-container .post-text {
-        font-size: 0.9rem; /* Reduziert die Schriftgröße für kleine Bildschirme */
+        font-size: 1.6 rem; /* Reduziert die Schriftgröße für kleine Bildschirme */
         line-height: 1.4; /* Passt den Zeilenabstand an */
     }
 }

@@ -103,7 +103,7 @@
 					{{ end }}
 
 					{{/* … innerhalb Deines post_list.html … */}}
-					<time itemprop="startDate" datetime="{{ .Date.Format " 2006-01-02T15:04:05Z07:00" }}">
+					<time class="post-text"  itemprop="startDate" datetime="{{ .Date.Format " 2006-01-02T15:04:05Z07:00" }}">
 						{{/* 1 · Wochentag auf Englisch holen */}}
 						{{ $wdEN := .Date.Format "Monday" }}
 						{{/* 2 · Mapping englisch → deutsch */}}
@@ -135,13 +135,13 @@
 
 					{{/* Ort, wenn Du ihn in Front-Matter pflegst */}}
 					{{ with .Params.location }}
-						<div itemprop="location" itemscope itemtype="http://schema.org/Place">
+						<div class="post-text" itemprop="location" itemscope itemtype="http://schema.org/Place">
 							<span itemprop="name">{{ . }}</span>
 						</div>
 					{{ end }}
 					{{/* Veranstalter / Organizer */}}
 					{{ with .Params.organizer }}
-					<div itemprop="organizer" itemscope itemtype="http://schema.org/Organization">
+					<div class="post-text" itemprop="organizer" itemscope itemtype="http://schema.org/Organization">
 						<meta itemprop="name" content="{{ . }}" />
 						Veranstalter: {{ . }}
 					</div>
