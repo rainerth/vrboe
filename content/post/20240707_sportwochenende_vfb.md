@@ -6,7 +6,7 @@ PublishDate:	2024-06-25
 date:     		2024-05-07
 location:		"Sportheim Bösingen"
 organizer:		"VfB Bösingen e.V."
-image:			"/img/boesingen-hero.jpg"
+image:			"/img/vfb-hero.jpg"
 featured_image:	"/img/2024_sportwochenende_vfb_2.jpg"
 ---
 
