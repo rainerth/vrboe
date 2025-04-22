@@ -17,12 +17,13 @@ Am Dienstag, 29. April 2025 um 18:00 Uhr findet in der Mehrzweckhalle Bösingen 
 ### Themen
 
 * Flächennutzungsplan 2037
-* Sanierungsgebiete - Landessanierungsprogramm (LSP) /
+* Sanierungsgebiete - Landessanierungsprogramm (LSP)
 * Entwicklungsprogramm Ländlicher Raum (ELR)
 * Kläranlage / Druckleitung / Kanalisation
 * Kindergärten / Kinderkrippe
 * Grundschule und Betreuung
 * Freiwillige Feuerwehr Bösingen-Herrenzimmern
+* Zukunftswerkstatt und Erneuerbare Energien
 
 An diesem Abend haben Sie die Möglichkeit sich über aktuelle Themen und
 Projekte in unserer Gemeinde zu informieren. Die Gemeindeverwaltung wird
