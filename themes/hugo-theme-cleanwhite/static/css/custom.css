@@ -3360,9 +3360,42 @@ flex: 1 1 100%; /* Standardmäßig 100% Breite */
 }
 
 
+/* Hero-Bild mit Text */
 .intro-header h1 {
 	white-space: nowrap;
 	overflow: hidden;
 	text-overflow: ellipsis;
 	max-width: 100%;
+}
+
+.intro-header h1 {
+    position: absolute;
+    top: 40%; /* Vertikale Zentrierung */
+    left: 0%; /* Horizontale Zentrierung */
+	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Schatten für bessere Lesbarkeit */
+    transform: translate(0%, -50%); /* Zentrierung ausgleichen */
+    margin: 0;
+    padding: 0 1rem; /* Optional: Abstand zum Rand */
+    color: white; /*/ Textfarbe */
+    text-align: left; /* Zentrierter Text */
+    line-height: 1.0; /* Zeilenhöhe für Umbrüche */
+    word-wrap: break-word; /* Lange Wörter umbrechen */
+    overflow-wrap: break-word; /* Alternative für bessere Browser-Kompatibilität */
+}
+
+.intro-header h4 {
+    position: absolute;
+    top: 80%; /* Vertikale Zentrierung */
+    left: 0%; /* Horizontale Zentrierung */
+	font-size: 80%; /* Schriftgröße */
+	font-weight: normal; /* Fettdruck */
+	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Schatten für bessere Lesbarkeit */
+    transform: translate(0%, -50%); /* Zentrierung ausgleichen */
+    margin: 0;
+    padding: 0 1rem; /* Optional: Abstand zum Rand */
+    color: white; /*/ Textfarbe */
+    text-align: left; /* Zentrierter Text */
+    line-height: 1.0; /* Zeilenhöhe für Umbrüche */
+    word-wrap: break-word; /* Lange Wörter umbrechen */
+    overflow-wrap: break-word; /* Alternative für bessere Browser-Kompatibilität */
 }
