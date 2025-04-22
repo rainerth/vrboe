@@ -1,5 +1,5 @@
 baseURL = 'https://www.boesinger-vereine.de'
-languageCode = 'de_DE'
+languageCode = 'de'
 title = 'Bösinger Vereine'
 theme = 'hugo-theme-cleanwhite'
 copyright = 'Vereinsring Bösingen e.V.'
