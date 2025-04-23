@@ -10,4 +10,3 @@ image:			"/img/boesingen-hero.jpg"
 featured_image:	"/img/boesingen-hero.jpg"
 ---
 
-xxx
