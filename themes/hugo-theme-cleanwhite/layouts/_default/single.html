@@ -24,20 +24,20 @@
 						<h1>{{ .Title }}</h1>
 						<span class="meta">
 							{{ if .Params.metadata }}
-								{{ range $index, $element := .Params.metadata }}
-									{{ if .link }}
-										<a href="{{ .link }}">{{ .text }}</a>
-									{{ else }}
-										{{ .text }}
-									{{ end }}
-								{{ end }}
+							{{ range $index, $element := .Params.metadata }}
+							{{ if .link }}
+							<a href="{{ .link }}">{{ .text }}</a>
+							{{ else }}
+							{{ .text }}
+							{{ end }}
+							{{ end }}
 							{{ else }}
 							<h4>
 								{{ .Date | dateFormat "02.01.2006" }}
 								{{ if .Params.organizer }}
-									| {{ .Params.organizer }}
+								| {{ .Params.organizer }}
 								{{ else }}
-									{{ .Site.Title }}
+								{{ .Site.Title }}
 								{{ end }}
 							</h4>
 							<!-- am
@@ -48,7 +48,7 @@
 							<!-- Don't show "Last Modified on" if update happened on the same day. -->
 							{{ if (and (not .Lastmod.IsZero) (not (eq (dateFormat "2006-01-02" .Lastmod) (dateFormat
 							"2006-01-02" .Date)))) }}
-								<br>Zuletzt geändert am {{ dateFormat "02.01.2006" .Params.LastMod }}
+							<br>Zuletzt geändert am {{ dateFormat "02.01.2006" .Params.LastMod }}
 							{{ end }}
 							{{ end }}
 						</span>
@@ -73,38 +73,39 @@
 
 
 
-				{{ if or (.PrevInSection) (.NextInSection) }}
-				<ul class="pager">
-					{{ if .PrevInSection }}
-					<li class="previous">
-						<a href="{{ .PrevInSection.RelPermalink }}" data-toggle="tooltip" data-placement="top"
-						title="{{ .PrevInSection.Title}}">&larr;
-						vorheriger</a>
-					</li>
+					{{ if or (.PrevInSection) (.NextInSection) }}
+					<ul class="pager">
+						{{ if .PrevInSection }}
+						<li class="previous">
+							<a href="{{ .PrevInSection.RelPermalink }}" data-toggle="tooltip" data-placement="top"
+								title="{{ .PrevInSection.Title}}">&larr;
+								vorheriger</a>
+						</li>
+						{{ end }}
+						{{ if .NextInSection }}
+						<li class="next">
+							<a href="{{ .NextInSection.RelPermalink }}" data-toggle="tooltip" data-placement="top"
+								title="{{ .NextInSection.Title}}">nächster
+								&rarr;</a>
+						</li>
+						{{ end }}
+					</ul>
 					{{ end }}
-					{{ if .NextInSection }}
-					<li class="next">
-						<a href="{{ .NextInSection.RelPermalink }}" data-toggle="tooltip" data-placement="top"
-						title="{{ .NextInSection.Title}}">nächster
-						&rarr;</a>
-					</li>
-					{{ end }}
-				</ul>
-				{{ end }}
-				<hr>
+					<hr>
 
 
 
 					{{/* Event */}}
 					<h2 class="post-title" itemprop="name">{{ .Title }}</h2>
 					{{with .Params.subtitle }}
-						<h3 class="post-subtitle">
-							{{ . }}
-						</h3>
+					<h3 class="post-subtitle">
+						{{ . }}
+					</h3>
 					{{ end }}
 
 					{{/* … innerhalb Deines post_list.html … */}}
-					<time class="post-text"  itemprop="startDate" datetime="{{ .Date.Format " 2006-01-02T15:04:05Z07:00" }}">
+					<time class="post-text" itemprop="startDate" datetime="{{ .Date.Format " 2006-01-02T15:04:05Z07:00"
+						}}">
 						{{/* 1 · Wochentag auf Englisch holen */}}
 						{{ $wdEN := .Date.Format "Monday" }}
 						{{/* 2 · Mapping englisch → deutsch */}}
@@ -136,9 +137,9 @@
 
 					{{/* Ort, wenn Du ihn in Front-Matter pflegst */}}
 					{{ with .Params.location }}
-						<div class="post-text" itemprop="location" itemscope itemtype="http://schema.org/Place">
-							<span itemprop="name">{{ . }}</span>
-						</div>
+					<div class="post-text" itemprop="location" itemscope itemtype="http://schema.org/Place">
+						<span itemprop="name">{{ . }}</span>
+					</div>
 					{{ end }}
 					{{/* Veranstalter / Organizer */}}
 					{{ with .Params.organizer }}
@@ -153,15 +154,17 @@
 						<div class="post-image">
 							{{/* Bild als Event-Image, falls vorhanden */}}
 							{{ with .Params.featured_image }}
-								<link rel="stylesheet" href="/css/hugo-easy-gallery.css" />
-								<div class="box" >
-								<figure class="media-figure" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+							<link rel="stylesheet" href="/css/hugo-easy-gallery.css" />
+							<div class="box">
+								<figure class="media-figure" itemprop="associatedMedia" itemscope
+									itemtype="http://schema.org/ImageObject">
 									<div class="img">
-										<img itemprop="image" class="featured-image" src="{{ . | relURL }}" alt="{{ $.Title }}" loading="lazy">
+										<img itemprop="image" class="featured-image" src="{{ . | relURL }}"
+											alt="{{ $.Title }}" loading="lazy">
 									</div>
 									<a href="{{ . | relURL }}" itemprop="contentUrl"></a>
 								</figure>
-								</div>
+							</div>
 							{{ end }}
 						</div>
 						{{/* Textbeschreibung */}}
@@ -183,15 +186,15 @@
 						{{ if .PrevInSection }}
 						<li class="previous">
 							<a href="{{ .PrevInSection.RelPermalink }}" data-toggle="tooltip" data-placement="top"
-							title="{{ .PrevInSection.Title}}">&larr;
-							vorheriger Termin</a>
+								title="{{ .PrevInSection.Title}}">&larr;
+								vorheriger Termin</a>
 						</li>
 						{{ end }}
 						{{ if .NextInSection }}
 						<li class="next">
 							<a href="{{ .NextInSection.RelPermalink }}" data-toggle="tooltip" data-placement="top"
-							title="{{ .NextInSection.Title}}">nächster
-							Termin &rarr;</a>
+								title="{{ .NextInSection.Title}}">nächster
+								Termin &rarr;</a>
 						</li>
 						{{ end }}
 					</ul>
@@ -260,7 +263,6 @@
 				</section>
 				{{ end }}
 			</div>
-		</div>
 		</div>
 	</article>
 
