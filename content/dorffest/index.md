@@ -6,7 +6,7 @@ draft: false
 
 ## Programm
 
-### Freitag 21.06.2024
+### Freitag
 
 **17.00 Uhr:** Beginn Bewirtung und Handwerkervesper
 
@@ -14,10 +14,9 @@ draft: false
 
 **19.00 Uhr:** Unterhaltung auf der Tribüne mit dem Musikverein Harmonie Bösingen
 
-**21.30 Uhr:** Unterhaltung auf der Tribüne mit der Brass-Band "Perblechs"
+**21.30 Uhr:** Unterhaltung auf der Tribüne
 
-
-### Samstag 22.06.2024
+### Samstag
 
 **15.00 Uhr:** Beginn Bewirtung
 
@@ -30,7 +29,7 @@ draft: false
 **21.00 Uhr:** Auftritt der Polkaperlen auf der Tribüne
 
 
-### Sonntag 23.06.2024
+### Sonntag
 
 **10.30 Uhr:** Beginn Bewirtung
 

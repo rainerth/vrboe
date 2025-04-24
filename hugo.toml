@@ -109,7 +109,7 @@ home = ["HTML", "RSS"]
 
 	[[params.friend_link]]
 	title = "Förderkreis Marienkapelle"
-	href = ""
+	href = "https://www.boesingen.de/verein/Foerderkreis-Marienkapelle-club1070"
 
 	[[params.friend_link]]
 	title = "Förderverein Schule"
@@ -117,11 +117,11 @@ home = ["HTML", "RSS"]
 
 	[[params.friend_link]]
 	title = "Heimatpflegeverein"
-	href = ""
+	href = "https://www.boesingen.de/verein/Heimatpflegeverein-Boesingen-e-V-club1096"
 
 	[[params.friend_link]]
 	title = "Red-White-Fighters"
-	href = ""
+	href = "https://www.boesingen.de/verein/Red-White-Fighters-Boesingen-e-V-club1068"
 
 	[[params.friend_link]]
 	title = "Sozialgemeinschaft"
@@ -140,13 +140,14 @@ home = ["HTML", "RSS"]
 	title =  "Vereine"
 	href =  "/vereine"
 
-	[[params.addtional_menus]]
-	title =  "Dorffest"
-	href =  "/dorffest"
+#	[[params.addtional_menus]]
+#	title =  "Dorffest"
+#	href =  "/dorffest"
 
-	[[params.addtional_menus]]
-	title =  "Anreise"
-	href =  "/anreise"
+#	[[params.addtional_menus]]
+#	title =  "XXAnreise"
+#	href =  "/anreise"
+#	draft = true
 
 	[[params.addtional_menus]]
 	title =  "Impressum"
@@ -161,6 +162,6 @@ home = ["HTML", "RSS"]
 	[params.social]
 	rss            = true
 	email          = "info ät boesinger-vereine.de"
-	facebook      = "full profile url in facebook"
+	#facebook      = "full profile url in facebook"
 	#twitter       = "full profile url in twitter"
-	instagram     = "full profile url in instagram"
+	#instagram     = "full profile url in instagram"
