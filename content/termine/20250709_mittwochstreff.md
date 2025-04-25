@@ -1,7 +1,7 @@
 ---
 layout:         post
 title:          "Mittwochstreff"
-subtitle:       "9.7.2025 14:30 Mittwochstreff an der Hofboschhütte"
+subtitle:       ""
 PublishDate:	2025-04-15
 date:     		2025-07-09
 location:		"Hofboschhütte Bösingen"

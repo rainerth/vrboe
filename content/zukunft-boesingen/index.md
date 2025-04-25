@@ -15,7 +15,7 @@ header_image: "/img/zukunft-boesingen-hero.webp"
 
 ## Machen Sie mit – Ihre Ideen zählen!
 
-Gestalten Sie aktiv die Zukunft Ihrer Gemeinde mit und bringen Sie Ihre Ideen in einen spannenden Dialog-Prozess ein.
+Gestalten Sie aktiv die Zukunft Ihrer Gemeinde mit und bringen Sie Ihre Ideen ein.
 
 Unsere Schwerpunktthemen sind Wohnen, Arbeiten, Bildung, Energie und Quartiersmanagement. Dabei bauen wir auf das Projekt "Heimat mit Zukunft" und entwickeln es weiter. Wir suchen engagierte Bürgerinnen und Bürger, die Themen und Projekte identifizieren und umsetzen – von Baumpflanz-Aktionen über die Pflege von Sitzbänken bis hin zu weiteren kreativen Ideen.
 
@@ -34,13 +34,12 @@ Möchten auch Sie aktiv zur Entwicklung unserer Gemeinde beitragen? Haben Sie ko
 
 *Machen Sie mit und profitieren Sie von den neuen Möglichkeiten, die unsere Initiative bietet!*
 
-# Kontakt
+# Kommen Sie mit uns ins Gespräch!
 
 Ihre Ansprechpartner für diese Initiative
 
 * Gudrun und Klaus Müller
 * Bernadette Stritt
-
 
 Wir freuen uns auf den Austausch mit Ihnen! Bitte sprechen Sie uns an oder nutzen Sie das Kontaktformular.
 

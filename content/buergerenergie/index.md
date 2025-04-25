@@ -12,7 +12,7 @@ header_image: "/img/buergerenergie-hero.webp"
 [Direkt zum Kontaktformular](#kontaktformular)
 
 
-# Gemeinsam die Energiezukunft gestalten: Eine Bürgerenergiegenossenschaft in Bösingen?
+# Gemeinsam die Energie&shy;zukunft gestalten: Eine Bürgerenergie&shy;genossen&shy;schaft in Bösingen?
 
 Die *Bürgerenergiegenossenschaft Bösingen* ist aktuell eine Idee, die Bürger und lokale Unternehmen zusammenbringen soll, um den Ausbau und die Förderung von erneuerbaren Energien in Bösingen zu unterstützen. Die Genossenschaft könnte im Namen ihrer Mitglieder Projekte zur Erzeugung, Speicherung und Nutzung erneuerbarer Energie durchführen und von den Einnahmen profitieren und die Überschüsse an die Mitglieder als Dividende ausschütten.
 
@@ -88,7 +88,7 @@ Bislang existiert die Genossenschaft nur als Idee. Zeigt sich genügend Interess
 {{< /admonition >}}
 
 
-# Kommen Sie mit uns ins Gespräch kommen und sich informieren!
+# Kommen Sie mit uns ins Gespräch!
 
 Ihre Ansprechpartner für die Mögliche Gründung einer Bürgerenergiegenossenschaft in Bösingen sind
 

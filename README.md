@@ -53,3 +53,7 @@ hugo server
 [Thumbnail Images on your Hugo Blog Posts](https://makewithhugo.com/thumbnail-images-on-your-hugo-blog-posts/)
 
 
+# Testen
+
+	hugo server --bind 0.0.0.0 --baseURL http://172.30.2.191:1313 --disableFastRender --logLevel debug --enableGitInfo --gc
+

@@ -1,6 +1,6 @@
 ---
 layout:         post
-title:          'Bürgerinformationsveranstaltung'
+title:          'Bürger-Informations-Veranstaltung'
 subtitle:       "Aufgaben | Projekte | Zukunftswerkstatt"
 location:		"Mehrzweckhalle Bösingen"
 PublishDate: 	2025-04-01
