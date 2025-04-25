@@ -1,6 +1,6 @@
 ---
 layout: page
-aliases: ["/buergerenergie", "/begb", "/bürgerenergiegenossenschaft", "/buergerenergiegenossenschaft","/Bürgerenergiegenossenschaft"]
+aliases: ["/zukunft"]
 tags: [Zukunftswerkstatt, Bösingen, Heimat mit Zukunft]
 title: Zukunftswerkstatt Bösingen
 subtitle: "?"
@@ -53,3 +53,10 @@ Wir freuen uns auf den Austausch mit Ihnen! Bitte sprechen Sie uns an oder nutze
     title="Interesse an der Initiative Zukunftswerkstatt Bösingen?"
 >}}
 
+---
+
+{{< admonition type="tip" title="Auch Interesse an unserer Initiative Bürgerenergiegenossenschaft?" >}}
+[Hier geht's zur Seite mit mehr Informationen ...](/buergerenergie)
+{{< /admonition >}}
+
+---

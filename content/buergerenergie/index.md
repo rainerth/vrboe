@@ -1,6 +1,6 @@
 ---
 layout: page
-aliases: ["/buergerenergie", "/begb", "/bürgerenergiegenossenschaft", "/buergerenergiegenossenschaft","/Bürgerenergiegenossenschaft"]
+aliases: ["/energie","/buergerenergie", "/begb", "/bürgerenergiegenossenschaft", "/buergerenergiegenossenschaft","/Bürgerenergiegenossenschaft"]
 tags: [Bürgerenergiegenossenschaft, Bösingen, Genossenschaft, Erneuerbare Energien, Klimaschutz]
 title: Bürgerenergie-Genossenschaft Bösingen ??
 subtitle:    "Sind Sie dabei?"
@@ -39,9 +39,10 @@ Im Genossenschaftsrecht hat jedes Mitglied die gleichen Rechte und nur eine Stim
 * **Potenzielle finanzielle Vorteile**: Beteiligen Sie sich an zukunftssicheren Projekten und profitieren Sie möglicherweise von Dividenden.
 * **Stärkung der lokalen Wirtschaft**: Die Genossenschaft kann regionale Wertschöpfung generieren.
 * **Gemeinschaftliches Handeln**: Werden Sie Teil einer starken Gemeinschaft, die gemeinsam Verantwortung für eine nachhaltige Zukunft übernimmt.
-* Vielfältige **Projektmöglichkeiten**: Denkbar sind Beteiligungen an Windparks, Photovoltaikanlagen auf öffentlichen oder privaten Dächern, Nahwärmeprojekten, LED-Straßenbeleuchtung und vielem mehr.
+* Vielfältige **Projektmöglichkeiten**: Denkbar sind Beteiligungen an Windparks, Photovoltaikanlagen auf öffentlichen oder privaten Dächern, Nahwärmeprojekten und vielem mehr.
 
 ### Mögliche Projekte in Bösingen
+
 * **PV-Anlagen auf Vereinsheimen oder öffentlichen Gebäuden**: Gemeinsam könnten wir Sonnenenergie nutzen.
 * **Beteiligung an den geplanten Windparks**: Die Genossenschaft könnte sich anteilig an den Windkraftanlagen beteiligen.
 * **Unterstützung von Vereinen** bei der Nutzung erneuerbarer Energien: Helfen wir unseren lokalen Vereinen, nachhaltiger zu werden.
@@ -101,3 +102,11 @@ Wir freuen uns auf den Austausch mit Ihnen! Bitte sprechen Sie uns an oder nutze
 ---
 
 Hinweis: Die hier genannten Projektideen und Möglichkeiten basieren auf den aktuellen Überlegungen und dem Austausch im Rahmen der Vorbereitung zur Gründung einer Bürgerenergiegenossenschaft. Konkrete Projekte und Beteiligungsmodelle werden in den nächsten Schritten gemeinsam mit interessierten Bürgerinnen und Bürgern entwickelt.
+
+---
+
+{{< admonition type="tip" title="Auch Interesse an unserer Initiative ' Zukunftswerkstatt Bösingen'?" >}}
+[Hier geht's zur Seite mit mehr Informationen ...](/zukunft)
+{{< /admonition >}}
+
+---

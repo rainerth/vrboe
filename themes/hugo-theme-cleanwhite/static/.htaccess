@@ -1,0 +1,2 @@
+RewriteEngine On
+RewriteRule ^post/(.*)/?$ /termine/$1/ [R=301,L]

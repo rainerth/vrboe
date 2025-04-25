@@ -1,4 +1,5 @@
 ---
+aliases: ["/post","/termine"]
 title: Termine im Ortsteil Bösingen
 
 ---

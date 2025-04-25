@@ -9,6 +9,9 @@ organizer: 		"Drachenfliegerverein Bösingen e.V."
 image:          "https://www.dfvb.de/fileadmin/_processed_/6/4/csm_IMG_0218_4356df1771.jpg"
 featured_image: "/img/logo/logo-dfvb.png"
 draft:			false
+aliases:
+  - "/post/20250719_deltaparty-open-air/"   # hier die alte URL
 ---
 
-Der Flugplatz in Bösingen ist die optimale Location für eine Partynacht im Sommer. Nach vielen wunderschönen internen Partys will der Verein nun alle teilnehmen lassen. Das Konzept steht noch nicht ganz, aber der
+Der Flugplatz in Bösingen ist die optimale Location für eine Partynacht im Sommer. Nach vielen wunderschönen internen Partys will der Verein nun alle teilnehmen lassen. Das Konzept steht noch nicht ganz, schau gelegentlich hier oder auf der Homepage https://www.dfvb.de/ vorbei ...
+

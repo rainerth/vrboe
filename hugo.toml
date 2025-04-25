@@ -145,7 +145,7 @@ home = ["HTML", "RSS"]
 #	href =  "/dorffest"
 
 #	[[params.addtional_menus]]
-#	title =  "XXAnreise"
+#	title =  "Anreise"
 #	href =  "/anreise"
 #	draft = true
 
