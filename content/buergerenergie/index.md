@@ -14,19 +14,21 @@ header_image: "/img/buergerenergie-hero.webp"
 
 # Gemeinsam die Energiezukunft gestalten: Eine Bürgerenergiegenossenschaft in Bösingen?
 
-Die *Bürgerenergiegenossenschaft Bösingen* ist eine Idee, die Bürger und lokale Unternehmen vereint, um erneuerbare Energien in Bösingen zu fördern und auszubauen. Sie könnte im Namen ihrer Mitglieder Projekte zur Erzeugung, Speicherung und Nutzung erneuerbarer Energie unterstützen.
+Die *Bürgerenergiegenossenschaft Bösingen* ist aktuell eine Idee, die Bürger und lokale Unternehmen zusammenbringen soll, um den Ausbau und die Förderung von erneuerbaren Energien in Bösingen zu unterstützen. Die Genossenschaft könnte im Namen ihrer Mitglieder Projekte zur Erzeugung, Speicherung und Nutzung erneuerbarer Energie durchführen und von den Einnahmen profitieren und die Überschüsse an die Mitglieder als Dividende ausschütten.
 
+Diese Genossenschaft kann damit eine entscheidende Rolle spielen, um die Energiewende voranzutreiben und alle Einwohner aktiv einzubinden.
 
-Diese Genossenschaft kann eine entscheidende Rolle spielen, um die Energiewende voranzutreiben und alle aktiv einzubinden.
 
 Mitglieder der Genossenschaft profitieren von den Erträgen der Projekte und leisten gleichzeitig einen Beitrag zum Klimaschutz.
 
 
 ### Was ist eine Genossenschaft?
 
-Eine (Bürgerenergie-)Genossenschaft vereint Bürger und lokale Unternehmen, um gemeinsam Projekte im Bereich erneuerbarer Energien zu planen, zu finanzieren und zu betreiben.
+*"Was einer allein nicht schafft, das schaffen viele" – Friedrich Wilhelm Raiffeisen, einer der Gründer des Genossenschaftswesens*
 
-Im Genossenschaftsrecht hat jedes Mitglied, unabhängig von der Kapitalbeteiligung, die gleichen Rechte und nur eine Stimme.
+Eine (Bürgerenergie-)Genossenschaft vereint Bürger, Bürgerinnen und lokale Unternehmen, um gemeinsam Dinge zu erreichen, die der Einzelne nicht schaffen würde. Ziel einer Genossenschaft ist es, Erträge zu erwirtschaften um diese im Sinne der Mitglieder zu verwenden. Jedes Mitglied kann über eine Kapitalbeteiligung in anteilige Ansprüche an den Gewinnen der Genossenschaft investieren.
+
+Im Genossenschaftsrecht hat jedes Mitglied, **unabhängig von der Kapitalbeteiligung**, die gleichen Rechte und nur eine Stimme.
 
 
 ## Ihre Vorteile und Möglichkeiten – Mitmachen lohnt sich!
