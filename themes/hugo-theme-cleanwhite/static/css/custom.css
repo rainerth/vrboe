@@ -98,7 +98,7 @@ background-size: 11.1%; /* This is at 6-columns -> just change this # */
 
 body {
 	height: 100%;
-	font-size: 150%;
+	font-size: 120%;
 	margin: 0;
 	padding: 0;
 	font-family: "raleway", sans-serif;
@@ -913,8 +913,8 @@ a img {
 .featured-image {
 	position: relative;
 	height: 0;
-	padding-bottom: 20%;
-	background-position: 20%;
+	padding-bottom: 50%;
+	background-position: 50%;
 	background-size: cover;
 	-webkit-backface-visibility: hidden;
 	backface-visibility: hidden;
@@ -932,7 +932,7 @@ a img {
 .zoom .featured-image-link:focus .featured-image {
 	-webkit-transform: scale(1.05);
 	transform: scale(1.05);
-	-moz-transform: scale(.05) rotate(0.02deg);
+	-moz-transform: scale(1.05) rotate(0.02deg);
 }
 
 .excerpt-meta,
@@ -1917,7 +1917,8 @@ li.pingback:first-child {
 .search input {
 	margin: 0.75em 0;
 }
-error404 input[type="search"],
+
+.error404 input[type="search"],
 .search input[type="search"] {
 	margin-right: 0.75em;
 }
@@ -3178,14 +3179,14 @@ error404 input[type="search"],
 .flex-preview {
 	display: flex;
 	align-items: flex-start;   /* obere Kante bündig */
-	gap: 3rem;                 /* Abstand zwischen Bild & Text */
+	gap: 1rem;                 /* Abstand zwischen Bild & Text */
 }
 
 /* Bild selbst ---------------------------------------------- */
 .featured-thumb {
 	flex: 0 0 200px;           /* nimmt maximal 200 px Breite ein */
 	max-width: 200px;
-	width: 20%;                /* auf sehr kleinen Screens schrumpfen */
+	width: 40%;                /* auf sehr kleinen Screens schrumpfen */
 	height: auto;
 }
 
@@ -3197,207 +3198,6 @@ error404 input[type="search"],
 /* Feinjustierung für Smartphones --------------------------- */
 @media (max-width: 576px) {
 	.featured-thumb {
-		flex: 0 0 100px;           /* nimmt maximal 100 px Breite ein */
-		max-width: 200px;
-		width: 25%;          /* etwas breiter, aber max‑width bleibt 200px */
+	  width: 45%;          /* etwas breiter, aber max‑width bleibt 200px */
 	}
-}
-
-
-/* Feinjustierung für Tablets ------------------------------ */
-@media (min-width: 576px) and (max-width: 768px) {
-	.featured-thumb {
-	  width: 20%;          /* etwas breiter, aber max‑width bleibt 200px */
-	}
-}
-/* Feinjustierung für Laptops ----------------------------- */
-@media (min-width: 768px) and (max-width: 992px) {
-	.featured-thumb {
-	  width: 20%;          /* etwas breiter, aber max‑width bleibt 200px */
-	}
-}
-/* Feinjustierung für Desktop-Rechner --------------------- */
-@media (min-width: 992px) and (max-width: 1200px) {
-	.featured-thumb {
-	  width: 20%;          /* etwas breiter, aber max‑width bleibt 200px */
-	}
-}
-
-/* Optimierungen ------------------------------------------ */
-/*
-/* 1 · Basisgrößen anheben * /
-html { font-size: 18px; } / * Root * /
-body { font-size: 1rem; line-height: 1.6; }
-*/
-
-/* 3 · Meta‑Angaben & Menü, Lesbare 14‑ bis 15 px unterhalb von 1024 px. */
-.excerpt-meta, .entry-meta, .menu-primary a {
-font-size: 0.875rem; /* 14px bei 16px Root */
-}
-
-/* 4 · Zeilenlänge begrenzen, verhindert sehr lange Zeilen auf großen Monitoren. * /
-.post-container { max-width: 70ch; margin: auto; }
-*/
-
-/* 5 · Großbuchstaben & Spationierung reduzieren, Versalien mit breitem Letter‑Spacing erschweren schnelles Lesen. * /
-.excerpt-title, .entry-title { text-transform:none; letter-spacing:0; }
-
-/* 7 · Dark‑Mode anbieten *
-@media (prefers-color-scheme: dark) { body{ background:#111; color:#eee; } a{ color:#79b8ff; } }
-*/
-
-/* 8 · Scrollverhalten verbessern, Fließender Seitenwechsel, v.a. für Sprunglinks im Archiv. */
-html{ scroll-behavior:smooth; }
-
-/* 9. CSS‑Variablen für Abstände, Konsistente Rhythmik, schnellere Theme‑Pflege. * /
-root{ --space-s:0.75rem; --space-m:1.5rem; --space-l:3rem; }
-.excerpt{ margin-bottom:var(--space-m); }
-*/
-
-/* 10 · Alt‑Text & Link‑Fokus sichtbar, Tastatur‑Navigation deutlich erkennbar; WCAG 2.2 AA. */
-/* a:focus{ outline:3px solid #ffaf00; outline-offset:2px; } */
-
-
-
-.address-block {
-	font-style: normal;        /* Standard‑Schrift, kein italic */
-	line-height: 1.5;          /* etwas großzügiger Zeilenabstand */
-	padding: 1rem;             /* Raum um den Block herum */
-	border-left: 3px solid #333; /* optischer Hingucker */
-	margin: 1rem 0;            /* Abstand nach oben/unten */
-}
-
-@media (max-width: 576px) {
-	.address-block {
-		padding: 0.5rem;
-		font-size: 0.9rem;
-	}
-}
-
-.admonition {
-	border-radius: .25rem;
-	margin: 1rem 0;
-	padding: 1rem;
-  }
-
-  .admonition-header {
-	font-weight: bold;
-	margin-bottom: .5rem;
-  }
-
-  .admonition-content {
-	line-height: 1.4;
-  }
-
-  /* Typ-spezifisch */
-  .admonition-note {
-	border-left: 4px solid #2196F3;
-	background: #e3f2fd;
-  }
-
-  .admonition-warning {
-	border-left: 4px solid #ff9800;
-	background: #fff3e0;
-  }
-
-  .admonition-tip {
-	border-left: 4px solid #4CAF50;
-	background: #e8f5e9;
-  }
-
-  .admonition-important {
-	border-left: 4px solid #f44336;
-	background: #ffebee;
-  }
-
-  .admonition-danger {
-	border-left: 4px solid #b71c1c;
-	background: #ffebee;
-  }
-
-
-
-  .post-container img{
-    display:block;
-    max-width:80% !important;;
-    height:auto;
-    margin:1.5em auto 1.6em 0
-}
-
-
-.post-container.flex-preview {
-	display: flex;
-	flex-wrap: wrap; /* Ermöglicht Umbruch der Elemente */
-	gap: 1rem; /* Abstand zwischen den Containern */
-}
-
-.post-container.flex-preview > * {
-flex: 1 1 100%; /* Standardmäßig 100% Breite */
-}
-
-.post-container .post-text {
-    max-width: 100%; /* Verhindert, dass der Text breiter als der Bildschirm wird */
-    word-wrap: break-word; /* Bricht lange Wörter um */
-    overflow-wrap: break-word; /* Alternative für bessere Browser-Kompatibilität */
-    padding: 0 1rem; /* Fügt etwas Abstand zum Rand hinzu */
-    box-sizing: border-box; /* Berücksichtigt Padding in der Breite */
-}
-
-@media (max-width: 576px) {
-    .post-container .post-text {
-        font-size: 1.6 rem; /* Reduziert die Schriftgröße für kleine Bildschirme */
-        line-height: 1.4; /* Passt den Zeilenabstand an */
-    }
-}
-@media (min-width: 576px) {
-	.post-container.flex-preview > * {
-		flex: 1 1 48%; /* Ab 576px: Container nebeneinander mit 48% Breite */
-	}
-}
-@media (min-width: 768px) {
-	.post-container.flex-preview > * {
-		flex: 1 1 48%; /* Ab 768px: Container nebeneinander mit 48% Breite */
-	}
-}
-
-
-
-.intro-header {
-    position: relative;
-    height: 300px; /* Feste Höhe für das Hero-Bild */
-    background-size: cover; /* Bild vollständig abdecken */
-    background-position: center; /* Bild zentrieren */
-    overflow: hidden; /* Verhindert, dass Inhalte über den Bereich hinausgehen */
-}
-
-.intro-header h1 {
-    position: absolute;
-    top: 40%; /* Vertikale Zentrierung */
-    left: 0%; /* Horizontale Zentrierung */
-	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Schatten für bessere Lesbarkeit */
-    transform: translate(0%, -30%); /* Zentrierung ausgleichen */
-    margin: 0;
-    padding: 0 1rem; /* Optional: Abstand zum Rand */
-    color: white; /*/ Textfarbe */
-    text-align: left; /* Zentrierter Text */
-    line-height: 1.3; /* Zeilenhöhe für Umbrüche */
-    word-wrap: break-word; /* Lange Wörter umbrechen */
-    overflow-wrap: break-word; /* Alternative für bessere Browser-Kompatibilität */
-}
-
-.intro-header h4 {
-    position: absolute;
-    top: 80%; /* Vertikale Zentrierung */
-    left: 0%; /* Horizontale Zentrierung */
-	font-size: 80%; /* Schriftgröße */
-	font-weight: normal; /* Fettdruck */
-	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Schatten für bessere Lesbarkeit */
-    transform: translate(0%, -50%); /* Zentrierung ausgleichen */
-    margin: 0;
-    padding: 0 1rem; /* Optional: Abstand zum Rand */
-    color: white; /*/ Textfarbe */
-    text-align: left; /* Zentrierter Text */
-    line-height: 1.0; /* Zeilenhöhe für Umbrüche */
-    word-wrap: break-word; /* Lange Wörter umbrechen */
-    overflow-wrap: break-word; /* Alternative für bessere Browser-Kompatibilität */
 }
