@@ -3,7 +3,7 @@ layout: page
 aliases: ["/zukunft"]
 tags: [Zukunftswerkstatt, Bösingen, Heimat mit Zukunft]
 title: Zukunftswerkstatt Bösingen
-subtitle: "?"
+subtitle: "Sind Sie mit dabei?"
 description: Zukunftswerkstatt Bösingen
 draft: false
 header_image: "/img/zukunft-boesingen-hero.webp"
