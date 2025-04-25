@@ -1,8 +1,14 @@
 # QR Codes generieren
 
-qrencode -o buergerenergie.png "https://www.boesinger-vereine.de/buergerenergie"
 
-qrencode -o zukunft-boesingen.png "https://www.boesinger-vereine.de/zukunft-boesingen"
+```
+qrencode -o zukunft-boesingen.svg "https://zukunft.boesingen-online.de"
+qrencode -o zukunft-boesingen.png "https://zukunft.boesingen-online.de"
+
+qrencode -o buergerenergie.svg "https://energie.boesingen-online.de"
+qrencode -o buergerenergie.png "https://energie.boesingen-online.de"
+```
+
 
 # Formulare
 
