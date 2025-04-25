@@ -1,6 +1,6 @@
 ---
 layout: page
-aliases: ["/energie","/buergerenergie", "/begb", "/bürgerenergiegenossenschaft", "/buergerenergiegenossenschaft","/Bürgerenergiegenossenschaft"]
+aliases: ["/energie","/begb", "/bürgerenergiegenossenschaft", "/buergerenergiegenossenschaft","/Bürgerenergiegenossenschaft"]
 tags: [Bürgerenergiegenossenschaft, Bösingen, Genossenschaft, Erneuerbare Energien, Klimaschutz]
 title: Bürgerenergie-Genossenschaft Bösingen ??
 subtitle:    "Sind Sie dabei?"
@@ -14,7 +14,7 @@ header_image: "/img/buergerenergie-hero.webp"
 # Gemeinsam die Energiezukunft gestalten: Eine Bürgerenergiegenossenschaft in Bösingen?
 
 
-Die *Bürgerenergiegenossenschaft Bösingen* ist aktuell eine Idee zu einer Gemeinschaft an Bürgerinnen, Bürgern und lokalen Unternehmen, die sich für die Förderung und den Ausbau erneuerbarer Energien in Bösingen einsetzt und sich im Namen der Mitglieder an Projekten zur Erzeugung von erneuerbarer Energie zu beteiligen.
+Die *Bürgerenergiegenossenschaft Bösingen* ist aktuell eine Idee zu einer Gemeinschaft an Bürgerinnen, Bürgern und lokalen Unternehmen, die sich für die Förderung und den Ausbau erneuerbarer Energien in Bösingen einsetzt und sich im Namen der Mitglieder an Projekten zur Erzeugung, Speicherung oder Nutzung von erneuerbarer Energie zu beteiligt.
 
 Die *Bürgerenergiegenossenschaft Bösingen* könnte eine eine wichtige Initiative sein, um die Energiewende voranzutreiben und alle aktiv in den Prozess einzubeziehen.
 
@@ -44,10 +44,10 @@ Im Genossenschaftsrecht hat jedes Mitglied die gleichen Rechte und nur eine Stim
 ### Mögliche Projekte in Bösingen
 
 * **PV-Anlagen auf Vereinsheimen oder öffentlichen Gebäuden**: Gemeinsam könnten wir Sonnenenergie nutzen.
-* **Beteiligung an den geplanten Windparks**: Die Genossenschaft könnte sich anteilig an den Windkraftanlagen beteiligen.
+* **Beteiligung an den geplanten Windparks**: Die Genossenschaft könnte sich anteilig an Windkraftanlagen beteiligen.
 * **Unterstützung von Vereinen** bei der Nutzung erneuerbarer Energien: Helfen wir unseren lokalen Vereinen, nachhaltiger zu werden.
 * **Bürgerprojekte zur Energieeffizienz**: Initiativen zur Reduzierung des Energieverbrauchs in unserer Gemeinde.
-* **Energetische Nutzung** und Unterstützung der neuen Kläranlage. Dadurch kann eine Reduktion der Kosten für den Betrieb erreicht werden.
+* **Energetische Nutzung** der neuen Kläranlage. Dadurch kann eine Reduktion der Kosten für den Betrieb erreicht werden.
 * Finanzierung von **Batteriespeichern** zur Nutzung von überschüssigem Strom aus PV und Windkraft.
 
 # Ziele der Genossenschaft
