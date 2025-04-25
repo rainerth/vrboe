@@ -11,57 +11,64 @@ header_image: "/img/buergerenergie-hero.webp"
 
 [Direkt zum Kontaktformular](#kontaktformular)
 
+
 # Gemeinsam die Energiezukunft gestalten: Eine Bürgerenergiegenossenschaft in Bösingen?
 
-
-Die *Bürgerenergiegenossenschaft Bösingen* ist aktuell eine Idee zu einer Gemeinschaft an Bürgerinnen, Bürgern und lokalen Unternehmen, die sich für die Förderung und den Ausbau erneuerbarer Energien in Bösingen einsetzt und sich im Namen der Mitglieder an Projekten zur Erzeugung, Speicherung oder Nutzung von erneuerbarer Energie zu beteiligt.
-
-Die *Bürgerenergiegenossenschaft Bösingen* könnte eine eine wichtige Initiative sein, um die Energiewende voranzutreiben und alle aktiv in den Prozess einzubeziehen.
-
-{{< admonition type="tip" title="Energiegenossenschaften leisten einen  wichtigen Beitrag zum Klimaschutz">}}
-Durch die Beteiligung an der Genossenschaft haben die Mitglieder die Möglichkeit, von den Erträgen der Projekte zu profitieren und gleichzeitig einen Beitrag zum Klimaschutz zu leisten.
-{{< /admonition>}}
+Die *Bürgerenergiegenossenschaft Bösingen* ist eine Idee, die Bürger und lokale Unternehmen vereint, um erneuerbare Energien in Bösingen zu fördern und auszubauen. Sie könnte im Namen ihrer Mitglieder Projekte zur Erzeugung, Speicherung und Nutzung erneuerbarer Energie unterstützen.
 
 
-##  Was ist eine Bürgerenergiegenossenschaft?
+Diese Genossenschaft kann eine entscheidende Rolle spielen, um die Energiewende voranzutreiben und alle aktiv einzubinden.
 
-Eine Bürgerenergiegenossenschaft ist ein Zusammenschluss von Bürgerinnen,  Bürgern und lokalen Unternehmen, die gemeinsam Projekte im Bereich erneuerbarer Energien planen, finanzieren und betreiben.
+Mitglieder der Genossenschaft profitieren von den Erträgen der Projekte und leisten gleichzeitig einen Beitrag zum Klimaschutz.
 
-{{< admonition type="tip" title="Beteiligungshöhe und Stimme in der Genossenschaft" >}}
-Im Genossenschaftsrecht hat jedes Mitglied die gleichen Rechte und nur eine Stimme, unabhängig von der Höhe der Kapitalbeteiligung.
-{{< /admonition >}}
+
+### Was ist eine Genossenschaft?
+
+Eine (Bürgerenergie-)Genossenschaft vereint Bürger und lokale Unternehmen, um gemeinsam Projekte im Bereich erneuerbarer Energien zu planen, zu finanzieren und zu betreiben.
+
+Im Genossenschaftsrecht hat jedes Mitglied, unabhängig von der Kapitalbeteiligung, die gleichen Rechte und nur eine Stimme.
+
 
 ## Ihre Vorteile und Möglichkeiten – Mitmachen lohnt sich!
 
-* **Aktive Mitgestaltung**: Bringen Sie Ihre Ideen ein und gestalten Sie die Energiewende vor Ort mit.
-* **Bürgerbeteiligung stärkt Akzeptanz**: Gemeinsam realisierte Projekte finden in der Regel breitere Unterstützung in der Bevölkerung.
-* **Transparenz und Kontrolle**: Als Mitglied haben Sie Einblick in die Projekte und Entscheidungen der Genossenschaft.
-* **Potenzielle finanzielle Vorteile**: Beteiligen Sie sich an zukunftssicheren Projekten und profitieren Sie möglicherweise von Dividenden.
-* **Stärkung der lokalen Wirtschaft**: Die Genossenschaft kann regionale Wertschöpfung generieren.
-* **Gemeinschaftliches Handeln**: Werden Sie Teil einer starken Gemeinschaft, die gemeinsam Verantwortung für eine nachhaltige Zukunft übernimmt.
-* Vielfältige **Projektmöglichkeiten**: Denkbar sind Beteiligungen an Windparks, Photovoltaikanlagen auf öffentlichen oder privaten Dächern, Nahwärmeprojekten und vielem mehr.
+
+* **Gestalten Sie aktiv mit**: Bringen Sie Ihre Ideen ein und treiben Sie die Energiewende vor Ort voran.
+* **Bürgerbeteiligung schafft Akzeptanz**: Gemeinsam umgesetzte Projekte finden meist breitere Unterstützung in der Bevölkerung.
+* **Transparenz und Kontrolle**: Als Mitglied erhalten Sie Einblick in die Projekte und Entscheidungen der Genossenschaft.
+* **Finanzielle Chancen**: Beteiligen Sie sich an zukunftssicheren Projekten und profitieren Sie von Dividenden.
+* **Stärkung der lokalen Wirtschaft**: Die Genossenschaft fördert regionale Wertschöpfung.
+* **Gemeinschaftliches Handeln**: Werden Sie Teil einer starken Gemeinschaft, die Verantwortung für eine nachhaltige Zukunft übernimmt.
+* **Vielfältige Projekte**: Beteiligen Sie sich an Windparks, Photovoltaikanlagen auf öffentlichen oder privaten Dächern, Nahwärmeprojekten und mehr.
+
 
 ### Mögliche Projekte in Bösingen
 
-* **PV-Anlagen auf Vereinsheimen oder öffentlichen Gebäuden**: Gemeinsam könnten wir Sonnenenergie nutzen.
-* **Beteiligung an den geplanten Windparks**: Die Genossenschaft könnte sich anteilig an Windkraftanlagen beteiligen.
-* **Unterstützung von Vereinen** bei der Nutzung erneuerbarer Energien: Helfen wir unseren lokalen Vereinen, nachhaltiger zu werden.
-* **Bürgerprojekte zur Energieeffizienz**: Initiativen zur Reduzierung des Energieverbrauchs in unserer Gemeinde.
-* **Energetische Nutzung** der neuen Kläranlage. Dadurch kann eine Reduktion der Kosten für den Betrieb erreicht werden.
-* Finanzierung von **Batteriespeichern** zur Nutzung von überschüssigem Strom aus PV und Windkraft.
+* **PV-Anlagen auf Vereinsheimen oder öffentlichen Gebäuden**: Gemeinsam nutzen wir Sonnenenergie.
+
+* **Beteiligung an den geplanten Windparks**: Die Genossenschaft beteiligt sich an Windkraftanlagen.
+
+* **Unterstützung von Vereinen, Bürgern und Bürgerinnen** bei der Nutzung erneuerbarer Energien: Wir helfen dabei, nachhaltiger zu werden.
+
+* **Bürgerprojekte zur Energieeffizienz**: Wir initiieren Maßnahmen zur Senkung des Energieverbrauchs in unserer Gemeinde.
+
+* **Energetische Nutzung** der neuen Kläranlage: So senken wir die Betriebskosten.
+
+* **Finanzierung von Batteriespeichern**: Wir nutzen überschüssigen Strom aus PV und Windkraft.
+
+* ...
+
 
 # Ziele der Genossenschaft
 
-Die Gründung einer Bürgerenergiegenossenschaft bietet Ihnen die einzigartige Möglichkeit, Ihre Energiezukunft selbst in die Hand zu nehmen und gemeinsam mit anderen Bürgerinnen und Bürgern konkrete Projekte umzusetzen.
+Die Gründung einer Bürgerenergiegenossenschaft eröffnet uns die Chance, unsere Energiezukunft selbst zu gestalten und gemeinsam Projekte zu verwirklichen.
 
-* Möchten Sie aktiv an der Gestaltung unserer lokalen Energieversorgung mitwirken?
+* Wollen Sie aktiv unsere lokale Energieversorgung mitgestalten?
 * Haben Sie Ideen für eine nachhaltige Zukunft unserer Gemeinde?
 
-**Dann machen Sie mit und profitieren Sie von den neuen Möglichkeiten.**
+**Dann machen Sie mit und nutzen Sie die neuen Möglichkeiten.**
 
-# So können Sie mit uns ins Gespräch kommen und sich informieren!
+Bislang existiert die Genossenschaft nur als Idee. Zeigt sich genügend Interesse, starten wir - wie bei jeder Vereinsgründung - in die nächste Phase. Das Genossenschaftsrecht mag kompliziert erscheinen, doch wir schaffen das! In unserer Umgebung gibt es bereits viele erfolgreiche Genossenschaften.
 
-Bis jetzt ist die Genossenschaft nur eine Idee. Wenn sich genügende Interesse zeigt, geht es - wie bei jeder Vereinsgründung - in die nächste Phase. Das Genossenschaftsrecht ist etwas kompliziert, aber das kriegen wir hin! Um uns herum gibt es bereits sehr viele erfolgreiche Genossenschaften.
 
 {{< admonition type="tip" title="Weitere Informationen">}}
 
@@ -78,17 +85,16 @@ Bis jetzt ist die Genossenschaft nur eine Idee. Wenn sich genügende Interesse z
 - [Elektrizitätswerke Schönau EWS eG - die Pioniere](https://www.ews-schoenau.de/ews/genossenschaft/)
 {{< /admonition >}}
 
-Bitte hinterlassen Sie Ihre Kontaktdaten, dann werden Sie regelmäßig über die Fortschritte informiert und sind bei einer Gründung mit dabei.
 
+# Kommen Sie mit uns ins Gespräch kommen und sich informieren!
 
-# Kontaktdaten
-
-Ihre Ansprechpartner für die Gründung einer Bürgerenergiegenossenschaft in Bösingen
+Ihre Ansprechpartner für die Mögliche Gründung einer Bürgerenergiegenossenschaft in Bösingen sind
 
 * Rainer Thieringer
+* Klaus Wizemann
 * Peter Schuster
 
-Wir freuen uns auf den Austausch mit Ihnen! Bitte sprechen Sie uns an oder nutzen Sie das Kontaktformular.
+Wir freuen uns sehr auf den Austausch mit Ihnen! Bitte sprechen Sie uns an oder nutzen Sie das Kontaktformular.
 
 
 # Kontaktformular
@@ -101,7 +107,7 @@ Wir freuen uns auf den Austausch mit Ihnen! Bitte sprechen Sie uns an oder nutze
 
 ---
 
-Hinweis: Die hier genannten Projektideen und Möglichkeiten basieren auf den aktuellen Überlegungen und dem Austausch im Rahmen der Vorbereitung zur Gründung einer Bürgerenergiegenossenschaft. Konkrete Projekte und Beteiligungsmodelle werden in den nächsten Schritten gemeinsam mit interessierten Bürgerinnen und Bürgern entwickelt.
+*Hinweis: Die hier genannten Projektideen und Möglichkeiten basieren auf den aktuellen Überlegungen und dem Austausch im Rahmen der Vorbereitung zur Gründung einer Bürgerenergiegenossenschaft. Konkrete Projekte und Beteiligungsmodelle werden in den nächsten Schritten gemeinsam mit interessierten Bürgerinnen und Bürgern entwickelt.*
 
 ---
 
