@@ -1,6 +1,6 @@
 {{/* 1·Grenzdatum berechnen -5 Tage zurück ab Build-Zeit */}}
-{{ $cutoff := now.AddDate 0 0 -1 }}
-{{ warnf "cutoff = %v" $cutoff }}
+{{ $cutoff := now.AddDate 0 0 0 }}
+{{ warnf "cutoff = %v" $cutoff}}
 
 {{/* 2·Alle regulären Seiten auf >= cutoff filtern */}}
 {{ $events := where .Site.RegularPages "Date" "ge" $cutoff }}
