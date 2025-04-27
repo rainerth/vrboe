@@ -12,7 +12,7 @@ aliases:
   - "/post/20250429_buergerinfo/"   # hier die alte URL
 ---
 
-## Herzliche Einladung zur Bürgerinformationsveranstaltung
+## Herzliche Einladung zur Bürgerinformations&shy;veranstaltung
 
 Am Dienstag, 29. April 2025 um 18:00 Uhr findet in der Mehrzweckhalle Bösingen ein Informationsabend für interessierte Bürgerinnen und Bürger der Gemeinde Bösingen statt.
 
