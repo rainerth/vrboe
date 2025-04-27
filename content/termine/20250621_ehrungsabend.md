@@ -10,4 +10,4 @@ image:          "https://www.boesingen.de/02%20Datenobjekte/Bilder%20Sandra%20Sc
 featured_image: "/img/logo/logo-boesingen.png"
 ---
 
-Ehrungsabend der Gemeinde.
+Ehrungsabend und Sportlerehrung der Gemeinde.
