@@ -104,7 +104,6 @@ body {
 	font-family: "raleway", sans-serif;
 	line-height: 1.5;
 	color: #4d4d4d;
-	//background: #38312f;
 	-webkit-font-smoothing: antialiased;
 	word-wrap: break-word;
 	-ms-word-wrap: break-word;
@@ -118,7 +117,6 @@ body {
 }
 
 .main {
-	// background: #38312f;
 	padding-bottom: 1.5em;
 	margin: 0 auto;
 }
@@ -366,6 +364,7 @@ textarea {
 	border-radius: 0;
 	-webkit-appearance: none;
 	-webkit-transition: all 0.2s ease;
+	appearance: none;
 	transition: all 0.2s ease;
 }
 
@@ -389,6 +388,7 @@ input[type="submit"] {
 	border-radius: 0;
 	-webkit-appearance: none;
 	-webkit-transition: all 0.2s ease;
+	appearance: none;
 	transition: all 0.2s ease;
 }
 
@@ -1567,9 +1567,11 @@ li.pingback:first-child {
 	margin-top: 1.5em;
 }
 
+/*
 .comment-author {
-	/* contains everything but the avatar */
+	contains everything but the avatar
 }
+*/
 
 .comment-author img {
 	width: 4.5em;
@@ -2402,10 +2404,10 @@ li.pingback:first-child {
 		display: none;
 	}
 
+	/*
 	.menu-secondary-items {
-		/* Tier 2 */
-		/* Tier 3 */
 	}
+	*/
 
 	.menu-secondary-items li {
 		position: relative;
@@ -2733,11 +2735,12 @@ li.pingback:first-child {
 	margin: 0 auto;
 }
 
-/* Styles for when user selects a dark header */
+/* Styles for when user selects a dark header *
 .dark-header {
-	/* Secondary Nav */
-	/* Search Icon */
+	* Secondary Nav *
+	* Search Icon *
 }
+*/
 
 .dark-header .site-title a {
 	color: #38312f;
@@ -3191,6 +3194,7 @@ li.pingback:first-child {
 	border-radius: 0;
 	-webkit-appearance: none;
 	-webkit-transition: all 0.2s ease;
+	appearance: none;
 	transition: all 0.2s ease;
 }
 
