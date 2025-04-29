@@ -26,7 +26,7 @@ Unsere Schwerpunktthemen sind Wohnen, Arbeiten, Bildung, Energie und Quartiersma
 
 * Begegnungsangebote:
 	* Essen in Gemeinschaft
-	* Senioren-Café (jeden ersten Sonntag im Monat im Bürgersaal)
+	* Senioren-Café (an einem Sonntag pro Monat im Bürgersaal)
 	* Lese-Oma in der Schule
 
 ## Ihre Ideen – Unsere Zukunft
