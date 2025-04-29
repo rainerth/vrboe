@@ -1,4 +1,4 @@
-
+{{ if .Params.show_sidebar | default true }}
 <!-- Sidebar Container -->
 <div class="
     col-lg-3 col-lg-offset-0
@@ -266,3 +266,4 @@
     </section>
     {{ end }}
 </div>
+{{ end }}

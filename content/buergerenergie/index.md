@@ -1,5 +1,6 @@
 ---
 layout: page
+show_sidebar: false
 aliases: ["/energie","/begb", "/bürgerenergiegenossenschaft", "/buergerenergiegenossenschaft","/Bürgerenergiegenossenschaft"]
 tags: [Bürgerenergiegenossenschaft, Bösingen, Genossenschaft, Erneuerbare Energien, Klimaschutz]
 title: Bürgerenergie-Genossenschaft Bösingen ??

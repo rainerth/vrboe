@@ -1,6 +1,7 @@
 ---
 layout: page
 aliases: ["/zukunft"]
+show_sidebar: false
 tags: [Zukunftswerkstatt, Bösingen, Heimat mit Zukunft]
 title: Zukunftswerkstatt Bösingen
 subtitle: "Sind Sie mit dabei?"
