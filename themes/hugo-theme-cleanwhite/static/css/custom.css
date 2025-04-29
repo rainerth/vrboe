@@ -513,12 +513,19 @@ a img {
 
 
 @media only screen and (min-width: 768px) {
-	.intro-header .site-heading, .intro-header .post-heading, .intro-header .page-heading {
+	.intro-header .site-heading,
+	.intro-header .post-heading,
+	.intro-header .page-heading {
 		padding:
 		100px 0;
 	}
 	.intro-header {
 		height: 300px; /* Feste Höhe für das Hero-Bild */
+	}
+	.intro-header .post-heading h1,
+	.intro-header .site-heading h1,
+	.intro-header .page-heading h1 {
+		font-size: 55px;
 	}
   }
 
