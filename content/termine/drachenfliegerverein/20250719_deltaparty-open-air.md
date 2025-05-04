@@ -6,7 +6,7 @@ date:           2025-07-19
 PublishDate:    2025-01-01
 location:		"Flugplatz Bösingen"
 organizer: 		"Drachenfliegerverein Bösingen e.V."
-image:          "/img/dfvb-hero.jpg"
+image:          "/termine/drachenfliegerverein/img/dfvb-hero.jpg"
 featured_image: "/img/logo/logo-dfvb.png"
 draft:			false
 aliases:

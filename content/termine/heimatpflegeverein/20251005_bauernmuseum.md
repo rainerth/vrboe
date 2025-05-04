@@ -7,7 +7,7 @@ date:     		2025-10-05 14:00:00
 location:		"Kirchwiesen 14, Bösingen"
 organizer:      "Heimatpflegeverein"
 image:          "https://www.boesingen.de/02%20Datenobjekte/Bilder%20Sandra%20Schneckenburger/Fr%C3%BChjahr2024/555/image-thumb__555___auto_8b3180fa9d70cec97da256435d68f3ee/Bauernmuseum_20240413.00916a94.webp"
-featured_image: "/img/bauernmuseum_sw.jpg"
+featured_image: "/termine/heimatpflegeverein/img/bauernmuseum_sw.jpg"
 ---
 
 # Bauernmuseum Pfarrscheuer

@@ -7,7 +7,7 @@ date: 			2024-01-10
 location:		"Sportheim Bösingen"
 author:     	"Heinrich Hölsch"
 organizer:		"Vereinsring Bösingen"
-image:      	img/vorstand-vereinsring-boesingen.jpg
+image:      	"/termine/vereinsring-boesingen/img/vorstand-vereinsring-boesingen.jpg"
 ---
 
 Der Vereinsring Bösingen e.V. wurde bei seiner Gründungsversammlung am Mittwoch, 10. Januar 2024 im Sportheim des VfB Bösingen ins Leben gerufen.
@@ -49,6 +49,6 @@ Die Gründungsversammlung verlief harmonisch. Sie war bestens vorbereitet. Die S
 
 *Heinrich Hölsch*
 
-![Vorstandschaft](/img/vorstand-vereinsring-boesingen.jpg)
+![Vorstandschaft](/termine/vereinsring-boesingen/img/vorstand-vereinsring-boesingen.jpg)
 
 *Eine motivierte und gut gelaunte Truppe, die Spitze des neuen Vereins Vereinsring Bösingen (von links): Frank Bantle, Hans-Peter Lapatki, Günther Stritt (ehemaliger stellvertretender Vorsitzende), Stefan Bantle (Zweier), Stefan Kimmich, der scheidende Vorsitzende Rainer Hezel und Sarah Müller nebst Bürgermeister Peter Schuster. Zum Team gehört außerdem Hans-Peter Bantle. Foto: Hölsch*

@@ -7,7 +7,7 @@ PublishDate: 	2025-04-01
 date:     		2025-04-29 18:00:00
 organizer: 		"Gemeinde Bösingen"
 image:          "/img/boesingen-hero.jpg"
-featured_image: "/img/20250429_buergerinformationsveranstaltung.jpg"
+featured_image: "/termine/gemeinde/img/20250429_buergerinformationsveranstaltung.jpg"
 aliases:
   - "/post/20250429_buergerinfo/"   # hier die alte URL
 ---

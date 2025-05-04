@@ -6,15 +6,15 @@ PublishDate:	2024-06-25
 date:     		2024-07-05
 location:		"Sportheim Bösingen"
 organizer:		"VfB Bösingen e.V."
-image:			"/img/vfb-hero.jpg"
-featured_image:	"/img/2024_sportwochenende_vfb_2.jpg"
+image:			"/termine/vfb/img/vfb-hero.jpg"
+featured_image:	"/termine/vfb/img/2024_sportwochenende_vfb_2.jpg"
 ---
 
 ## Freitag 5.7. 18:00: Elfmeterschiessen
 
-![Elfmeterschiessen](/img/2024_sportwochenende_vfb_1.jpg)
+![Elfmeterschiessen](/termine/vfb/img/2024_sportwochenende_vfb_1.jpg)
 
 ## Sonntag 7.7.: 3. Vierländerecklauf
 
-![Vierländerlauf](/img/2024_sportwochenende_vfb_2.jpg)
+![Vierländerlauf](/termine/vfb/img/2024_sportwochenende_vfb_2.jpg)
 

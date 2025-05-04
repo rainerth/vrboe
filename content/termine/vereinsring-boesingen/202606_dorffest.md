@@ -6,7 +6,7 @@ date:       	2026-06-01
 PublishDate: 	2026-01-01
 location:		"Ortsmitte Bösingen"
 organizer:     	"Vereinsring Bösingen"
-image:      	img/002.jpg
+image:      	termine/vereinsring-boesingen/img/002.jpg
 draft:			true
 ---
 

@@ -6,7 +6,7 @@ PublishDate:	2024-11-01
 date:     		2024-12-07
 location:		"Mehrzweckhalle Bösingen"
 organizer:		"Musikverein Bösingen e.V."
-image:			"/img/mvhb-hero.jpg"
+image:			"/termine/musikverein-boesingen/img/mvhb-hero.jpg"
 featured_image:	""
 ---
 
