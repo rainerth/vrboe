@@ -59,7 +59,7 @@ Neue Sänger sind bei uns jederzeit recht herzlich willkommen.
 ### regelmäßige Termine
 Das Bauernmuseum in der alten Pfarrscheuer ist ab Ostermontag bis zum Monat November immer am 1. Sonntag im Monat von 14.00-17.00 Uhr (letzter Einlass 16.30 Uhr) geöffnet. Besichtigungstermine ausserhalb der regulären Öffnungszeiten können mit Museumsleiter Dr. Mansperger, Tel. 07404/1806 oder mit der 1. Vorsitzenden vereinbart werden.
 
-## [Jugendhaus Bösingen e.V.](https://www.facebook.com/people/Jugendhaus-B%C3%B6singen/100064362444322/)
+## [Jugendhaus Bösingen](https://www.facebook.com/people/Jugendhaus-B%C3%B6singen/100064362444322/)
 
 ## Kindergarten Bösingen
 
