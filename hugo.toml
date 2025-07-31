@@ -60,6 +60,10 @@ home = ["HTML", "RSS"]
 	href = "http://www.angelverein-boesingen.de/"
 
 	[[params.friend_link]]
+	title = "Bürgerenergie Bösingen i.G."
+	href = "https://www.buergerenergie-boesingen.de/"
+
+	[[params.friend_link]]
 	title = "Drachenfliegerverein"
 	href = "https://www.dfvb.de/"
 

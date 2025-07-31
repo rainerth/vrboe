@@ -15,6 +15,10 @@ Der Angelverein Bösingen wurde am 14.12.2002 gegründet. Nachdem im Mai 2004 di
 * Kartenverkauf von Anfang April bis Anfang Oktober: immer Sonntags ab 7:00 Uhr
 * Fischverkauf im Angelheim zu Ostern und zu Weihnachten.
 
+## [Bürgerenergie Bösingen i.G.](https://www.buergerenergie-boesingen.de/)
+
+Die *Bürgerenergie Bösingen in Gründung* ist eine Initiative, die Bürger zusammenbringen soll, um den Ausbau und die Förderung von erneuerbaren Energien in Bösingen zu unterstützen und um bei der Ausgestaltung mitreden zu können. In den kommenden Monaten soll eine Genossenschaft oder eine Ortsgruppe einer bestehenden Genossenschaft gegründet werden - wenn genügend Interessenten zusammenkommen.
+
 ## [Drachenfliegerverein Bösingen e.V.](https://www.dfvb.de/)
 
 ![Drachenfliegerverein Bösingen e.V.](/img/logo/logo-dfvb.png)
@@ -80,8 +84,23 @@ Das Bauernmuseum in der alten Pfarrscheuer ist ab Ostermontag bis zum Monat Nove
 
 ## [Schwäbischer Albverein Bösingen e.V.](https://boesingen.albverein.eu/)
 
-![Schwäbischer Albverein Bösingen e.V.](/img/logo/logo-albverein.svg)
+{{< figure
+  src="/img/logo/logo-albverein.svg"
+  alt="Schwäbischer Albverein Bösingen e.V."
+  link="(https://boesingen.albverein.eu/"
+  class="ma0 w-75"
+  width="200px"
+>}}
 
+## [Naturaktiv Bösingen e.V.](https://www.naturaktiv-boesingen.de/)
+
+{{< figure
+  src="/img/logo/logo-naturaktiv.png"
+  alt="Naturaktiv Bösingen e.V."
+  link="(https://www.naturaktiv-boesingen.de/"
+  class="ma0 w-75"
+  width="200px"
+>}}
 
 ## [Speckmockelzunft Bösingen e.V.](https://smzb.de/)
 
