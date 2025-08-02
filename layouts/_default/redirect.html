@@ -1,0 +1,20 @@
+{{ define "main" }}
+<script>
+window.location.href = "{{ .Params.redirect_url }}";
+</script>
+
+<meta http-equiv="refresh" content="0; url={{ .Params.redirect_url }}">
+
+<article>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="post-container">
+                    <h1>{{ .Title }}</h1>
+                    {{ .Content }}
+                </div>
+            </div>
+        </div>
+    </div>
+</article>
+{{ end }}
