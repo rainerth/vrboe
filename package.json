@@ -1,0 +1,6 @@
+{
+  "scripts": {
+    "build": "hugo && pagefind --site public",
+    "serve": "hugo server"
+  }
+}
