@@ -97,7 +97,7 @@ Das Bauernmuseum in der alten Pfarrscheuer ist ab Ostermontag bis zum Monat Nove
 {{< figure
   src="/img/logo/logo-naturaktiv.png"
   alt="Naturaktiv Bösingen e.V."
-  link="(https://www.naturaktiv-boesingen.de/"
+  link="https://www.naturaktiv-boesingen.de/"
   class="ma0 w-75"
   width="200px"
 >}}
