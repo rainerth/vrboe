@@ -21,7 +21,7 @@ Gibt es eine bessere Art und Weise, Ihren Sonntag zu verbringen? Wenn nicht, kom
 
 10:00 Uhr: Beginn des Festbetriebs und Möglichkeit zu Rundflügen
 
-11:00 Uhr: Frühschoppen mit der Renterkapelle Herrenzimmern.
+11:00 Uhr: Frühschoppen mit der Rentnerkapelle Herrenzimmern.
 
 14:00 Uhr: Genießen Sie Kaffee und Kuchen
 
