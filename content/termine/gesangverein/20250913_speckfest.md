@@ -11,3 +11,5 @@ featured_image:	"/termine/gesangverein/img/gesangverein-speckfest2025.jpg"
 ---
 
 Bösingen ist weit über seine Grenzen hinaus für seine Vielzahl an Metzgereien bekannt. Vor allem dem Speck wird ein herausragender Geschmack nachgesagt. Dieses Merkmal verdient es natürlich, durch ein Fest gewürdigt zu werden: Daher Veranstaltet unser Verein, seit 2015, das mittlerweile schon traditionelle Speckfest.
+
+Mehr Info unter https://www.frohsinn-boesingen.de/
