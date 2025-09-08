@@ -11,7 +11,7 @@ featured_image: "/termine/drachenfliegerverein/img/Flyer_Flugplatzfest_Boesingen
 draft:			false
 ---
 
-Leider macht uns das Wetter einen Strich durch die Rechnung: die Prognosen für das kommende Wochenende sind zu schlecht. Dazu kommt noch die unklare Situation mit der Sperrung der Straße Zugangsstraße.
+Leider macht uns das Wetter einen Strich durch die Rechnung: die Prognosen für das kommende Wochenende sind zu schlecht. Dazu kommt noch die unklare Situation mit der Sperrung der Zugangsstraße zwischen Bösingen und Dunningen.
 
 **Schweren Herzens sagen wir unser diesjähriges Flugplatzfest ab** und wünschen allen ein schönes Wochenende. Bleiben Sie uns wohlgesonnen.
 
