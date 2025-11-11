@@ -17,7 +17,7 @@ Der Angelverein Bösingen wurde am 14.12.2002 gegründet. Nachdem im Mai 2004 di
 
 ## [Bürgerenergie Bösingen i.G.](https://www.buergerenergie-boesingen.de/)
 
-Die *Bürgerenergie Bösingen in Gründung* ist eine Initiative, die Bürger zusammenbringen soll, um den Ausbau und die Förderung von erneuerbaren Energien in Bösingen zu unterstützen und um bei der Ausgestaltung mitreden zu können. In den kommenden Monaten soll eine Genossenschaft oder eine Ortsgruppe einer bestehenden Genossenschaft gegründet werden - wenn genügend Interessenten zusammenkommen.
+Die *Bürgerenergie Bösingen in Gründung* ist eine Initiative, die Bürger zusammenbringen soll, um den Ausbau und die Förderung von erneuerbaren Energien in Bösingen zu unterstützen und um bei der Ausgestaltung mitreden zu können. In den kommenden Monaten soll eine Genossenschaft oder eine Ortsgruppe einer bestehenden Genossenschaft gegründet werden.
 
 ## [Drachenfliegerverein Bösingen e.V.](https://www.dfvb.de/)
 
