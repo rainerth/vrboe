@@ -7,7 +7,8 @@ copyright = 'Vereinsring Bösingen e.V.'
 email = 'info ät boesinger-vereine.de'
 
 #frontpage pagination
-paginate = 15
+[pagination]
+pagerSize = 15
 
 enableRobotsTXT = true
 
