@@ -1,10 +1,25 @@
-Datum,Titel,Organizer,Ort,Beschreibung,Publish
-2026-02-28,Skiausfahrt,Musikkapelle Lyra Herrenzimmern e.V.,Skibus,,True
-2026-02-18,Fischessen,Angelverein Bösingen e.V.,Vereinsheim,Traditionelles Fischessen des Angelvereins,False
-2026-03-01,Kinderumzug Bösingen,,Bösingen,Fasnetszug mit Kindern,False
-2026-03-01,Rosenmontagsumzug Bösingen,,Bösingen,Fasnetsumzug,False
-2026-03-02,Rosenmontagsumzug Herrenzimmern,,Herrenzimmern,Fasnetsumzug,False
-2026-03-03,Fasnetsdienstagsumzug Herrenzimmern,,Herrenzimmern,Fasnetsumzug,False
-2026-03-15,Generalversammlung NaturAktiv Bösingen e.V.,NaturAktiv Bösingen e.V.,Vereinsheim,Mitgliederversammlung,False
-2026-04-18,Wanderung zum Funkenfeuer nach Villingendorf,NaturAktiv Bösingen e.V.,Villingendorf,Gemeinsame Wanderung,False
-2026-05-09,Jahreshauptversammlung - Schützenverein Herrenzimmern,Schützenverein Herrenzimmern,Vereinsheim,Mitgliederversammlung,False
+"Datum","Titel","Organizer","Ort","Beschreibung","Publish"
+"2026-02-15","Kinderumzug Bösingen","Speckmockelzunft Bösingen e. V.","","","True"
+"2026-02-16","Rosenmontagsumzug Herrenzimmern","Narrenzunft Herrenzimmern e. V.","","","True"
+"2026-02-16","Rosenmontagsumzug Bösingen","Speckmockelzunft Bösingen e. V.","","","True"
+"2026-02-17","Fasnetsdienstagsumzug Herrenzimmern","Narrenzunft Herrenzimmern e. V.","","","True"
+"2026-02-18","Fischessen","Angelverein Bösingen e. V.","","","False"
+"2026-02-21","Generalversammlung NaturAktiv Bösingen e. V.","NaturAktiv Bösingen e. V.","","","False"
+"2026-02-22","Wanderung zum Funkenfeuer nach Villingendorf","NaturAktiv Bösingen e. V.","","","True"
+"2026-02-27","Jahreshauptversammlung - Schützenverein Herrenzimmern","Sportverein Herrenzimmern 1927 e. V.","","","False"
+"2026-02-28","Skiausfahrt","Musikkapelle Lyra Herrenzimmern e. V.","","","True"
+"2026-02-28","Generalversammlung - Sportschützen Bösingen","Sportschützenverein Bösingen e. V.","","","False"
+"2026-03-01","Generalversammlung - OGV Herrenzimmern","Obst- und Gartenbauverein Herrenzimmern e. V.","","","False"
+"2026-03-04","Vortrag mit Gärtnermeister Norbert Längle","Obst- und Gartenbauverein Bösingen e. V.","","","True"
+"2026-03-06","Generalversammlung- Förderverein Musikkapelle Lyra","ganztägig","","","False"
+"2026-03-06","Mitgliederversammlung - Musikverein Harmonie","Musikverein Harmonie Bösingen e. V.","","","False"
+"2026-03-06","Generalversammlung Musikkapelle Lyra","Musikkapelle Lyra Herrenzimmern e. V.","","","False"
+"2026-03-07","Hauptversammlung Drachenfliegerverein","Drachenfliegerverein Bösingen e. V.","","","False"
+"2026-03-08","Fallschirmpacken Drachenfliegerverein","Drachenfliegerverein Bösingen e. V.","","","False"
+"2026-03-08","Landtagswahl","Gemeindeverwaltung Bösingen","","","False"
+"2026-03-11","Generalversammlung Radfahrverein Germania","Radfahrverein Germania 1912 Herrenzimmern e. V.","","","False"
+"2026-03-19","Kaffeenachtmittag Bösingen","Olga-Stritt-Stiftung / Haus Josefine","","","False"
+"2026-04-16","Kaffeenachtmittag Bösingen","Olga-Stritt-Stiftung / Haus Josefine","","","False"
+"2026-05-07","Kaffeenachtmittag Bösingen","Olga-Stritt-Stiftung / Haus Josefine","","","False"
+"2026-06-11","Kaffeenachtmittag Bösingen","Olga-Stritt-Stiftung / Haus Josefine","","","False"
+"2026-07-02","Kaffeenachtmittag Bösingen","Olga-Stritt-Stiftung / Haus Josefine","","","False"
