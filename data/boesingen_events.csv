@@ -1,29 +1,18 @@
-"Datum","Titel","Organizer","Ort","Beschreibung","Publish"
-"2026-01-15","Kaffeenachtmittag Bösingen","","","","False"
-"2026-01-31","Altpapiersammlung Bösingen","","","","True"
-"2026-02-12","Kaffeenachtmittag Bösingen","","","","False"
-"2026-02-15","Kinderumzug Bösingen","","","","True"
-"2026-02-16","Rosenmontagsumzug Bösingen","","","","True"
-"2026-02-18","Fischessen","","","","False"
-"2026-02-21","Generalversammlung NaturAktiv Bösingen e. V.","Generalversammlung NaturAktiv Bösingen e. V.","","","False"
-"2026-02-22","Wanderung zum Funkenfeuer nach Villingendorf","","","","True"
-"2026-02-28","Skiausfahrt","","","","True"
-"2026-02-28","Generalversammlung - Sportschützen Bösingen","","","","False"
-"2026-03-04","Vortrag mit Gärtnermeister Norbert Längle","","","","True"
-"2026-03-06","Generalversammlung Musikkapelle Lyra","","","","False"
-"2026-03-06","Generalversammlung- Förderverein Musikkapelle Lyra","","","","False"
-"2026-03-06","Mitgliederversammlung -  Musikverein Harmonie","","","","False"
-"2026-03-07","Hauptversammlung Drachenfliegerverein","","","","False"
-"2026-03-08","Landtagswahl","","","","False"
-"2026-03-08","Fallschirmpacken Drachenfliegerverein","","","","False"
-"2026-03-11","Generalversammlung Radfahrverein Germania","","","","False"
-"2026-03-19","Kaffeenachtmittag Bösingen","","","","False"
-"2026-04-16","Kaffeenachtmittag Bösingen","","","","False"
-"2026-05-07","Kaffeenachtmittag Bösingen","","","","False"
-"2026-06-11","Kaffeenachtmittag Bösingen","","","","False"
-"2026-07-02","Kaffeenachtmittag Bösingen","","","","False"
-"2026-07-11","Altpapiersammlung Bösingen","","","","True"
-"2026-10-10","Altpapiersammlung Bösingen","","","","True"
-"2026-10-15","Kaffeenachtmittag Bösingen","","","","False"
-"2026-11-05","Kaffeenachtmittag Bösingen","","","","False"
-"2026-12-17","Kaffeenachtmittag Bösingen","","","","False"
+Datum,Titel,Organizer,Ort,Beschreibung,Publish
+2026-02-15,Kinderumzug Bösingen,Speckmockelzunft Bösingen e. V.,,,True
+2026-02-16,Rosenmontagsumzug Bösingen,Speckmockelzunft Bösingen e. V.,,,True
+2026-02-18,Fischessen,Angelverein Bösingen e. V.,,,False
+2026-02-21,Generalversammlung NaturAktiv Bösingen e. V.,NaturAktiv Bösingen e. V.,,,False
+2026-02-22,Wanderung zum Funkenfeuer nach Villingendorf,NaturAktiv Bösingen e. V.,,,True
+2026-02-28,Generalversammlung - Sportschützen Bösingen,Sportschützenverein Bösingen e. V.,,,False
+2026-03-04,Vortrag mit Gärtnermeister Norbert Längle,Obst- und Gartenbauverein Bösingen e. V.,,,True
+2026-03-06,Generalversammlung- Förderverein Musikkapelle Lyra,,,,False
+2026-03-06,Mitgliederversammlung -  Musikverein Harmonie,Musikverein Harmonie Bösingen e. V.,,,False
+2026-03-07,Hauptversammlung Drachenfliegerverein,Drachenfliegerverein Bösingen e. V.,,,False
+2026-03-08,Fallschirmpacken Drachenfliegerverein,Drachenfliegerverein Bösingen e. V.,,,False
+2026-03-08,Landtagswahl,Gemeindeverwaltung Bösingen,,,False
+2026-03-19,Kaffeenachtmittag Bösingen,Olga-Stritt-Stiftung / Haus Josefine,,,False
+2026-04-16,Kaffeenachtmittag Bösingen,Olga-Stritt-Stiftung / Haus Josefine,,,False
+2026-05-07,Kaffeenachtmittag Bösingen,Olga-Stritt-Stiftung / Haus Josefine,,,False
+2026-06-11,Kaffeenachtmittag Bösingen,Olga-Stritt-Stiftung / Haus Josefine,,,False
+2026-07-02,Kaffeenachtmittag Bösingen,Olga-Stritt-Stiftung / Haus Josefine,,,False
