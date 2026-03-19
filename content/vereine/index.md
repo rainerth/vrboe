@@ -71,6 +71,16 @@ Das Bauernmuseum in der alten Pfarrscheuer ist ab Ostermontag bis zum Monat Nove
 
 ![Musikverein Harmonie Bösingen e.V.](/img/logo/logo-mvhb.png)
 
+## [NaturAktiv Bösingen e.V.](https://www.naturaktiv-boesingen.de/)
+
+{{< figure
+  src="/img/logo/logo-naturaktiv.png"
+  alt="NaturAktiv Bösingen e.V."
+  link="https://www.naturaktiv-boesingen.de/"
+  class="ma0 w-75"
+  width="200px"
+>}}
+
 ## [Obst- und Gartenbauverein Bösingen e.V.](https://www.ogv-boesingen.de/)
 
 ![Obst- und Gartenbauverein Bösingen e.V.](/img/logo/logo-ogvb.jpg)
@@ -82,25 +92,6 @@ Das Bauernmuseum in der alten Pfarrscheuer ist ab Ostermontag bis zum Monat Nove
 
 ## Red-White-Fighters Bösingen e.V.
 
-## [Schwäbischer Albverein Bösingen e.V.](https://boesingen.albverein.eu/)
-
-{{< figure
-  src="/img/logo/logo-albverein.svg"
-  alt="Schwäbischer Albverein Bösingen e.V."
-  link="(https://boesingen.albverein.eu/"
-  class="ma0 w-75"
-  width="200px"
->}}
-
-## [Naturaktiv Bösingen e.V.](https://www.naturaktiv-boesingen.de/)
-
-{{< figure
-  src="/img/logo/logo-naturaktiv.png"
-  alt="Naturaktiv Bösingen e.V."
-  link="https://www.naturaktiv-boesingen.de/"
-  class="ma0 w-75"
-  width="200px"
->}}
 
 ## [Speckmockelzunft Bösingen e.V.](https://smzb.de/)
 
@@ -117,7 +108,5 @@ Das Bauernmuseum in der alten Pfarrscheuer ist ab Ostermontag bis zum Monat Nove
 ## [VfB Bösingen 1920 e.V.](https://www.vfb-boesingen.de/)
 
 ![VfB Bösingen 1920 e.V.](/img/logo/logo-vfb-boesingen.jpg)
-
-
 
 
