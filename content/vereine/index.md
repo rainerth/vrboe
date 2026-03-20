@@ -7,7 +7,7 @@ layout: page
 Die Bösinger Vereine helfen zusammen! Über Vereins- und Altersgrenzen hinweg packen wir in beiden Ortsteilen an und heißen zu vielen Veranstaltungen Gäste willkommen. Die Vereine im Ortsteil Bösingen sind im **Vereinsring Bösingen e.V.** gemeinnützig organisiert und die meisten Vereine sind seit vielen Jahren aktiv beim Dorffest dabei.
 
 ## [Angelverein Bösingen e.V.](http://www.angelverein-boesingen.de/)
-![Angelverein Bösingen e.V.](/img/logo/logo-angelverein.jpg)
+{{< figure src="/img/logo/logo-angelverein.jpg" alt="Angelverein Bösingen e.V." class="logo" >}}
 
 Der Angelverein Bösingen wurde am 14.12.2002 gegründet. Nachdem im Mai 2004 die Baugenehmigung erteilt wurde, entstand das Angelgewässer "Grabenwaldsee". Der Verein dient dem Schutz der Natur, der Umwelt und Landschaft, sowie der Arterhaltung der in regionalen Gewässern lebenden Pflanzen und Tiere.
 
@@ -15,13 +15,13 @@ Der Angelverein Bösingen wurde am 14.12.2002 gegründet. Nachdem im Mai 2004 di
 * Kartenverkauf von Anfang April bis Anfang Oktober: immer Sonntags ab 7:00 Uhr
 * Fischverkauf im Angelheim zu Ostern und zu Weihnachten.
 
-## [Bürgerenergie Bösingen i.G.](https://www.buergerenergie-boesingen.de/)
+## [Bürgerenergie Bösingen-Herrenzimmern i.G.](https://www.buergerenergie-boesingen.de/)
 
-Die *Bürgerenergie Bösingen in Gründung* ist eine Initiative, die Bürger zusammenbringen soll, um den Ausbau und die Förderung von erneuerbaren Energien in Bösingen zu unterstützen und um bei der Ausgestaltung mitreden zu können. In den kommenden Monaten soll eine Genossenschaft oder eine Ortsgruppe einer bestehenden Genossenschaft gegründet werden.
+Die *Bürgerenergie Bösingen-Herrenzimmern in Gründung* ist eine Initiative, die Bürger zusammenbringen soll, um den Ausbau und die Förderung von erneuerbaren Energien in Bösingen zu unterstützen und um bei der Ausgestaltung mitreden zu können. In den kommenden Monaten soll eine Genossenschaft oder eine Ortsgruppe einer bestehenden Genossenschaft gegründet werden.
 
 ## [Drachenfliegerverein Bösingen e.V.](https://www.dfvb.de/)
 
-![Drachenfliegerverein Bösingen e.V.](/img/logo/logo-dfvb.png)
+{{< figure src="/img/logo/logo-dfvb.png" alt="Drachenfliegerverein Bösingen e.V." class="logo" >}}
 
 Der Drachenfliegerverein Bösingen e.V. brachte 1988 das Drachen- und später auch das Gleitschirmfliegen von den Bergen in das Bösinger "Flachland". Von Bösingen aus starten bei gutem Flugwetter Pilotinnen und Piloten mittels Schlepp durch Ultraleichtflugzeuge zu Streckenflügen.
 
@@ -38,7 +38,7 @@ Der Verein veranstalten jedes Jahr eine Komplettausbildung zum Drachenfliegen un
 
 ![Förderkreis Marienkapelle - Foto Heinrich Hölsch](/img/marienkapelle.jpg) *Foto: Heinrich Hölsch*
 
-## Freiwillige Feuerwehr Bösingen
+## Freiwillige Feuerwehr Bösingen-Herrenzimmern
 
 ## [Gesangverein Frohsinn Bösingen e.V.](https://www.frohsinn-boesingen.de/)
 
@@ -69,21 +69,15 @@ Das Bauernmuseum in der alten Pfarrscheuer ist ab Ostermontag bis zum Monat Nove
 
 ## [Musikverein Harmonie Bösingen e.V.](https://www.mvhb.de/)
 
-![Musikverein Harmonie Bösingen e.V.](/img/logo/logo-mvhb.png)
+{{< figure src="/img/logo/logo-mvhb.png" alt="Musikverein Harmonie Bösingen e.V." class="logo" >}}
 
 ## [NaturAktiv Bösingen e.V.](https://www.naturaktiv-boesingen.de/)
 
-{{< figure
-  src="/img/logo/logo-naturaktiv.png"
-  alt="NaturAktiv Bösingen e.V."
-  link="https://www.naturaktiv-boesingen.de/"
-  class="ma0 w-75"
-  width="200px"
->}}
+{{< figure src="/img/logo/logo-naturaktiv.png" alt="NaturAktiv Bösingen e.V." class="logo" >}}
 
 ## [Obst- und Gartenbauverein Bösingen e.V.](https://www.ogv-boesingen.de/)
 
-![Obst- und Gartenbauverein Bösingen e.V.](/img/logo/logo-ogvb.jpg)
+{{< figure src="/img/logo/logo-ogvb.jpg" alt="Obst- und Gartenbauverein Bösingen e.V." class="logo" >}}
 
 ### regelmäßige Termine
 * Der Obst- und Gartenbauverein unterhält die Kindergruppe Pusteblume. Grundschulkinder treffen sich 1x im Monat freitags von 14.30 Uhr bis 17 Uhr. Wir unternehmen verschiedene Aktivitäten in der Natur oder mit der Natur, wie Gärtchen anpflanzen, in den Wald gehen, basteln mit Naturmaterialien, Nistkästen betreuen, Kochen, usw. Ansprechpartnerin ist Michaela Bantle.
@@ -95,7 +89,7 @@ Das Bauernmuseum in der alten Pfarrscheuer ist ab Ostermontag bis zum Monat Nove
 
 ## [Speckmockelzunft Bösingen e.V.](https://smzb.de/)
 
-![Speckmockelzunft Bösingen e.V.](/img/logo/logo-speckmockelzunft.png)
+{{< figure src="/img/logo/logo-speckmockelzunft.png" alt="Speckmockelzunft Bösingen e.V." class="logo" >}}
 
 ## [Sozialgemeinschaft Bösingen](https://se-eschach-neckar.drs.de/kirchengemeinden-der-seelsorgeeinheit/boesingen/sozialgemeinschaft.html)
 
@@ -103,10 +97,10 @@ Das Bauernmuseum in der alten Pfarrscheuer ist ab Ostermontag bis zum Monat Nove
 
 ## [TSG Bösingen 1999 e.V.](https://www.tsg-bösingen.de/)
 
-![TSG Bösingen 1999 e.V.](/img/logo/logo-tsg.png)
+{{< figure src="/img/logo/logo-tsg.png" alt="TSG Bösingen 1999 e.V." class="logo" >}}
 
 ## [VfB Bösingen 1920 e.V.](https://www.vfb-boesingen.de/)
 
-![VfB Bösingen 1920 e.V.](/img/logo/logo-vfb-boesingen.jpg)
+{{< figure src="/img/logo/logo-vfb-boesingen.jpg" alt="VfB Bösingen 1920 e.V." class="logo" >}}
 
 

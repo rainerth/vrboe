@@ -64,7 +64,7 @@ home = ["HTML", "RSS"]
 	href = "http://www.angelverein-boesingen.de/"
 
 	[[params.friend_link]]
-	title = "Bürgerenergie Bösingen i.G."
+	title = "Bürgerenergie Bösingen-Herrenzimmern i.G."
 	href = "https://www.buergerenergie-boesingen.de/"
 
 	[[params.friend_link]]
@@ -72,7 +72,7 @@ home = ["HTML", "RSS"]
 	href = "https://www.dfvb.de/"
 
 	[[params.friend_link]]
-	title = "Freiwillige Feuerwehr"
+	title = "Freiwillige Feuerwehr Bösingen-Herrenzimmern"
 	href = ""
 
 	[[params.friend_link]]
@@ -136,7 +136,7 @@ home = ["HTML", "RSS"]
 	href = "https://se-eschach-neckar.drs.de/kirchengemeinden-der-seelsorgeeinheit/boesingen/sozialgemeinschaft.html"
 
 	[[params.friend_link]]
-	title = "Bürgerenergiegenossenschaft Bösingen e.G."
+	title = "Bürgerenergiegenossenschaft Bösingen-Herrenzimmern e.G."
 	href = "/buergerenergie/"
 	draft = true
 

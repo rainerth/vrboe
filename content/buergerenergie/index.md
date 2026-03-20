@@ -1,5 +1,5 @@
 ---
-title: "Umleitung zur Bürgerenergie Bösingen"
+title: "Umleitung zur Bürgerenergie Bösingen-Herrenzimmern"
 aliases: ["/energie","/begb", "/bürgerenergiegenossenschaft", "/buergerenergiegenossenschaft","/Bürgerenergiegenossenschaft"]
 layout: redirect
 redirect_url: "https://www.buergerenergie-boesingen.de"

@@ -1,0 +1,14 @@
+.box:has(figure.logo) {
+    float: none;
+    width: auto;
+    padding-bottom: 0;
+    text-align: center;
+}
+figure.logo .img {
+    position: static;
+    background-size: auto;
+}
+figure.logo img {
+    width: 200px;
+    max-width: 200px;
+}
