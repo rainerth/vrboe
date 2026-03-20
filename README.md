@@ -53,6 +53,24 @@ hugo server
 [Thumbnail Images on your Hugo Blog Posts](https://makewithhugo.com/thumbnail-images-on-your-hugo-blog-posts/)
 
 
+# Navigation anpassen
+
+Das Theme-Template für die Navigation wurde nach `layouts/partials/nav.html` überschrieben. Dort können Menüpunkte ein-/ausgeblendet werden:
+
+- **Termine-Link**: In `layouts/partials/nav.html` ist der "Termine"-Menüpunkt per Hugo-Kommentar ausgeblendet. Zum Reaktivieren den Kommentar (`{{/* ... */}}`) um den `<li>`-Block entfernen.
+- **Weitere Menüpunkte**: Werden über `params.addtional_menus` in `hugo.toml` gesteuert.
+
+## Seiten aus der Sitemap ausblenden
+
+Seiten, die erreichbar bleiben aber nicht von Google indexiert werden sollen, erhalten im Frontmatter:
+
+```yaml
+build:
+  list: never
+```
+
+Damit wird die Seite weiterhin gerendert, erscheint aber nicht in der Sitemap und nicht in Auflistungen.
+
 # Testen
 
 	hugo server --bind 0.0.0.0 --baseURL http://172.30.2.191:1313 --disableFastRender --logLevel debug --enableGitInfo --gc
