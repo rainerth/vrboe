@@ -1,4 +1,5 @@
 ---
+draft:			true
 layout:			post
 title:			"Weinfest des Musikverein Harmonie Bösingen"
 subtitle:		"26. Oktober"

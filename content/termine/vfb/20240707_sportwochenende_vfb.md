@@ -1,4 +1,5 @@
 ---
+draft:			true
 layout:			post
 title:			"VfB Sportwochenende"
 subtitle:		"Freitag 5. Juli - Sonntag 7. Juli Sportplatz Bösingen"

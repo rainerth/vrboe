@@ -1,4 +1,5 @@
 ---
+draft:			true
 layout:			post
 title:			"Weihnachtskonzert"
 subtitle:		"7. Dezember"

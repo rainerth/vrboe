@@ -1,4 +1,5 @@
 ---
+draft:			true
 layout:     	post
 title:      	"Neuer Verein in Bösingen"
 subtitle:   	"Gemeinwohl jederzeit im Blick"

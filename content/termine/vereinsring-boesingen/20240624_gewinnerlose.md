@@ -1,4 +1,5 @@
 ---
+draft:			true
 layout:			post
 title:			"Gewinnerlose Dorffest 2024"
 subtitle:		"Die Gewinne können abgeholt werden."

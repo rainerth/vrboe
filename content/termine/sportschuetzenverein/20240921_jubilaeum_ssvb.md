@@ -1,4 +1,5 @@
 ---
+draft:			true
 layout:			post
 title:			"Jubliläum mit Festumzug"
 subtitle:		"Samstag 21. September - Sonntag 22. September"

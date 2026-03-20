@@ -6,7 +6,7 @@ tags: [Zukunftswerkstatt, Bösingen, Heimat mit Zukunft]
 title: Zukunftswerkstatt Bösingen
 subtitle: "Sind Sie mit dabei?"
 description: Zukunftswerkstatt Bösingen
-draft: false
+draft: true
 header_image: "/img/zukunft-boesingen-hero.webp"
 ---
 

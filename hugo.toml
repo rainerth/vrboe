@@ -12,6 +12,9 @@ pagerSize = 15
 
 enableRobotsTXT = true
 
+[taxonomies]
+# Taxonomien deaktiviert - werden nicht genutzt
+
 [outputs]
 home = ["HTML", "RSS"]
 
