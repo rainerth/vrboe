@@ -12,3 +12,25 @@ figure.logo img {
     width: 200px;
     max-width: 200px;
 }
+
+/* Startseite: Dorffest-Plakat als Banner — kompakt, zentriert */
+.home-intro img {
+    display: block;
+    margin: 1em auto;
+    max-width: 360px;
+    width: 100%;
+    height: auto;
+}
+
+/* Dorffest-Seite: Plakat-Variante (Hochformat) kompakt halten */
+figure.dorffest-poster {
+    margin: 1em auto;
+    text-align: center;
+}
+figure.dorffest-poster img {
+    display: block;
+    margin: 0 auto;
+    max-width: 480px;
+    width: 100%;
+    height: auto;
+}

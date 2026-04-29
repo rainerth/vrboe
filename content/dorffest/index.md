@@ -2,12 +2,15 @@
 title: "Dorffest Bösingen 2026"
 subtitle: "Freitag 19. bis Sonntag 21. Juni 2026 — Ortsmitte Bösingen"
 layout: page
-header_image: "/termine/vereinsring-boesingen/img/heimspiel-2026.jpg"
 aliases: ["/heimspiel"]
 draft: false
 ---
 
-![Heimspiel Bösingen — Bühne frei für lokale Musiker, Dorffest Samstag 20. Juni 2026](/termine/vereinsring-boesingen/img/heimspiel-2026.jpg)
+{{< figure
+    src="/termine/vereinsring-boesingen/img/heimspiel-2026.jpg"
+    alt="Heimspiel Bösingen — Bühne frei für lokale Musiker, Dorffest Samstag 20. Juni 2026"
+    class="dorffest-poster"
+>}}
 
 # Dorffest Bösingen 2026
 
