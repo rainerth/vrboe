@@ -144,12 +144,12 @@ home = ["HTML", "RSS"]
 
 
 	[[params.addtional_menus]]
+	title =  "Dorffest"
+	href =  "/dorffest"
+
+	[[params.addtional_menus]]
 	title =  "Vereine"
 	href =  "/vereine"
-
-#	[[params.addtional_menus]]
-#	title =  "Dorffest"
-#	href =  "/dorffest"
 
 #	[[params.addtional_menus]]
 #	title =  "Anreise"
