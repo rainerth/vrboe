@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "build": "hugo && pagefind --site public",
-    "serve": "hugo server"
+    "build": "hugo --buildFuture --minify --cleanDestinationDir && pagefind --site public --output-subdir pagefind",
+    "serve": "hugo server --buildFuture"
   }
 }

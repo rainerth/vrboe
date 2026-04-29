@@ -11,6 +11,7 @@ email = 'info ät boesinger-vereine.de'
 pagerSize = 15
 
 enableRobotsTXT = true
+buildFuture = true
 
 [taxonomies]
 # Taxonomien deaktiviert - werden nicht genutzt
@@ -18,15 +19,13 @@ enableRobotsTXT = true
 [outputs]
 home = ["HTML", "RSS"]
 
-# buildFuture = true
-
 
 [params]
 	header_image = "img/boesingen-hero.jpg"
-	slogan = "Veranstaltungen 2025"
-	SEOTitle = "Vereinsring Bösingen e.V.: Veranstaltungen 2025"
+	slogan = "Veranstaltungen 2026"
+	SEOTitle = "Vereinsring Bösingen e.V.: Veranstaltungen 2026"
 	SEODescription = "Vereinsring Bösingen e.V.: Vereine in 78662 Bösingen"
-	SEOKeywords = "78662 Bösingen bei Rottweil, Vereinsring Bösingen, Dorffest Bösingen 2025, Vereine in 78662 Bösingen"
+	SEOKeywords = "78662 Bösingen bei Rottweil, Vereinsring Bösingen, Dorffest Bösingen 2026, Vereine in 78662 Bösingen"
 	description = "Vereinsring Bösingen e.V."
 	author =	"Vereinsring Bösingen e.V."
 	keywords = "Vereinsring Bösingen e.V."
