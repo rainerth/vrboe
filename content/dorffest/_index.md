@@ -16,6 +16,14 @@ draft: false
 
 Vom **19. bis 21. Juni 2026** verwandelt sich die Ortsmitte von Bösingen wieder in einen großen Festplatz. Drei Tage lang sorgen die Bösinger Vereine gemeinsam für Musik, Essen, Spiele und Begegnung.
 
+## Auf einen Blick
+
+- 📅 **[Programm](/dorffest/programm/)** — alle Acts, Zeiten und Kinderattraktionen von Freitag bis Sonntag
+- 🍽️ **[Essensangebot](/dorffest/essen/)** — was die Vereine auftischen
+- 🎤 **[Heimspiel Bösingen](#heimspiel-boesingen--buehne-frei-fuer-live-musik)** — Bühne frei für lokale Live-Musik am Samstagabend
+
+---
+
 ## Heimspiel Bösingen — Bühne frei für Live-Musik
 
 **Spiel nicht nur im Proberaum – spiel dein Heimspiel.**
