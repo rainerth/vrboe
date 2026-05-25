@@ -23,9 +23,9 @@ draft: false
 | Uhrzeit | Programmpunkt |
 |---|---|
 | **16:00 Uhr** | Beginn Bewirtung |
-| **16:00 Uhr** | Kinderschminken & Bastelaktion beim Musikverein Bösingen |
 | **16:00 Uhr** | Eis & Waffeln + Hüpfburg bei der SMZ Bösingen |
 | **16:15 Uhr** | Kasperletheater |
+| **16:45 Uhr** | Kinderschminken & Bastelaktion beim Musikverein Bösingen |
 | **ab 20:00 Uhr** | **Bühne frei für lokale Künstler** — ein Abend mit Musik, Unterhaltung und regionalen Talenten |
 
 **Ganztägig:** Bungee-Jumping und Kinderkarussell
@@ -41,9 +41,9 @@ draft: false
 | **10:30 Uhr** | Beginn Bewirtung |
 | **11:00 Uhr** | Kinderschminken, Tattoos + Hüpfburg bei der SMZ Bösingen |
 | **11:30 Uhr** | Frühschoppen mit musikalischer Unterhaltung von **„Quetschblech"** |
-| **13:00 – 17:00 Uhr** | Bauernmuseum geöffnet |
 | **13:30 Uhr** | Dorffest-Rally für Kinder mit Familien bei der SMZ Bösingen |
 | **14:00 Uhr** | Akkordeonorchester Locherhof |
+| **14:00 – 17:00 Uhr** | Bauernmuseum geöffnet |
 | **15:45 Uhr** | Showtanz kleine Garde der SMZ Bösingen |
 | **16:00 Uhr** | Vororchester Musikverein Bösingen |
 | **18:00 Uhr** | Verlosung |
