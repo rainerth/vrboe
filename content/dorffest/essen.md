@@ -27,11 +27,9 @@ Nur Sonntag: Grillschinken mit Kartoffelsalat und Wecken
 
 ## VfB
 
-**Essen:** Pommes mit Ketchup, Currywurst, Grillwurst, Steakwecken, Steak mit Pommes, Schaschlik-Pfanne mit Wecken, Schaschlik-Pfanne mit Pommes, Halbe Flammkuchen, Currywurst mit Pommes
+**Essen:** Flammkuchen, Currywurst, Grillwurst, Steak, Pommes, Schaschlikpfanne
 
-Nur Samstag & Sonntag: Schaschlik-Pfanne vegan mit Pommes, Schaschlik-Pfanne vegan mit Wecken
-
-Nur Sonntag: Steak mit Kartoffelsalat und Wecken
+Nur Samstag & Sonntag: Pilzgulasch
 
 **Getränke:** Weizen- und Pilsstand
 
@@ -39,41 +37,41 @@ Nur Sonntag: Steak mit Kartoffelsalat und Wecken
 
 **Essen:** Hamburger, Cheeseburger, Veggieburger, Potatoes mit Dip
 
-Nur Sonntag: Wildragout mit Spätzle, Schnitzel mit Spätzle
+Nur Sonntag: Wildragout mit Spätzle und Preiselbeeren, Schnitzel mit Spätzle
 
-**Getränke:** Cocktailbar, Frozen Daiquiri, Bargetränke, Aperol
+**Getränke:** Cocktailbar, Frozen Erdbeerdaiquiri, Bargetränke, Aperol
 
 ## Obst- und Gartenbauverein
 
-**Essen:** Freitag bis Sonntag: verschiedene Wurstsalate und Käsesalat, Wurstsalat/Käsesalat to Go, Kaffee-Spezialitäten
+**Essen:** Freitag bis Sonntag: verschiedene Wurstsalate und Käsesalat, Winzertoast, Kaffee-Spezialitäten
 
 Sonntag: zusätzlich Spanferkel mit Kartoffelsalat oder gemischtem Salat und Brot, Salatplatte mit Käse und Schinken sowie Kaffee und Kuchen
 
-**Pusteblume:** selbstgemachtes Gselz
-
 **Getränke:** An allen Tagen an unserem Weinbrunnen: erlesene Weine, Aperol und Hugo
 
-## FC Bayern Fanclub
+## Musikverein
 
-**Essen:** Bratwurstburger
+**Essen:** süße Crêpes-Variationen, Bösinger Räucherlachs im Krusti (warm und kalt)
 
-**Getränke:** Schnaps- und Likörstand von Wössner
+**Getränke:** Hochdorfer Pils- und Weizenstand, Spritz-Bar mit Aperol, Maracuja-Aperol, Sarti, Yuzo Spritz, Yuzo Spritz alkoholfrei, Fifi-Bar
 
 ## Gesangverein
 
-**Essen:** Gyros, Rote Wurst, Pommes
+**Essen:** Gyros mit Zaziki und Fladen, Rote Wurst, Pommes
 
-Nur Sonntag: Schnitzel mit Kartoffelsalat oder Pommes, Schnitzelwecken
+Nur Sonntag: Schnitzel mit Kartoffelsalat oder Pommes, Schnitzelwecken, Gyros mit Pommes
 
 **Philipps Spezialbar:** Keller Bier, Pale Ale, Gin Tonic
+
+verschiedene Longdrinks
 
 ## Speckmockelzunft Bösingen (SMZ)
 
 **Essen:** Rostbratwurst im Wecken, Raclettewecken (auch vegetarisch)
 
-Nur Sonntag: Weißwurst mit Brezel, Rostbratwurst mit Salat
+Samstag: Eis und Waffeln
 
-Samstag bei gutem Wetter: Eis und Waffeln
+Nur Sonntag: Rostbratwurst mit Kartoffel- und grünem Salat
 
 **Getränke:** Bierstand, Bowlebar
 
