@@ -5,8 +5,6 @@ layout: page
 draft: false
 ---
 
-> ℹ️ **Hinweis (Stand Mai 2026):** Diese Liste ist die Vorlage vom letzten Dorffest und wird gerade von **Hanna und Sarah** mit dem aktuellen Angebot der teilnehmenden Vereine aktualisiert.
-
 # Speisen und Getränke
 
 Freuen Sie sich auf diese Leckereien:
