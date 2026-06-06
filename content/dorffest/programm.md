@@ -26,7 +26,7 @@ draft: false
 | **16:00 Uhr** | Eis & Waffeln + Hüpfburg bei der SMZ Bösingen |
 | **16:15 Uhr** | Kasperletheater |
 | **16:45 Uhr** | Kinderschminken & Bastelaktion beim Musikverein Bösingen |
-| **ab 20:00 Uhr** | **Bühne frei für lokale Künstler** — ein Abend mit Musik, Unterhaltung und regionalen Talenten |
+| **ab 19:00 Uhr** | **Bühne frei für lokale Künstler** — ein Abend mit Musik, Unterhaltung und regionalen Talenten |
 
 **Ganztägig:** Bungee-Jumping und Kinderkarussell
 
